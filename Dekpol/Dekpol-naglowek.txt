@@ -1,0 +1,6 @@
+<div class="top-bar"> 
+<div class="topbar-text-and-image">
+<div class="topbar-text">
+Sprawozdanie zrównoważonego rozwoju Grupy Kapitałowej Dekpol 2024
+</dv>
+</div>
