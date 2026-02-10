@@ -230,3 +230,27 @@ text-align: center;
     border-right: 1px solid white !important;
     border-bottom: 1px solid white !important;
 }
+
+.table-wrapper-5-32222-break-line td {
+	width: 20%;
+}
+
+.table-wrapper-5-32222-break-line td:first-child {
+	width: 52%;
+}
+
+.table-wrapper-5-32222-break-line td:nth-child(2) {
+	width: 12%;
+}
+
+.table-wrapper-5-32222-break-line td:nth-child(3) {
+	width: 12%;
+}
+
+.table-wrapper-5-32222-break-line td:nth-child(4) {
+	width: 12%;
+}
+
+.table-wrapper-5-32222-break-line td:nth-child(5) {
+	width: 12%;
+}
