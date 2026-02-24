@@ -1,0 +1,102 @@
+.table-from-word-new {
+  background-color: white !important;
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.table-from-word-new table {
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.table-from-word-new tbody tr td:first-child {
+  border-color: white !important;
+}
+
+.table-from-word-new tbody tr:first-child td {
+  font-weight: bold !important;
+  font-size: 10pt;
+  background-color: #a68784 !important;
+  color: white !important;
+  text-align: left !important;
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid #a68784 !important;
+  border-right: 2px solid #a68784 !important;
+}
+
+.table-from-word-new tbody tr:not(:first-child) td {
+  font-size: 10pt;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.table-from-word-new tbody tr:not(:first-child) td:first-child {
+  text-align: justify !important;
+  font-size: 10pt;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.table-from-word-new tbody tr:not(:first-child) td:last-child {
+  text-align: left !important;
+  font-size: 10pt;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.currancy-rate-table-from-word {
+  background-color: white !important;
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.currancy-rate-table-from-word table {
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.currancy-rate-table-from-word tbody tr td {
+  font-size: 10pt;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.currancy-rate-table-from-word {
+  background-color: white !important;
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.currancy-rate-table-from-word table {
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.currancy-rate-table-from-word tbody tr td {
+  font-size: 10pt;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
