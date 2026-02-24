@@ -48,24 +48,24 @@ h5 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 10.5pt;
   text-align: justify;
   margin-bottom: 1rem;
 }
 
 li {
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 10.5pt;
 }
 
 ul {
   margin-bottom: 1rem;
-  font-size: 14px;
+  font-size: 10.5pt;
 }
 
 ol {
   margin-bottom: 1rem;
-  font-size: 14px;
+  font-size: 10.5pt;
 }
 
 .title-big {
@@ -167,7 +167,7 @@ table thead {
 
 table thead tr {
   border-color: white !important;
-  font-size: 12px !important;
+  font-size: 10.5pt !important;
 }
 
 table thead tr td {
@@ -178,7 +178,7 @@ table thead tr td {
   border-top: 1px solid white !important;
   border-left: 1px solid #a68784 !important;
   border-right: 2px solid white !important;
-  font-size: 12px !important;
+  font-size: 10.5pt !important;
 }
 
 table thead tr td:first-child {
@@ -197,7 +197,7 @@ table tbody tr td {
   border-left: 1px solid white !important;
   border-right: 1px solid white !important;
   border-bottom: 1px solid white !important;
-  font-size: 12px !important;
+  font-size: 10.5pt !important;
 }
 
 table tbody tr:last-child td {
