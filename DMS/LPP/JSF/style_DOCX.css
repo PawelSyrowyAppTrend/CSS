@@ -175,6 +175,7 @@ table thead tr td {
   background-color: #a68784 !important;
   color: white !important;
   text-align: center;
+font-weight: normal !important;
   border-bottom: 1px solid white !important;
   border-top: 1px solid white !important;
   border-left: 1px solid #a68784 !important;
@@ -199,6 +200,8 @@ table tbody tr td {
   border-right: 1px solid white !important;
   border-bottom: 1px solid white !important;
   font-size: 10.5pt !important;
+font-weight: normal !important;
+
 }
 
 table tbody tr:last-child td {
