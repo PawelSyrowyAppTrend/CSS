@@ -1,7 +1,0 @@
-<div class="header">
-  <div class="header-text">
-    <div class="header-left">Raport ESG Grupy Eneris za 2024</div>
-    <div class="header-right">Postępowanie w biznesie</div>
-  </div>
-  <div class="header-line"></div>
-</div>

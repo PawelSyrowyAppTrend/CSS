@@ -1,6 +1,0 @@
-<div class="footer"> 
-    <div class="footer-text"> 
-        [Page] 
-    </div> 
-</div> 
- 

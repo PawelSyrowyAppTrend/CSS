@@ -1,6 +1,0 @@
-<div class="footer">
-<div class="page-line"></div>
-<div class="page-number">
-[Page]
-</div>
-</div>
