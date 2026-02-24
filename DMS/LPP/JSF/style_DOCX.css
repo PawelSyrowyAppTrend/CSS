@@ -1,22 +1,6 @@
 body {
   font-family: Lato;
 }
-p {
-  font-size: 12px;
-  text-align: justify;
-  margin-bottom: 1rem;
-}
-
-li {
-  margin-bottom: 5px;
-}
-
-ul {
-  margin-bottom: 1rem;
-}
-ol {
-  margin-bottom: 1rem;
-}
 
 h1 {
   color: #6084ae;
@@ -63,15 +47,35 @@ h5 {
   font-size: 14px;
 }
 
+p {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+ol {
+  margin-bottom: 1rem;
+}
+
 .title-big {
   font-size: 100pt;
   font-weight: 900;
 }
+
 .title-medium {
   font-size: 30pt;
   border-bottom: solid 1px #253548;
   font-weight: 700;
 }
+
 .title-medium::after {
   content: "";
   position: absolute;
@@ -81,33 +85,40 @@ h5 {
   height: 6px;
   border-top: 4px solid #253548;
 }
+
 .title-big {
   color: #253548;
   font-family: "Lato", sans-serif;
 }
+
 .title-medium {
   color: #253548;
   font-family: "Lato", sans-serif;
 }
+
 .company-footer {
   border-top: 1px solid #eee;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
   font-size: 0.85rem;
 }
+
 .company-footer .logo-holder {
   float: left;
   text-align: left;
   width: 40px;
   padding-top: 3px;
 }
+
 .company-footer .company-logo {
 }
+
 .company-footer .project-slogan {
   float: left;
   text-align: left;
   width: 60%;
 }
+
 .company-footer .page-counter {
   float: right;
   text-align: right;
@@ -239,9 +250,11 @@ table tbody tr:last-child td {
 .table-wrapper-2-41 td {
   width: 50%;
 }
+
 .table-wrapper-2-41 td:first-child {
   width: 80%;
 }
+
 .table-wrapper-2-41 td:nth-child(2) {
   width: 20%;
 }
@@ -249,12 +262,15 @@ table tbody tr:last-child td {
 .table-wrapper-3-411 td {
   width: 33%;
 }
+
 .table-wrapper-3-411 td:first-child {
   width: 45%;
 }
+
 .table-wrapper-3-411 td:nth-child(2) {
   width: 27%;
 }
+
 .table-wrapper-3-411 td:nth-child(3) {
   width: 28%;
 }
@@ -262,12 +278,15 @@ table tbody tr:last-child td {
 .table-wrapper-3-322 td {
   width: 33%;
 }
+
 .table-wrapper-3-322 td:first-child {
   width: 43%;
 }
+
 .table-wrapper-3-322 td:nth-child(2) {
   width: 28%;
 }
+
 .table-wrapper-3-322 td:nth-child(3) {
   width: 29%;
 }
@@ -275,12 +294,15 @@ table tbody tr:last-child td {
 .table-wrapper-3-211-shrink-2 td {
   width: 33%;
 }
+
 .table-wrapper-3-211-shrink-2 td:first-child {
   width: 50%;
 }
+
 .table-wrapper-3-211-shrink-2 td:nth-child(2) {
   width: 25%;
 }
+
 .table-wrapper-3-211-shrink-2 td:nth-child(3) {
   width: 25%;
 }
@@ -288,15 +310,19 @@ table tbody tr:last-child td {
 .table-wrapper-4-3111 td {
   width: 25%;
 }
+
 .table-wrapper-4-3111 td:first-child {
   width: 50%;
 }
+
 .table-wrapper-4-3111 td:nth-child(2) {
   width: 17%;
 }
+
 .table-wrapper-4-3111 td:nth-child(3) {
   width: 17%;
 }
+
 .table-wrapper-4-3111 td:nth-child(4) {
   width: 16%;
 }
@@ -304,15 +330,19 @@ table tbody tr:last-child td {
 .table-wrapper-4-3222 td {
   width: 25%;
 }
+
 .table-wrapper-4-3222 td:first-child {
   width: 33%;
 }
+
 .table-wrapper-4-3222 td:nth-child(2) {
   width: 22%;
 }
+
 .table-wrapper-4-3222 td:nth-child(3) {
   width: 22%;
 }
+
 .table-wrapper-4-3222 td:nth-child(4) {
   width: 23%;
 }
@@ -320,15 +350,19 @@ table tbody tr:last-child td {
 .table-wrapper-4-2111 td {
   width: 25%;
 }
+
 .table-wrapper-4-2111 td:first-child {
   width: 40%;
 }
+
 .table-wrapper-4-2111 td:nth-child(2) {
   width: 20%;
 }
+
 .table-wrapper-4-2111 td:nth-child(3) {
   width: 20%;
 }
+
 .table-wrapper-4-2111 td:nth-child(4) {
   width: 20%;
 }
@@ -336,15 +370,19 @@ table tbody tr:last-child td {
 .table-wrapper-4-4122 td {
   width: 25%;
 }
+
 .table-wrapper-4-4122 td:first-child {
   width: 44%;
 }
+
 .table-wrapper-4-4122 td:nth-child(2) {
   width: 11%;
 }
+
 .table-wrapper-4-4122 td:nth-child(3) {
   width: 22%;
 }
+
 .table-wrapper-4-4122 td:nth-child(4) {
   width: 23%;
 }
@@ -352,18 +390,23 @@ table tbody tr:last-child td {
 .table-wrapper-5-32222 td {
   width: 20%;
 }
+
 .table-wrapper-5-32222 td:first-child {
   width: 28%;
 }
+
 .table-wrapper-5-32222 td:nth-child(2) {
   width: 18%;
 }
+
 .table-wrapper-5-32222 td:nth-child(3) {
   width: 18%;
 }
+
 .table-wrapper-5-32222 td:nth-child(4) {
   width: 18%;
 }
+
 .table-wrapper-5-32222 td:nth-child(5) {
   width: 18%;
 }
@@ -371,21 +414,27 @@ table tbody tr:last-child td {
 .table-wrapper-6-322222 td {
   width: 16%;
 }
+
 .table-wrapper-6-322222 td:first-child {
   width: 23%;
 }
+
 .table-wrapper-6-322222 td:nth-child(2) {
   width: 15%;
 }
+
 .table-wrapper-6-322222 td:nth-child(3) {
   width: 15%;
 }
+
 .table-wrapper-6-322222 td:nth-child(4) {
   width: 15%;
 }
+
 .table-wrapper-6-322222 td:nth-child(5) {
   width: 15%;
 }
+
 .table-wrapper-6-322222 td:nth-child(6) {
   width: 17%;
 }
@@ -393,21 +442,27 @@ table tbody tr:last-child td {
 .table-wrapper-6-612222 td {
   width: 16%;
 }
+
 .table-wrapper-6-612222 td:first-child {
   width: 40%;
 }
+
 .table-wrapper-6-612222 td:nth-child(2) {
   width: 7%;
 }
+
 .table-wrapper-6-612222 td:nth-child(3) {
   width: 13%;
 }
+
 .table-wrapper-6-612222 td:nth-child(4) {
   width: 13%;
 }
+
 .table-wrapper-6-612222 td:nth-child(5) {
   width: 13%;
 }
+
 .table-wrapper-6-612222 td:nth-child(6) {
   width: 13%;
 }
@@ -415,30 +470,39 @@ table tbody tr:last-child td {
 .table-wrapper-9-411111111 td {
   width: 11%;
 }
+
 .table-wrapper-9-411111111 td:first-child {
   width: 33%;
 }
+
 .table-wrapper-9-411111111 td:nth-child(2) {
   width: 8%;
 }
+
 .table-wrapper-9-411111111 td:nth-child(3) {
   width: 8%;
 }
+
 .table-wrapper-9-411111111 td:nth-child(4) {
   width: 8%;
 }
+
 .table-wrapper-9-411111111 td:nth-child(5) {
   width: 8%;
 }
+
 .table-wrapper-9-411111111 td:nth-child(6) {
   width: 8%;
 }
+
 .table-wrapper-9-411111111 td:nth-child(7) {
   width: 8%;
 }
+
 .table-wrapper-9-411111111 td:nth-child(8) {
   width: 8%;
 }
+
 .table-wrapper-9-411111111 td:nth-child(9) {
   width: 11%;
 }
@@ -560,15 +624,19 @@ table tbody tr:last-child td {
 .currancy-rate-table-from-word td:first-child {
   width: 20% !important;
 }
+
 .currancy-rate-table-from-word td:nth-child(2) {
   width: 20% !important;
 }
+
 .currancy-rate-table-from-word td:nth-child(3) {
   width: 20% !important;
 }
+
 .currancy-rate-table-from-word td:nth-child(4) {
   width: 20% !important;
 }
+
 .currancy-rate-table-from-word td:nth-child(5) {
   width: 20% !important;
 }
