@@ -226,10 +226,6 @@ table thead tr td:first-child {
 
 table tbody tr td {
   color: black !important;
-  border-top: 1px solid white !important;
-  border-left: 1px solid white !important;
-  border-right: 1px solid white !important;
-  border-bottom: 1px solid white !important;
   font-size: 10.5pt !important;
 }
 
