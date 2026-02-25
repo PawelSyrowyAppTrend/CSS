@@ -249,23 +249,41 @@ table tbody tr:last-child td {
   text-align: left !important;
 }
 
-.col-align-2r tbody tr td:nth-child(2),
-.col-align-3r tbody tr td:nth-child(3),
-.col-align-4r tbody tr td:nth-child(4),
+.col-align-2r tbody tr td:nth-child(2) {
+  text-align: right !important;
+}
+.col-align-3r tbody tr td:nth-child(3) {
+  text-align: right !important;
+}
+.col-align-4r tbody tr td:nth-child(4) {
+  text-align: right !important;
+}
 .col-align-5r tbody tr td:nth-child(5) {
   text-align: right !important;
 }
 
-.col-align-2l tbody tr td:nth-child(2),
-.col-align-3l tbody tr td:nth-child(3),
-.col-align-4l tbody tr td:nth-child(4),
+.col-align-2l tbody tr td:nth-child(2) {
+  text-align: left !important;
+}
+.col-align-3l tbody tr td:nth-child(3) {
+  text-align: left !important;
+}
+.col-align-4l tbody tr td:nth-child(4) {
+  text-align: left !important;
+}
 .col-align-5l tbody tr td:nth-child(5) {
   text-align: left !important;
 }
 
-.col-align-2c tbody tr td:nth-child(2),
-.col-align-3c tbody tr td:nth-child(3),
-.col-align-4c tbody tr td:nth-child(4),
+.col-align-2c tbody tr td:nth-child(2) {
+  text-align: center !important;
+}
+.col-align-3c tbody tr td:nth-child(3) {
+  text-align: center !important;
+}
+.col-align-4c tbody tr td:nth-child(4) {
+  text-align: center !important;
+}
 .col-align-5c tbody tr td:nth-child(5) {
   text-align: center !important;
 }
@@ -438,6 +456,22 @@ table tbody tr:last-child td {
   width: 18%;
 }
 
+.table-wrapper-5-11111 td:first-child {
+  width: 20% !important;
+}
+.table-wrapper-5-11111 td:nth-child(2) {
+  width: 20% !important;
+}
+.table-wrapper-5-11111 td:nth-child(3) {
+  width: 20% !important;
+}
+.table-wrapper-5-11111 td:nth-child(4) {
+  width: 20% !important;
+}
+.table-wrapper-5-11111 td:nth-child(5) {
+  width: 20% !important;
+}
+
 .table-wrapper-6-322222 td {
   width: 16%;
 }
@@ -539,23 +573,23 @@ table tbody tr:last-child td {
 }
 
 .table-wrapper-5-32222-break-line td:first-child {
-  width: 52%;
+  width: 48%;
 }
 
 .table-wrapper-5-32222-break-line td:nth-child(2) {
-  width: 12%;
+  width: 13%;
 }
 
 .table-wrapper-5-32222-break-line td:nth-child(3) {
-  width: 12%;
+  width: 13%;
 }
 
 .table-wrapper-5-32222-break-line td:nth-child(4) {
-  width: 12%;
+  width: 13%;
 }
 
 .table-wrapper-5-32222-break-line td:nth-child(5) {
-  width: 12%;
+  width: 13%;
 }
 
 /* ========================================
@@ -582,7 +616,6 @@ table tbody tr:last-child td {
 }
 
 .table-from-word-new tbody tr:first-child td {
-  font-weight: bold !important;
   font-size: 10pt;
   background-color: #a68784 !important;
   color: white !important;
