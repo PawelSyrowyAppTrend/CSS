@@ -468,3 +468,22 @@ c-e {
 .currancy-rate-table-from-word tbody tr:nth-child(even) td {
   border-bottom: 2px solid white !important;
 }
+
+.currancy-rate-table-from-word td:first-child {
+  width: 16.6% !important;
+}
+.currancy-rate-table-from-word td:nth-child(2) {
+  width: 16.6% !important;
+}
+.currancy-rate-table-from-word td:nth-child(3) {
+  width: 16.6% !important;
+}
+.currancy-rate-table-from-word td:nth-child(4) {
+  width: 16.6% !important;
+}
+.currancy-rate-table-from-word td:nth-child(5) {
+  width: 16.6% !important;
+}
+.currancy-rate-table-from-word td:nth-child(6) {
+  width: 16.6% !important;
+}
