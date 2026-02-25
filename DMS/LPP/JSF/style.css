@@ -482,24 +482,16 @@ table tbody tr td {
 }
 
 .currancy-rate-table-from-word {
-  background-color: white !important;
   border-bottom: 1px solid white !important;
-  border-top: 1px solid white !important;
-  border-left: 1px solid white !important;
-  border-right: 1px solid white !important;
-}
-
-.currancy-rate-table-from-word table {
-  border-bottom: 1px solid white !important;
-  border-top: 1px solid white !important;
-  border-left: 1px solid white !important;
-  border-right: 1px solid white !important;
 }
 
 .currancy-rate-table-from-word tbody tr td {
-  font-size: 10pt;
-  border-top: 1px solid white !important;
+  font-size: 9pt;
   border-left: 1px solid white !important;
   border-right: 1px solid white !important;
-  border-bottom: 1px solid white !important;
+  height: 22px !important;
+}
+
+.currancy-rate-table-from-word tbody tr:nth-child(even) td {
+  border-bottom: 2px solid white !important;
 }
