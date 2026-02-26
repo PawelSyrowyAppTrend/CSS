@@ -311,11 +311,9 @@ table tbody tr:last-child td {
 .table-wrapper-2-41 td {
   width: 50%;
 }
-
 .table-wrapper-2-41 td:first-child {
   width: 80%;
 }
-
 .table-wrapper-2-41 td:nth-child(2) {
   width: 20%;
 }
@@ -323,47 +321,38 @@ table tbody tr:last-child td {
 .table-wrapper-3-411 td {
   width: 33%;
 }
-
 .table-wrapper-3-411 td:first-child {
-  width: 45%;
+  width: 66%;
 }
-
 .table-wrapper-3-411 td:nth-child(2) {
-  width: 27%;
+  width: 16%;
 }
-
 .table-wrapper-3-411 td:nth-child(3) {
-  width: 28%;
+  width: 16%;
 }
 
 .table-wrapper-3-322 td {
   width: 33%;
 }
-
 .table-wrapper-3-322 td:first-child {
-  width: 43%;
+  width: 42%;
 }
-
 .table-wrapper-3-322 td:nth-child(2) {
   width: 28%;
 }
-
 .table-wrapper-3-322 td:nth-child(3) {
-  width: 29%;
+  width: 28%;
 }
 
 .table-wrapper-3-211-shrink-2 td {
   width: 33%;
 }
-
 .table-wrapper-3-211-shrink-2 td:first-child {
   width: 50%;
 }
-
 .table-wrapper-3-211-shrink-2 td:nth-child(2) {
   width: 25%;
 }
-
 .table-wrapper-3-211-shrink-2 td:nth-child(3) {
   width: 25%;
 }
@@ -371,19 +360,15 @@ table tbody tr:last-child td {
 .table-wrapper-4-3111 td {
   width: 25%;
 }
-
 .table-wrapper-4-3111 td:first-child {
   width: 50%;
 }
-
 .table-wrapper-4-3111 td:nth-child(2) {
-  width: 17%;
+  width: 16%;
 }
-
 .table-wrapper-4-3111 td:nth-child(3) {
-  width: 17%;
+  width: 16%;
 }
-
 .table-wrapper-4-3111 td:nth-child(4) {
   width: 16%;
 }
@@ -391,39 +376,31 @@ table tbody tr:last-child td {
 .table-wrapper-4-3222 td {
   width: 25%;
 }
-
 .table-wrapper-4-3222 td:first-child {
   width: 33%;
 }
-
 .table-wrapper-4-3222 td:nth-child(2) {
   width: 22%;
 }
-
 .table-wrapper-4-3222 td:nth-child(3) {
   width: 22%;
 }
-
 .table-wrapper-4-3222 td:nth-child(4) {
-  width: 23%;
+  width: 22%;
 }
 
 .table-wrapper-4-2111 td {
   width: 25%;
 }
-
 .table-wrapper-4-2111 td:first-child {
   width: 40%;
 }
-
 .table-wrapper-4-2111 td:nth-child(2) {
   width: 20%;
 }
-
 .table-wrapper-4-2111 td:nth-child(3) {
   width: 20%;
 }
-
 .table-wrapper-4-2111 td:nth-child(4) {
   width: 20%;
 }
@@ -431,45 +408,55 @@ table tbody tr:last-child td {
 .table-wrapper-4-4122 td {
   width: 25%;
 }
-
 .table-wrapper-4-4122 td:first-child {
   width: 44%;
 }
-
 .table-wrapper-4-4122 td:nth-child(2) {
   width: 11%;
 }
-
 .table-wrapper-4-4122 td:nth-child(3) {
   width: 22%;
 }
-
 .table-wrapper-4-4122 td:nth-child(4) {
-  width: 23%;
+  width: 22%;
 }
 
 .table-wrapper-5-32222 td {
   width: 20%;
 }
-
 .table-wrapper-5-32222 td:first-child {
   width: 28%;
 }
-
 .table-wrapper-5-32222 td:nth-child(2) {
   width: 18%;
 }
-
 .table-wrapper-5-32222 td:nth-child(3) {
   width: 18%;
 }
-
 .table-wrapper-5-32222 td:nth-child(4) {
   width: 18%;
 }
-
 .table-wrapper-5-32222 td:nth-child(5) {
   width: 18%;
+}
+
+.table-wrapper-5-32222-break-line td {
+  width: 20%;
+}
+.table-wrapper-5-32222-break-line td:first-child {
+  width: 48%;
+}
+.table-wrapper-5-32222-break-line td:nth-child(2) {
+  width: 13%;
+}
+.table-wrapper-5-32222-break-line td:nth-child(3) {
+  width: 13%;
+}
+.table-wrapper-5-32222-break-line td:nth-child(4) {
+  width: 13%;
+}
+.table-wrapper-5-32222-break-line td:nth-child(5) {
+  width: 13%;
 }
 
 .table-wrapper-5-11111 td:first-child {
@@ -491,55 +478,43 @@ table tbody tr:last-child td {
 .table-wrapper-6-322222 td {
   width: 16%;
 }
-
 .table-wrapper-6-322222 td:first-child {
   width: 23%;
 }
-
 .table-wrapper-6-322222 td:nth-child(2) {
   width: 15%;
 }
-
 .table-wrapper-6-322222 td:nth-child(3) {
   width: 15%;
 }
-
 .table-wrapper-6-322222 td:nth-child(4) {
   width: 15%;
 }
-
 .table-wrapper-6-322222 td:nth-child(5) {
   width: 15%;
 }
-
 .table-wrapper-6-322222 td:nth-child(6) {
-  width: 17%;
+  width: 15%;
 }
 
 .table-wrapper-6-612222 td {
   width: 16%;
 }
-
 .table-wrapper-6-612222 td:first-child {
   width: 40%;
 }
-
 .table-wrapper-6-612222 td:nth-child(2) {
   width: 7%;
 }
-
 .table-wrapper-6-612222 td:nth-child(3) {
   width: 13%;
 }
-
 .table-wrapper-6-612222 td:nth-child(4) {
   width: 13%;
 }
-
 .table-wrapper-6-612222 td:nth-child(5) {
   width: 13%;
 }
-
 .table-wrapper-6-612222 td:nth-child(6) {
   width: 13%;
 }
@@ -547,65 +522,32 @@ table tbody tr:last-child td {
 .table-wrapper-9-411111111 td {
   width: 11%;
 }
-
 .table-wrapper-9-411111111 td:first-child {
-  width: 33%;
+  width: 34%;
 }
-
 .table-wrapper-9-411111111 td:nth-child(2) {
   width: 8%;
 }
-
 .table-wrapper-9-411111111 td:nth-child(3) {
   width: 8%;
 }
-
 .table-wrapper-9-411111111 td:nth-child(4) {
   width: 8%;
 }
-
 .table-wrapper-9-411111111 td:nth-child(5) {
   width: 8%;
 }
-
 .table-wrapper-9-411111111 td:nth-child(6) {
   width: 8%;
 }
-
 .table-wrapper-9-411111111 td:nth-child(7) {
   width: 8%;
 }
-
 .table-wrapper-9-411111111 td:nth-child(8) {
   width: 8%;
 }
-
 .table-wrapper-9-411111111 td:nth-child(9) {
-  width: 11%;
-}
-
-.table-wrapper-5-32222-break-line td {
-  width: 20%;
-}
-
-.table-wrapper-5-32222-break-line td:first-child {
-  width: 48%;
-}
-
-.table-wrapper-5-32222-break-line td:nth-child(2) {
-  width: 13%;
-}
-
-.table-wrapper-5-32222-break-line td:nth-child(3) {
-  width: 13%;
-}
-
-.table-wrapper-5-32222-break-line td:nth-child(4) {
-  width: 13%;
-}
-
-.table-wrapper-5-32222-break-line td:nth-child(5) {
-  width: 13%;
+  width: 8%;
 }
 
 /* ========================================
@@ -680,18 +622,27 @@ table tbody tr:last-child td {
 
 .currancy-rate-table-from-word tbody tr td {
   color: white !important;
-  border-top: 1px solid white !important;
+  border-top: 1px solid #a68784 !important;
+  border-bottom: 1px solid white !important;
   border-left: 1px solid white !important;
   border-right: 1px solid white !important;
-  border-bottom: 1px solid white !important;
-  font-size: 9pt !important;
+  font-size: 10.5pt !important;
   height: 22px !important;
 }
 
 .currancy-rate-table-from-word tbody tr:first-child td {
   border-bottom: 1px solid #a68784 !important;
 }
+.currancy-rate-table-from-word tbody tr:nth-child(1) td {
+  border-bottom: 1px solid #a68784 !important;
+}
+.currancy-rate-table-from-word tbody tr:nth-child(2) td {
+  border-bottom: 1px solid #a68784 !important;
+}
 .currancy-rate-table-from-word tbody tr:nth-child(3) td {
+  border-bottom: 1px solid #a68784 !important;
+}
+.currancy-rate-table-from-word tbody tr:nth-child(4) td {
   border-bottom: 1px solid #a68784 !important;
 }
 .currancy-rate-table-from-word tbody tr:nth-child(5) td {
