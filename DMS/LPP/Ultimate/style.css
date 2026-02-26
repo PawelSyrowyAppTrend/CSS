@@ -223,33 +223,68 @@ table tbody tr td {
    TABELE WYRÓWNANIE TEKSTU
 ======================================== */
 
-.col-align-1r tbody tr td:first-child {
+.col-align-1r tbody td:first-child {
+  text-align: right !important;
+}
+.col-align-2r tbody td:nth-child(2) {
+  text-align: right !important;
+}
+.col-align-3r tbody td:nth-child(3) {
+  text-align: right !important;
+}
+.col-align-4r tbody td:nth-child(4) {
+  text-align: right !important;
+}
+.col-align-5r tbody td:nth-child(5) {
   text-align: right !important;
 }
 
-.col-align-1l tbody tr td:first-child {
+.col-align-1l tbody td:first-child {
+  text-align: left !important;
+}
+.col-align-2l tbody td:nth-child(2) {
+  text-align: left !important;
+}
+.col-align-3l tbody td:nth-child(3) {
+  text-align: left !important;
+}
+.col-align-4l tbody td:nth-child(4) {
+  text-align: left !important;
+}
+.col-align-5l tbody td:nth-child(5) {
   text-align: left !important;
 }
 
-.col-align-2r tbody tr td:nth-child(2),
-.col-align-3r tbody tr td:nth-child(3),
-.col-align-4r tbody tr td:nth-child(4),
-.col-align-5r tbody tr td:nth-child(5) {
-  text-align: right !important;
-}
-
-.col-align-2l tbody tr td:nth-child(2),
-.col-align-3l tbody tr td:nth-child(3),
-.col-align-4l tbody tr td:nth-child(4),
-.col-align-5l tbody tr td:nth-child(5) {
-  text-align: left !important;
-}
-
-.col-align-2c tbody tr td:nth-child(2),
-.col-align-3c tbody tr td:nth-child(3),
-.col-align-4c tbody tr td:nth-child(4),
-.col-align-5c tbody tr td:nth-child(5) {
+.col-align-1c tbody td:first-child {
   text-align: center !important;
+}
+.col-align-2c tbody td:nth-child(2) {
+  text-align: center !important;
+}
+.col-align-3c tbody td:nth-child(3) {
+  text-align: center !important;
+}
+.col-align-4c tbody td:nth-child(4) {
+  text-align: center !important;
+}
+.col-align-5c tbody td:nth-child(5) {
+  text-align: center !important;
+}
+
+.col-align-1j tbody td:first-child {
+  text-align: justify !important;
+}
+.col-align-2j tbody td:nth-child(2) {
+  text-align: justify !important;
+}
+.col-align-3j tbody td:nth-child(3) {
+  text-align: justify !important;
+}
+.col-align-4j tbody td:nth-child(4) {
+  text-align: justify !important;
+}
+.col-align-5j tbody td:nth-child(5) {
+  text-align: justify !important;
 }
 
 /* ========================================
