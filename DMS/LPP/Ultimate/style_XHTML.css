@@ -96,16 +96,19 @@ p.e-p > * {
 li {
   margin-bottom: 5px;
   font-size: 10.5pt;
+  font-family: "Lato";
 }
 
 ul {
   margin-bottom: 1rem;
   font-size: 10.5pt;
+  font-family: "Lato";
 }
 
 ol {
   margin-bottom: 1rem;
   font-size: 10.5pt;
+  font-family: "Lato";
 }
 
 c-e {
