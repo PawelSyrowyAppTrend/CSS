@@ -194,6 +194,7 @@ table thead tr {
 
 table thead tr td {
   background-color: #a68784 !important;
+  font-size: 10.5pt;
   color: white !important;
   border-bottom: 1px solid white !important;
   border-top: 1px solid white !important;
@@ -211,6 +212,7 @@ table thead tr td:first-child {
 }
 
 table tbody tr td {
+  font-size: 10.5pt;
   border-top: 1px solid transparent !important;
   border-left: 1px solid transparent !important;
   border-right: 1px solid transparent !important;
@@ -546,6 +548,28 @@ table tbody tr td {
 }
 .table-wrapper-6-111111 td:nth-child(6) {
   width: 16.6%;
+}
+
+.table-wrapper-6-322211 td {
+  width: 16%;
+}
+.table-wrapper-6-322211 td:first-child {
+  width: 27%;
+}
+.table-wrapper-6-322211 td:nth-child(2) {
+  width: 18%;
+}
+.table-wrapper-6-322211 td:nth-child(3) {
+  width: 18%;
+}
+.table-wrapper-6-322211 td:nth-child(4) {
+  width: 18%;
+}
+.table-wrapper-6-322211 td:nth-child(5) {
+  width: 9%;
+}
+.table-wrapper-6-322211 td:nth-child(6) {
+  width: 9%;
 }
 
 .table-wrapper-7-2111111 td {
