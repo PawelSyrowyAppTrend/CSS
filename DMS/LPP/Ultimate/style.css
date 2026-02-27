@@ -195,7 +195,6 @@ table thead tr {
 table thead tr td {
   background-color: #a68784 !important;
   color: white !important;
-  text-align: center;
   border-bottom: 1px solid white !important;
   border-top: 1px solid white !important;
   border-left: 1px solid #a68784 !important;
@@ -209,7 +208,6 @@ table thead tr td:first-child {
   border-top: 1px solid white !important;
   border-left: 1px solid white !important;
   border-right: 1px solid #a68784 !important;
-  text-align: left;
 }
 
 table tbody tr td {
@@ -305,10 +303,10 @@ table tbody tr td {
   width: 50%;
 }
 .table-wrapper-2-31 td:first-child {
-  width: 75% !important;
+  width: 75%;
 }
 .table-wrapper-2-31 td:last-child {
-  width: 25% !important;
+  width: 25%;
 }
 
 .table-wrapper-3-411 td {
@@ -469,19 +467,19 @@ table tbody tr td {
 }
 
 .table-wrapper-5-11111 td:first-child {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-11111 td:nth-child(2) {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-11111 td:nth-child(3) {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-11111 td:nth-child(4) {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-11111 td:nth-child(5) {
-  width: 20% !important;
+  width: 20%;
 }
 
 .table-wrapper-6-322222 td {
@@ -532,22 +530,22 @@ table tbody tr td {
   width: 16%;
 }
 .table-wrapper-6-111111 td:first-child {
-  width: 16.6% !important;
+  width: 16.6%;
 }
 .table-wrapper-6-111111 td:nth-child(2) {
-  width: 16.6% !important;
+  width: 16.6%;
 }
 .table-wrapper-6-111111 td:nth-child(3) {
-  width: 16.6% !important;
+  width: 16.6%;
 }
 .table-wrapper-6-111111 td:nth-child(4) {
-  width: 16.6% !important;
+  width: 16.6%;
 }
 .table-wrapper-6-111111 td:nth-child(5) {
-  width: 16.6% !important;
+  width: 16.6%;
 }
 .table-wrapper-6-111111 td:nth-child(6) {
-  width: 16.6% !important;
+  width: 16.6%;
 }
 
 .table-wrapper-7-2111111 td {
@@ -658,7 +656,6 @@ table tbody tr td {
   font-size: 10.5pt;
   background-color: #a68784 !important;
   color: white !important;
-  text-align: left !important;
   border-bottom: 1px solid white !important;
   border-top: 1px solid white !important;
   border-left: 1px solid #a68784 !important;
@@ -674,7 +671,6 @@ table tbody tr td {
 }
 
 .table-from-word-new tbody tr:not(:first-child) td:first-child {
-  text-align: justify !important;
   font-size: 10.5pt;
   border-top: 1px solid white !important;
   border-left: 1px solid white !important;
@@ -683,7 +679,6 @@ table tbody tr td {
 }
 
 .table-from-word-new tbody tr:not(:first-child) td:last-child {
-  text-align: left !important;
   font-size: 10.5pt;
   border-top: 1px solid white !important;
   border-left: 1px solid white !important;
@@ -700,4 +695,47 @@ table tbody tr td {
   border-left: 1px solid white !important;
   border-right: 1px solid white !important;
   height: 22px !important;
+}
+
+.table-from-word-no-head {
+  background-color: white !important;
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.table-from-word-no-head table {
+  border-bottom: 1px solid white !important;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+}
+
+.table-from-word-no-head tbody tr td:first-child {
+  border-color: white !important;
+}
+
+.table-from-word-no-head tbody tr td {
+  font-size: 10.5pt;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.table-from-word-no-head tbody tr td:first-child {
+  font-size: 10.5pt;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
+}
+
+.table-from-word-no-head tbody tr td:last-child {
+  font-size: 10.5pt;
+  border-top: 1px solid white !important;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  border-bottom: 1px solid white !important;
 }
