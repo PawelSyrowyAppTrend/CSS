@@ -223,6 +223,7 @@ table thead tr td:first-child {
   border-top: 1px solid white !important;
   border-left: 1px solid white !important;
   border-right: 1px solid #a68784 !important;
+  text-align: left;
 }
 
 table tbody tr {
@@ -837,6 +838,6 @@ table tbody tr:last-child td {
    SPECJALNIE DOCX
 ======================================== */
 
-.display-none-only-docx table {
+.display-none-only-docx {
   display: none !important;
 }
