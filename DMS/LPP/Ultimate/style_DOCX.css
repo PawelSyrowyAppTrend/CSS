@@ -697,7 +697,7 @@ table tbody tr:last-child td {
 }
 
 .table-from-word-new tbody tr:not(:first-child) td:first-child {
-  text-align: justify !important;
+  text-align: left !important;
   font-size: 10.5pt;
   border-top: 1px solid white !important;
   border-left: 1px solid white !important;
@@ -706,7 +706,7 @@ table tbody tr:last-child td {
 }
 
 .table-from-word-new tbody tr:not(:first-child) td:last-child {
-  text-align: center !important;
+  text-align: left !important;
   font-size: 10.5pt;
   border-top: 1px solid white !important;
   border-left: 1px solid white !important;
