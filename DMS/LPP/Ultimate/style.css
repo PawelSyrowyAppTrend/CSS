@@ -502,6 +502,56 @@ table tbody tr td {
   width: 13%;
 }
 
+.table-wrapper-7-2111111 td {
+  width: 14%;
+}
+.table-wrapper-7-2111111 td:first-child {
+  width: 28%;
+}
+.table-wrapper-7-2111111 td:nth-child(2) {
+  width: 12%;
+}
+.table-wrapper-7-2111111 td:nth-child(3) {
+  width: 12%;
+}
+.table-wrapper-7-2111111 td:nth-child(4) {
+  width: 12%;
+}
+.table-wrapper-7-2111111 td:nth-child(5) {
+  width: 12%;
+}
+.table-wrapper-7-2111111 td:nth-child(6) {
+  width: 12%;
+}
+.table-wrapper-7-2111111 td:nth-child(7) {
+  width: 12%;
+}
+
+.table-wrapper-7-3222222 td {
+  width: 14%;
+}
+.table-wrapper-7-3222222 td:first-child {
+  width: 22%;
+}
+.table-wrapper-7-3222222 td:nth-child(2) {
+  width: 13%;
+}
+.table-wrapper-7-3222222 td:nth-child(3) {
+  width: 13%;
+}
+.table-wrapper-7-3222222 td:nth-child(4) {
+  width: 13%;
+}
+.table-wrapper-7-3222222 td:nth-child(5) {
+  width: 13%;
+}
+.table-wrapper-7-3222222 td:nth-child(6) {
+  width: 13%;
+}
+.table-wrapper-7-3222222 td:nth-child(7) {
+  width: 13%;
+}
+
 .table-wrapper-9-411111111 td {
   width: 11%;
 }
