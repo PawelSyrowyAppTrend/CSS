@@ -120,13 +120,13 @@ c-e {
 ======================================== */
 
 .strona-okladka {
-  background: #19507f !important;
+  background: #19507f;
   color: #fff;
   font-size: 2rem;
 }
 
 .strona-okladka h1 {
-  color: #fff !important;
+  color: #fff;
   font-size: 4rem;
 }
 

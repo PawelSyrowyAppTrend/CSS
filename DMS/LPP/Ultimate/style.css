@@ -120,13 +120,13 @@ c-e {
 ======================================== */
 
 .strona-okladka {
-  background: #19507f !important;
+  background: #19507f;
   color: #fff;
   font-size: 2rem;
 }
 
 .strona-okladka h1 {
-  color: #fff !important;
+  color: #fff;
   font-size: 4rem;
 }
 
@@ -688,6 +688,10 @@ table tbody tr td {
 
 .currancy-rate-table-from-word {
   border-bottom: 1px solid white !important;
+}
+
+.currancy-rate-table-from-word tbody tr:nth-child(even) td {
+  border-bottom: 2px solid white !important;
 }
 
 .currancy-rate-table-from-word tbody tr td {

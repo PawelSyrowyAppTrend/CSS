@@ -56,8 +56,8 @@ h5 {
 }
 
 p {
+  text-align: justify !important;
   font-size: 10.5pt;
-  text-align: justify;
   margin-bottom: 1rem;
 }
 
@@ -131,13 +131,13 @@ c-e {
 ======================================== */
 
 .strona-okladka {
-  background: #19507f !important;
+  background: #19507f;
   color: #fff;
   font-size: 2rem;
 }
 
 .strona-okladka h1 {
-  color: #fff !important;
+  color: #fff;
   font-size: 4rem;
 }
 
@@ -194,7 +194,7 @@ table {
   border-left: 1px solid white !important;
   border-right: 1px solid white !important;
   font-size: 10.5pt !important;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
 
 table thead {
@@ -225,13 +225,16 @@ table thead tr td:first-child {
   border-right: 1px solid #a68784 !important;
 }
 
+table tbody tr {
+  color: black;
+  font-size: 10.5pt !important;
+}
+
 table tbody tr td {
-  color: black !important;
   border-top: 1px solid white !important;
   border-left: 1px solid white !important;
   border-right: 1px solid white !important;
   border-bottom: 1px solid white !important;
-  font-size: 10.5pt !important;
 }
 
 table tbody tr:last-child td {
@@ -781,4 +784,12 @@ table tbody tr:last-child td {
   border-left: 1px solid white !important;
   border-right: 1px solid white !important;
   border-bottom: 1px solid white !important;
+}
+
+/* ========================================
+   SPECJALNIE DOCX
+======================================== */
+
+.display-none-only-docx table {
+  display: none !important;
 }
