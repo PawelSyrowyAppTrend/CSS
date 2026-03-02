@@ -109,13 +109,11 @@ li {
   font-size: 10.5pt;
   font-family: "Lato";
 }
-
 ul {
   margin-bottom: 1rem;
   font-size: 10.5pt;
   font-family: "Lato";
 }
-
 ol {
   margin-bottom: 1rem;
   font-size: 10.5pt;
@@ -760,6 +758,10 @@ table tbody tr:last-child td {
   border-bottom: 1px solid white !important;
 }
 
+.table-from-word-new tbody tr:last-child td {
+  border-bottom: 1px solid #a68784 !important;
+}
+
 .currancy-rate-table-from-word tbody tr td {
   color: white !important;
   border-top: 1px solid #a68784 !important;
@@ -818,20 +820,8 @@ table tbody tr:last-child td {
   background-color: white !important;
 }
 
-.table-from-word-no-head tbody tr td:first-child {
-  font-size: 10.5pt;
-  border-top: 1px solid white !important;
-  border-left: 1px solid white !important;
-  border-right: 1px solid white !important;
-  border-bottom: 1px solid white !important;
-}
-
-.table-from-word-no-head tbody tr td:last-child {
-  font-size: 10.5pt;
-  border-top: 1px solid white !important;
-  border-left: 1px solid white !important;
-  border-right: 1px solid white !important;
-  border-bottom: 1px solid white !important;
+.table-from-word-no-head tbody tr:last-child td {
+  border-bottom: 1px solid #a68784 !important;
 }
 
 /* ========================================
