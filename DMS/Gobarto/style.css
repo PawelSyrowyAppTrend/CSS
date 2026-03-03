@@ -1,0 +1,318 @@
+.top-bar { 
+display: flex; 
+flex-direction: column;
+justify-content: space-between; 
+margin: 0; 
+width: 100%; 
+box-sizing: border-box; 
+} 
+
+.top-bar img { 
+max-height: 65px; 
+height: auto; 
+width: auto; 
+margin-left: auto;
+} 
+
+
+.topbar-text { 
+color: black; 
+font-size: 6pt;
+align-self: center;
+text-align: center;
+width: 50%;
+margin: center;
+} 
+
+.topbar-line{ 
+border: none;
+background-color: black; 
+height: 1px;
+width: 75%;
+flex-shrink: 0;
+} 
+
+.footer{ 
+display: flex; 
+padding: 0; 
+width: 100%; 
+box-sizing: border-box; 
+position: relative; 
+justify-content: right; 
+} 
+
+.footer-text { 
+color: black; 
+float: right;
+font-size: 9pt;
+align-text: right;
+} 
+
+.ble-editor p, 
+.body-page-view p { 
+ 	color: black; 
+ 	font-size: 9pt; 
+ 	text-align: justify; 
+ }
+ 
+.ble-editor .elToc .toc-h1, 
+.body-page-view .xToc .toc-h1{ 
+font-size: 10pt !important;
+color: black !important;
+}
+
+.ble-editor .elToc .toc-h2, 
+.body-page-view .xToc .toc-h2{ 
+font-size: 10pt !important;
+color: black !important;
+}
+ 
+.ble-editor .elToc .toc-h3, 
+.body-page-view .xToc .toc-h3{ 
+font-size: 10pt !important;
+color: black !important;
+}
+
+.ble-editor .elToc .toc-h4, 
+.body-page-view .xToc .toc-h4{ 
+font-size: 10pt !important;
+color: black !important;
+}
+
+.ble-editor .elToc .toc-title, 
+.body-page-view .xToc .toc-title{ 
+color: #365F91;
+font-size: 12pt !important;
+} 
+
+.ble-editor h1, 
+.body-page-view h1{ 
+font-size: 16pt !important;
+}
+
+.ble-editor h2, 
+.body-page-view h2{ 
+font-size: 14pt !important;
+}
+
+.ble-editor h3, 
+.body-page-view h3{ 
+font-size: 12pt !important;
+}
+
+.ble-editor .elSection
+{
+margin-top: 1rem;
+}
+
+table 
+{
+    background-color: #white !important;
+    border-bottom: 1px solid #2B3C67 !important;
+    border-top: 1px solid transparent !important;
+    border-left: 1px solid transparent  !important;
+    border-right: 1px solid transparent  !important;
+}
+
+table thead
+{
+border-color: #2B3C67 !important
+}
+
+table thead tr
+{
+border-color: transparent !important
+}
+
+table thead tr td 
+{   
+background-color: #2B3C67 !important;
+color: white !important; 
+text-align: center;
+    border-bottom: 1px solid white !important;
+    border-top: 1px solid white  !important;
+    border-left: 1px solid #2B3C67 !important;
+    border-right: 2px solid white !important;
+}
+
+table thead tr td:first-child {
+    background-color: #2B3C67 !important;
+    color: white !important;
+    border-bottom: 1px solid white !important;
+    border-top: 1px solid white !important;
+    border-left: 1px solid white !important;
+    border-right: 1px solid white !important;
+    text-align: center;
+}
+
+table tbody tr td 
+{   
+    border-top: 1px solid transparent !important;
+    border-left: 1px solid transparent !important;
+    border-right: 1px solid transparent !important;
+    border-bottom: 1px solid transparent  !important;
+}
+
+
+.col-align-1r table tbody tr td:first-child {
+	text-align: right !important;
+}
+.col-align-1l table tbody tr td:first-child {
+	text-align: left !important;
+}
+
+.col-align-2r table tbody tr td:nth-child(2),
+.col-align-3r table tbody tr td:nth-child(3),
+.col-align-4r table tbody tr td:nth-child(4)
+{
+	text-align: right !important;
+}
+.col-align-2l table tbody tr td:nth-child(2),
+.col-align-3l table tbody tr td:nth-child(3),
+.col-align-4l table tbody tr td:nth-child(4)
+{
+	text-align: left !important;
+}
+.col-align-2c table tbody tr td:nth-child(2),
+.col-align-3c table tbody tr td:nth-child(3),
+.col-align-4c table tbody tr td:nth-child(4)
+{
+	text-align: center !important;
+}
+.table-wrapper-2-41 table thead tr td:first-child {
+	width: 80% !important;
+}
+
+.table-wrapper-2-41 table thead tr td:nth-child(2){
+	width: 20% !important;
+}
+
+
+.table-wrapper-3-411 table thead tr td:first-child {
+	width: 45% !important;
+}
+.table-wrapper-3-411 table thead tr td:nth-child(2),
+.table-wrapper-3-411 table thead tr td:nth-child(3){
+	width: 16.66% !important;
+}
+
+
+.table-wrapper-3-322 table thead tr td:first-child {
+	width: 42.86% !important;
+}
+.table-wrapper-3-322 table thead tr td:nth-child(2),
+.table-wrapper-3-322 table thead tr td:nth-child(3){
+	width: 28.57% !important;
+}
+
+
+.table-wrapper-3-211-shrink-2 table {
+	width: 66.66% !important;
+}
+.table-wrapper-3-211-shrink-2 table thead tr td:first-child {
+	width: 50% !important;
+}
+.table-wrapper-3-211-shrink-2 table thead tr td:nth-child(2),
+.table-wrapper-3-211-shrink-2 table thead tr td:nth-child(3){
+	width: 25% !important;
+}
+
+
+.table-wrapper-4-3111 table thead tr td:first-child,
+.table-wrapper-4-3111 table tbody tr td:first-child
+{
+	width: 50% !important;
+}
+.table-wrapper-4-3111 table thead tr td:nth-child(2),
+.table-wrapper-4-3111 table thead tr td:nth-child(3),
+.table-wrapper-4-3111 table thead tr td:nth-child(4),
+.table-wrapper-4-3111 table tbody tr td:nth-child(2),
+.table-wrapper-4-3111 table tbody tr td:nth-child(3),
+.table-wrapper-4-3111 table tbody tr td:nth-child(4)
+{
+	width: 16,66% !important;
+}
+
+
+.table-wrapper-4-3222 table thead tr td:first-child {
+	width: 33.33% !important;
+}
+.table-wrapper-4-3222 table thead tr td:nth-child(2),
+.table-wrapper-4-3222 table thead tr td:nth-child(3),
+.table-wrapper-4-3222 table thead tr td:nth-child(4){
+	width: 22.22% !important;
+}
+
+
+.table-wrapper-4-2111 table thead tr td:first-child {
+	width: 40% !important;
+}
+.table-wrapper-4-2111 table thead tr td:nth-child(2),
+.table-wrapper-4-2111 table thead tr td:nth-child(3),
+.table-wrapper-4-2111 table thead tr td:nth-child(4){
+	width: 20% !important;
+}
+
+
+.table-wrapper-4-4122 table thead tr td:first-child {
+	width: 44.44% !important;
+}
+.table-wrapper-4-4122 table thead tr td:nth-child(2){
+	width: 11.11% !important;
+}
+.table-wrapper-4-4122 table thead tr td:nth-child(3),
+.table-wrapper-4-4122 table thead tr td:nth-child(4){
+	width: 22.22% !important;
+}
+
+
+.table-wrapper-5-32222 table thead tr td:first-child {
+	width: 27.27% !important;
+}
+.table-wrapper-5-32222 table thead tr td:nth-child(2),
+.table-wrapper-5-32222 table thead tr td:nth-child(3),
+.table-wrapper-5-32222 table thead tr td:nth-child(4),
+.table-wrapper-5-32222 table thead tr td:nth-child(5){
+	width: 9.09% !important;
+}
+
+
+.table-wrapper-6-322222 table thead tr td:first-child {
+	width: 23.08% !important;
+}
+.table-wrapper-6-322222 table thead tr td:nth-child(2),
+.table-wrapper-6-322222 table thead tr td:nth-child(3),
+.table-wrapper-6-322222 table thead tr td:nth-child(4),
+.table-wrapper-6-322222 table thead tr td:nth-child(5),
+.table-wrapper-6-322222 table thead tr td:nth-child(6){
+	width: 15.38% !important;
+}
+
+
+.table-wrapper-6-612222 table thead tr td:first-child {
+	width: 40% !important;
+}
+.table-wrapper-6-612222 table thead tr td:nth-child(2){
+	width: 6.67% !important;
+}
+.table-wrapper-6-612222 table thead tr td:nth-child(3),
+.table-wrapper-6-612222 table thead tr td:nth-child(4),
+.table-wrapper-6-612222 table thead tr td:nth-child(5),
+.table-wrapper-6-612222 table thead tr td:nth-child(6){
+	width: 13.33% !important;
+}
+
+
+.table-wrapper-9-411111111 table thead tr td:first-child {
+	width: 33.33% !important;
+}
+.table-wrapper-9-411111111 table thead tr td:nth-child(2),
+.table-wrapper-9-411111111 table thead tr td:nth-child(3),
+.table-wrapper-9-411111111 table thead tr td:nth-child(4),
+.table-wrapper-9-411111111 table thead tr td:nth-child(5),
+.table-wrapper-9-411111111 table thead tr td:nth-child(6),
+.table-wrapper-9-411111111 table thead tr td:nth-child(7),
+.table-wrapper-9-411111111 table thead tr td:nth-child(8),
+.table-wrapper-9-411111111 table thead tr td:nth-child(6){
+	width: 8.33% !important;
+}
