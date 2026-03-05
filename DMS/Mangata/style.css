@@ -1,0 +1,534 @@
+.top-bar { 
+display: flex; 
+flex-direction: row;
+justify-content: center; 
+margin: 0; 
+width: 100%; 
+box-sizing: border-box; 
+} 
+
+.top-bar img { 
+max-height: 75px; 
+height: auto; 
+width: auto; 
+} 
+
+.topbar-text-wrap{
+display: flex; 
+flex-direction: column;
+justify-content: flex-end; 
+align-content: bottom;
+margin-right: 20px; 
+width: 75%; 
+box-sizing: border-box; 
+}
+.topbar-text { 
+color: black; 
+font-size: 8pt;
+align-self: center;
+text-align: end;
+width: 100%;
+margin: center;
+} 
+
+.topbar-line{ 
+border: none;
+background-color: black; 
+height: 1px;
+width: 100%;
+flex-shrink: 0;
+} 
+
+.footer{ 
+display: flex; 
+padding: 0; 
+width: 100%; 
+box-sizing: border-box; 
+position: relative; 
+justify-content: right; 
+} 
+
+.footer-text { 
+color: black; 
+float: right;
+font-size: 9pt;
+align-text: right;
+} 
+
+.title-page-background-image { 
+background-size: cover !important;  
+background-position: center !important;  
+background-repeat: no-repeat !important;  
+}
+.ble-editor p, 
+.body-page-view p { 
+ 	color: black; 
+ 	font-size: 9pt; 
+ 	text-align: justify; 
+ } 
+ 
+.ble-editor h1,
+.ble-editor h2,
+.ble-editor h3,
+.ble-editor h4,
+.ble-editor h5 {
+  font-weight: 700;
+}
+
+.ble-editor h1,
+.ble-editor h2,
+.ble-editor h3,
+.ble-editor h4,
+.ble-editor h5 {
+  color: #808080;
+  letter-spacing: 1px;
+}
+
+.ble-editor h1 {
+  font-size: 16pt;
+}
+
+.ble-editor h2 {
+  font-size: 14pt;
+}
+
+.ble-editor h3 {
+  font-size: 13pt;
+}
+
+.ble-editor h4 {
+  font-size: 12pt;
+}
+
+.ble-editor h5 {
+  font-size: 10pt;
+}
+
+.ble-editor p {
+  justify-self: justify !important;
+  font-size: 10.5pt;
+}
+
+.ble-editor p.e-p > * {
+  text-align: justify;
+}
+
+
+.table-transparent tbody tr td {
+    border-top: 1px solid transparent !important;
+    border-left: 1px solid transparent !important;
+    border-right: 1px solid transparent !important;
+    border-bottom: 1px solid transparent !important;
+    font-size: 12px !important;
+}
+
+
+.table-line,
+.table-dotted {
+border-collapse: collapse !important;
+  width: 100%;
+border-bottom: none !important;
+}
+
+.table-line table{
+border-bottom: none !important;
+border-top: 1px solid #C0C0C0 !important;
+}
+ 
+.table-line th,
+.table-line td {
+border-bottom: 1px solid #C0C0C0 !important;
+border-left: 1px solid #C0C0C0 !important;
+border-collapse: collapse !important;
+  padding: 8px;
+}
+ 
+.table-dotted th,
+.table-dotted td {
+  border: 2px dotted #C0C0C0 !important;
+border-collapse: collapse !important;
+  padding: 8px;
+  width: 50%;
+  margin: 20px auto;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+}
+
+table th {
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.col-align-1r table tbody tr td:first-child {
+    text-align: right !important;
+}
+.col-align-2r table tbody tr td:nth-child(2),
+.col-align-3r table tbody tr td:nth-child(3),
+.col-align-4r table tbody tr td:nth-child(4),
+.col-align-5r table tbody tr td:nth-child(5),
+.col-align-6r table tbody tr td:nth-child(6) {
+    text-align: right !important;
+}
+.col-align-2r-pad10px table tbody tr td:nth-child(2),
+.col-align-3r-pad10px table tbody tr td:nth-child(3),
+.col-align-4r-pad10px table tbody tr td:nth-child(4),
+.col-align-5r-pad10px table tbody tr td:nth-child(5),
+.col-align-6r-pad10px table tbody tr td:nth-child(6) {
+    text-align: right !important;
+    padding-right: 10px !important;
+}
+.col-align-2r-pad20per table tbody tr td:nth-child(2),
+.col-align-3r-pad20per table tbody tr td:nth-child(3),
+.col-align-4r-pad20per table tbody tr td:nth-child(4),
+.col-align-5r-pad20per table tbody tr td:nth-child(5),
+.col-align-6r-pad20per table tbody tr td:nth-child(6) {
+    text-align: right !important;
+    padding-right: 20% !important;
+}
+.col-align-2r-pad10per table tbody tr td:nth-child(2),
+.col-align-3r-pad10per table tbody tr td:nth-child(3),
+.col-align-4r-pad10per table tbody tr td:nth-child(4),
+.col-align-5r-pad10per table tbody tr td:nth-child(5),
+.col-align-6r-pad10per table tbody tr td:nth-child(6) {
+    text-align: right !important;
+    padding-right: 10% !important;
+}
+.col-align-1l table tbody tr td:first-child {
+    text-align: left !important;
+}
+.col-align-2l table tbody tr td:nth-child(2),
+.col-align-3l table tbody tr td:nth-child(3),
+.col-align-4l table tbody tr td:nth-child(4),
+.col-align-5l table tbody tr td:nth-child(5),
+.col-align-6l table tbody tr td:nth-child(6) {
+    text-align: left !important;
+}
+.col-align-1c table tbody tr td:first-child {
+    text-align: center !important;
+}
+.col-align-2c table tbody tr td:nth-child(2),
+.col-align-3c table tbody tr td:nth-child(3),
+.col-align-4c table tbody tr td:nth-child(4),
+.col-align-5c table tbody tr td:nth-child(5),
+.col-align-6c table tbody tr td:nth-child(6) {
+    text-align: center !important;
+}
+
+.table-50percent-c table {
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-wrapper-2-41 table thead tr td:first-child {
+    width: 80% !important;
+}
+.table-wrapper-2-41 table thead tr td:nth-child(2) {
+    width: 20% !important;
+}
+
+.table-wrapper-3-211-shrink-2 table {
+    width: 66.66% !important;
+}
+.table-wrapper-3-211-shrink-2 table thead tr td:first-child {
+    width: 50% !important;
+}
+.table-wrapper-3-211-shrink-2 table thead tr td:nth-child(2),
+.table-wrapper-3-211-shrink-2 table thead tr td:nth-child(3) {
+    width: 25% !important;
+}
+
+.table-wrapper-3-211 table thead tr td:first-child {
+    width: 50% !important;
+}
+.table-wrapper-3-211 table thead tr td:nth-child(2),
+.table-wrapper-3-211 table thead tr td:nth-child(3) {
+    width: 25% !important;
+}
+
+.table-wrapper-3-322 table thead tr td:first-child {
+    width: 42.86% !important;
+}
+.table-wrapper-3-322 table thead tr td:nth-child(2),
+.table-wrapper-3-322 table thead tr td:nth-child(3) {
+    width: 28.57% !important;
+}
+
+.table-wrapper-3-322 table tbody tr td:first-child {
+    width: 42.86% !important;
+}
+.table-wrapper-3-322 table tbody tr td:nth-child(2),
+.table-wrapper-3-322 table tbody tr td:nth-child(3) {
+    width: 28.57% !important;
+}
+
+.table-wrapper-3-411 table thead tr td:first-child {
+    width: 66.66% !important;
+}
+.table-wrapper-3-411 table thead tr td:nth-child(2),
+.table-wrapper-3-411 table thead tr td:nth-child(3) {
+    width: 16.66% !important;
+}
+
+.table-wrapper-3-411 table tbody tr td:first-child {
+    width: 25% !important;
+}
+.table-wrapper-3-411 table tbody tr td:nth-child(2),{
+    width: 15% !important;
+}
+
+.table-wrapper-4-3111 table thead tr td:first-child,
+.table-wrapper-4-3111 table tbody tr td:first-child {
+    width: 50% !important;
+}
+.table-wrapper-4-3111 table thead tr td:nth-child(2),
+.table-wrapper-4-3111 table thead tr td:nth-child(3),
+.table-wrapper-4-3111 table thead tr td:nth-child(4) {
+    width: 16.66% !important;
+}
+
+.table-wrapper-4-3222 table thead tr td:first-child {
+    width: 33.33% !important;
+}
+.table-wrapper-4-3222 table thead tr td:nth-child(2),
+.table-wrapper-4-3222 table thead tr td:nth-child(3),
+.table-wrapper-4-3222 table thead tr td:nth-child(4) {
+    width: 22.22% !important;
+}
+
+.table-wrapper-4-2111 table thead tr td:first-child {
+    width: 40% !important;
+}
+.table-wrapper-4-2111 table thead tr td:nth-child(2),
+.table-wrapper-4-2111 table thead tr td:nth-child(3),
+.table-wrapper-4-2111 table thead tr td:nth-child(4) {
+    width: 20% !important;
+}
+
+.table-wrapper-4-4122 table thead tr td:first-child {
+    width: 44.44% !important;
+}
+.table-wrapper-4-4122 table thead tr td:nth-child(2) {
+    width: 11.11% !important;
+}
+.table-wrapper-4-4122 table thead tr td:nth-child(3),
+.table-wrapper-4-4122 table thead tr td:nth-child(4) {
+    width: 22.22% !important;
+}
+
+.table-wrapper-5-32222 table thead tr td:first-child {
+    width: 27.27% !important;
+}
+.table-wrapper-5-32222 table thead tr td:nth-child(2),
+.table-wrapper-5-32222 table thead tr td:nth-child(3),
+.table-wrapper-5-32222 table thead tr td:nth-child(4),
+.table-wrapper-5-32222 table thead tr td:nth-child(5) {
+    width: 9.09% !important;
+}
+.table-wrapper-5-31111 table thead tr td:first-child {
+    width: 48% !important;
+}
+.table-wrapper-5-31111 table thead tr td:nth-child(2),
+.table-wrapper-5-31111 table thead tr td:nth-child(3),
+.table-wrapper-5-31111 table thead tr td:nth-child(4),
+.table-wrapper-5-31111 table thead tr td:nth-child(5) {
+    width: 13% !important;
+}
+
+.table-wrapper-5-dla-II_1 table thead tr td:first-child {
+    width: 50% !important;
+}
+.table-wrapper-5-dla-II_1 table thead tr td:nth-child(2),
+.table-wrapper-5-dla-II_1 table thead tr td:nth-child(3),
+.table-wrapper-5-dla-II_1 table thead tr td:nth-child(4),
+.table-wrapper-5-dla-II_1 table thead tr td:nth-child(5) {
+    width: 12.5% !important;
+}
+.table-wrapper-5-41111 table thead tr td:first-child {
+    width: 50% !important;
+}
+.table-wrapper-5-41111 table thead tr td:nth-child(2),
+.table-wrapper-5-41111 table thead tr td:nth-child(3),
+.table-wrapper-5-41111 table thead tr td:nth-child(4),
+.table-wrapper-5-41111 table thead tr td:nth-child(5) {
+    width: 12.5% !important;
+}
+
+.table-wrapper-5-71222 table thead tr td:first-child {
+    width: 50% !important;
+}
+.table-wrapper-5-71222 table thead tr td:nth-child(2) {
+    width: 7.1% !important;
+}
+.table-wrapper-5-71222 table thead tr td:nth-child(3),
+.table-wrapper-5-71222 table thead tr td:nth-child(4),
+.table-wrapper-5-71222 table thead tr td:nth-child(5) {
+    width: 14.3% !important;
+}
+
+.table-wrapper-6-x11111 table thead tr td:first-child {
+    width: 50% !important;
+}
+.table-wrapper-6-x11111 table thead tr td:nth-child(2),
+.table-wrapper-6-x11111 table thead tr td:nth-child(3),
+.table-wrapper-6-x11111 table thead tr td:nth-child(4),
+.table-wrapper-6-x11111 table thead tr td:nth-child(5),
+.table-wrapper-6-x11111 table thead tr td:nth-child(6) {
+    width: 10% !important;
+}
+
+/* 
+.table-wrapper-6-x12222 table thead tr td:nth-child(2) {
+    width: % !important;
+    text-align: center;
+}
+    */
+.table-wrapper-6-x12222 table thead tr td:first-child {
+        width: 44% !important;
+}
+.table-wrapper-6-x12222 table thead tr td:nth-child(3),
+.table-wrapper-6-x12222 table thead tr td:nth-child(4),
+.table-wrapper-6-x12222 table thead tr td:nth-child(5),
+.table-wrapper-6-x12222 table thead tr td:nth-child(6) {
+    text-align: right;
+}
+
+
+.table-wrapper-6-322222 table thead tr td:first-child {
+    width: 23.08% !important;
+}
+.table-wrapper-6-322222 table thead tr td:nth-child(2),
+.table-wrapper-6-322222 table thead tr td:nth-child(3),
+.table-wrapper-6-322222 table thead tr td:nth-child(4),
+.table-wrapper-6-322222 table thead tr td:nth-child(5),
+.table-wrapper-6-322222 table thead tr td:nth-child(6) {
+    width: 15.38% !important;
+}
+
+.table-wrapper-6-322222 table tbody tr td:first-child {
+    width: 23.08% !important;
+}
+.table-wrapper-6-322222 table tbody  tr td:nth-child(2),
+.table-wrapper-6-322222 table tbody  tr td:nth-child(3),
+.table-wrapper-6-322222 table tbody  tr td:nth-child(4),
+.table-wrapper-6-322222 table tbody  tr td:nth-child(5),
+.table-wrapper-6-322222 table tbody  tr td:nth-child(6) {
+    width: 15.38% !important;
+}
+
+
+.table-wrapper-6-612222 table thead tr td:first-child {
+    width: 40% !important;
+}
+.table-wrapper-6-612222 table thead tr td:nth-child(2) {
+    width: 6.67% !important;
+}
+.table-wrapper-6-612222 table thead tr td:nth-child(3),
+.table-wrapper-6-612222 table thead tr td:nth-child(4),
+.table-wrapper-6-612222 table thead tr td:nth-child(5),
+.table-wrapper-6-612222 table thead tr td:nth-child(6) {
+    width: 13.33% !important;
+}
+
+.table-wrapper-7-3222222 table tbody tr td:first-child {
+    width: 15% !important;
+}
+.table-wrapper-7-3222222 table tbody tr td:nth-child(2) {
+    width: 10% !important;
+}
+.table-wrapper-7-3222222 table tbody tr td:nth-child(3),
+.table-wrapper-7-3222222 table tbody tr td:nth-child(4),
+.table-wrapper-7-3222222 table tbody tr td:nth-child(5),
+.table-wrapper-7-3222222 table tbody  tr td:nth-child(6),
+.table-wrapper-7-3222222 table tbody tr td:nth-child(7) {
+    width: 10% !important;
+}
+.table-wrapper-9-411111111 table tbody tr td:first-child {
+    width: 33.33% !important;
+}
+.table-wrapper-9-411111111 table tbody tr td:nth-child(2),
+.table-wrapper-9-411111111 table tbody tr td:nth-child(3),
+.table-wrapper-9-411111111 table tbody tr td:nth-child(4),
+.table-wrapper-9-411111111 table tbody tr td:nth-child(5),
+.table-wrapper-9-411111111 table tbody tr td:nth-child(6),
+.table-wrapper-9-411111111 table tbody tr td:nth-child(7),
+.table-wrapper-9-411111111 table tbody tr td:nth-child(8),
+.table-wrapper-9-411111111 table tbody tr td:nth-child(9) {
+    width: 8.33% !important;
+}
+.table-wrapper-9-dla-II_7-1 table tbody tr td:first-child {
+    width: 20% !important;
+}
+.table-wrapper-9-dla-II_7-1 table tbody tr td:nth-child(2),
+.table-wrapper-9-dla-II_7-1 table tbody tr td:nth-child(3),
+.table-wrapper-9-dla-II_7-1 table tbody tr td:nth-child(4),
+.table-wrapper-9-dla-II_7-1 table tbody tr td:nth-child(5),
+.table-wrapper-9-dla-II_7-1 table tbody tr td:nth-child(6),
+.table-wrapper-9-dla-II_7-1 table tbody tr td:nth-child(7),
+.table-wrapper-9-dla-II_7-1 table tbody tr td:nth-child(8),
+.table-wrapper-9-dla-II_7-1 table tbody tr td:nth-child(9) {
+    width: 10% !important;
+}
+
+.table-board table tbody tr td {
+    line-height: 2em !important;
+}
+.table-shrink table tbody tr td {
+    line-height: 1em !important;
+    height: 1.5em !important;
+}
+.table-wrapper-3-322 table tbody tr td,
+.table-wrapper-4-2111 table tbody tr td,
+.table-wrapper-5-31111 table tbody tr td,
+.table-wrapper-5-41111 table tbody tr td {
+    padding-right: 5% !important;
+}
+.table-wrapper-5-71222 table tbody tr td,
+.table-wrapper-5-dla-II_1 table tbody tr td {
+    padding-right: 3% !important;
+}
+.table-wrapper-5-32222 table tbody tr td,
+.table-wrapper-6-322222 table tbody tr td,
+.table-wrapper-6-312222 table tbody tr td,
+.table-wrapper-6-x12222 table tbody tr td,
+.table-wrapper-9-411111111 table tbody tr td,
+.table-wrapper-9-dla-II_7-1 table tbody tr td {
+    padding-right: 1% !important;
+}
+
+.mangata-table tr:first-child {
+ visibility: collapse;
+}
+
+.new-crazy-row table{
+}
+ 
+.new-crazy-row table:before {
+  content: "WYPADKI WŚRÓD PRACOWNIKÓW";
+  font-weight: bold;
+  text-align: left;
+  display: table-row;
+  caption-side: top;
+  background: white;
+  border: solid 2px #C0C0C0;
+height: 1rem;
+}
+
+.new-21-crazy-row table:before {
+  content: "PRACOWNICY";
+  font-weight: bold;
+  text-align: left;
+  display: table-row;
+  caption-side: top;
+  background: white;
+  border: solid 2px #C0C0C0;
+height: 1rem;
+}
