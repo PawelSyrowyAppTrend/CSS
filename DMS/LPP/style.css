@@ -237,6 +237,21 @@ table tbody tr td {
 .col-align-5r tbody td:nth-child(5) {
   text-align: right !important;
 }
+.col-align-6r tbody td:nth-child(6) {
+  text-align: right !important;
+}
+.col-align-7r tbody td:nth-child(7) {
+  text-align: right !important;
+}
+.col-align-8r tbody td:nth-child(8) {
+  text-align: right !important;
+}
+.col-align-9r tbody td:nth-child(9) {
+  text-align: right !important;
+}
+.col-align-10r tbody td:nth-child(10) {
+  text-align: right !important;
+}
 
 .col-align-1l tbody td:first-child {
   text-align: left !important;
@@ -251,6 +266,21 @@ table tbody tr td {
   text-align: left !important;
 }
 .col-align-5l tbody td:nth-child(5) {
+  text-align: left !important;
+}
+.col-align-6l tbody td:nth-child(6) {
+  text-align: left !important;
+}
+.col-align-7l tbody td:nth-child(7) {
+  text-align: left !important;
+}
+.col-align-8l tbody td:nth-child(8) {
+  text-align: left !important;
+}
+.col-align-9l tbody td:nth-child(9) {
+  text-align: left !important;
+}
+.col-align-10l tbody td:nth-child(10) {
   text-align: left !important;
 }
 
@@ -269,6 +299,21 @@ table tbody tr td {
 .col-align-5c tbody td:nth-child(5) {
   text-align: center !important;
 }
+.col-align-6c tbody td:nth-child(6) {
+  text-align: center !important;
+}
+.col-align-7c tbody td:nth-child(7) {
+  text-align: center !important;
+}
+.col-align-8c tbody td:nth-child(8) {
+  text-align: center !important;
+}
+.col-align-9c tbody td:nth-child(9) {
+  text-align: center !important;
+}
+.col-align-10c tbody td:nth-child(10) {
+  text-align: center !important;
+}
 
 .col-align-1j tbody td:first-child {
   text-align: justify !important;
@@ -283,6 +328,21 @@ table tbody tr td {
   text-align: justify !important;
 }
 .col-align-5j tbody td:nth-child(5) {
+  text-align: justify !important;
+}
+.col-align-6j tbody td:nth-child(6) {
+  text-align: justify !important;
+}
+.col-align-7j tbody td:nth-child(7) {
+  text-align: justify !important;
+}
+.col-align-8j tbody td:nth-child(8) {
+  text-align: justify !important;
+}
+.col-align-9j tbody td:nth-child(9) {
+  text-align: justify !important;
+}
+.col-align-10j tbody td:nth-child(10) {
   text-align: justify !important;
 }
 
