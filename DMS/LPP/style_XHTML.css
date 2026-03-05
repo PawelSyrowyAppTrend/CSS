@@ -688,6 +688,7 @@ table tbody tr td {
 .table-from-word-new tbody tr:not(:first-child) td {
   font-size: 10.5pt;
   border: 1px solid white !important;
+  background-color: white !important;
 }
 
 .table-from-word-new tbody tr:last-child td {
