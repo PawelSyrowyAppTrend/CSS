@@ -61,6 +61,16 @@ h2.kuba-reczny-blue-h2 {
 }
 
 /* ========================================
+   STRONA TYTUŁOWA
+======================================== */
+
+.title-page-background-image {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* ========================================
    NAGŁÓWEK
 ======================================== */
 
