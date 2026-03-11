@@ -77,45 +77,19 @@ h2.kuba-reczny-blue-h2 {
 .top-bar {
   display: flex;
   align-items: flex-end;
-  flex-direction: row;
-  justify-content: bottom;
   margin: 0;
   width: 100%;
   box-sizing: border-box;
 }
 
 .top-bar img {
-  max-height: 65px;
-  height: auto;
-  width: auto;
-  margin-left: auto;
-}
-
-.topbar-text-and-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-content: bottom;
-  margin: 0;
-  width: 100%;
-  box-sizing: border-box;
+  margin-right: auto;
 }
 
 .topbar-text {
   color: black;
   font-size: 6pt;
-  align-self: end;
-  text-align: center;
-  width: 50%;
-  margin: center;
-}
-
-.topbar-line {
-  border: none;
-  background-color: black;
-  height: 1px;
-  width: 75%;
-  flex-shrink: 0;
+  text-align: left;
 }
 
 /* ========================================
