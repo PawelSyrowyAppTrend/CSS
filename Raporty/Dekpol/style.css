@@ -76,6 +76,7 @@ h2.kuba-reczny-blue-h2 {
 
 .top-bar {
   display: flex;
+  align-items: flex-end;
   flex-direction: row;
   justify-content: bottom;
   margin: 0;
@@ -102,8 +103,8 @@ h2.kuba-reczny-blue-h2 {
 
 .topbar-text {
   color: black;
-  font-size: 8pt;
-  align-self: center;
+  font-size: 6pt;
+  align-self: end;
   text-align: center;
   width: 50%;
   margin: center;
