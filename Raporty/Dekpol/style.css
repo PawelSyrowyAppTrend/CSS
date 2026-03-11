@@ -1,3 +1,69 @@
+/* ========================================
+   GLOBALNE
+======================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap");
+
+/* ========================================
+   GLOBALNE TEKSTY
+======================================== */
+
+h1 {
+  color: #29265c;
+  font-size: 30pt;
+}
+
+h2 {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 28pt !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  color: #4dae3e !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  line-height: normal !important;
+  word-spacing: 4px !important;
+}
+
+h3 {
+  color: #29265c;
+  font-size: 16pt;
+}
+
+/* ========================================
+   WŁASNE TEKSTY
+======================================== */
+
+h2.kuba-reczny-green-h2 {
+  font-family:
+    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
+  color: #4dae3e !important;
+  font-weight: 400 !important;
+  font-size: 18pt !important;
+}
+
+h2.kuba-reczny-red-h2 {
+  font-family:
+    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
+  color: red !important;
+  font-weight: 400 !important;
+  font-size: 18pt !important;
+}
+
+h2.kuba-reczny-blue-h2 {
+  font-family:
+    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
+  color: #29265c !important;
+  font-weight: 400 !important;
+  font-size: 18pt !important;
+}
+
+/* ========================================
+   NAGŁÓWEK
+======================================== */
+
 .top-bar {
   display: flex;
   flex-direction: row;
@@ -23,6 +89,7 @@
   width: 100%;
   box-sizing: border-box;
 }
+
 .topbar-text {
   color: black;
   font-size: 8pt;
@@ -40,6 +107,10 @@
   flex-shrink: 0;
 }
 
+/* ========================================
+   STOPKA
+======================================== */
+
 .footer {
   display: flex;
   padding: 0;
@@ -53,52 +124,5 @@
   color: black;
   float: right;
   font-size: 9pt;
-  align-text: right;
-}
-h1 {
-  color: #29265c;
-  font-size: 30pt;
-}
-h2 {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 28pt !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
-  color: #4dae3e !important;
-  text-decoration: none !important;
-  text-transform: none !important;
-  letter-spacing: normal !important;
-  line-height: normal !important;
-  word-spacing: 4px !important;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap");
-
-h2.kuba-reczny-green-h2 {
-  font-family:
-    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
-  color: #4dae3e !important;
-  font-weight: 400 !important;
-  font-size: 18pt !important;
-}
-
-h2.kuba-reczny-red-h2 {
-  font-family:
-    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
-  color: red !important;
-  font-weight: 400 !important;
-  font-size: 18pt !important;
-}
-
-h2.kuba-reczny-blue-h2 {
-  font-family:
-    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
-  color: #29265c !important;
-  font-weight: 400 !important;
-  font-size: 18pt !important;
-}
-h3 {
-  color: #29265c;
-  font-size: 16pt;
+  text-align: right;
 }
