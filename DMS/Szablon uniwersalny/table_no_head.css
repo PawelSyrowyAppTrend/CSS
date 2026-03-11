@@ -1,0 +1,38 @@
+/* ========================================
+   TABELE bez nagłówka
+======================================== */
+
+.new-table {
+}
+.new-table table {
+}
+.new-table tbody {
+}
+.new-table tbody tr {
+}
+.new-table tbody td {
+}
+.new-table tbody td:first-child {
+}
+.new-table tbody td:last-child {
+}
+.new-table tbody tr:first-child {
+}
+.new-table tbody tr:first-child td {
+}
+.new-table tbody tr:first-child td:first-child {
+}
+.new-table tbody tr:first-child td:last-child {
+}
+.new-table tbody tr:not(:first-child) {
+}
+.new-table tbody tr:nth-child(2) {
+}
+.new-table tbody tr:last-child {
+}
+.new-table tbody tr:not(:first-child) td {
+}
+.new-table tbody tr:not(:first-child) td:first-child {
+}
+.new-table tbody tr:not(:first-child) td:last-child {
+}

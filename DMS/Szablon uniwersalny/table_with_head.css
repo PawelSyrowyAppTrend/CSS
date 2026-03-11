@@ -1,0 +1,36 @@
+/* ========================================
+   TABELE z nagłówkiem
+======================================== */
+
+.new-table {
+}
+.new-table table {
+}
+.new-table thead {
+}
+.new-table thead tr {
+}
+.new-table thead th {
+}
+.new-table thead th:first-child {
+}
+.new-table thead th:last-child {
+}
+.new-table tbody {
+}
+.new-table tbody tr {
+}
+.new-table tbody tr:first-child {
+}
+.new-table tbody tr:last-child {
+}
+.new-table tbody td {
+}
+.new-table tbody td:first-child {
+}
+.new-table tbody td:last-child {
+}
+.new-table th {
+}
+.new-table td {
+}
