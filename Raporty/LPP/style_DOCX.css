@@ -909,3 +909,61 @@ table tbody tr:last-child td {
 .display-none-only-docx {
   display: none !important;
 }
+
+/* ========================================
+   WŁASNE TABELE - pojedyńcze komórki
+======================================== */
+
+.border-for-cell td {
+  border: 1px solid black !important;
+  border-collapse: collapse;
+}
+
+.text-top-left tr td {
+  text-align: left !important;
+  align-content: start !important;
+}
+.text-top-left-first-child tr:first-child td {
+  text-align: center !important;
+  align-content: center !important;
+}
+
+.text-center-2-3-child tr:nth-child(2) td {
+  text-align: center !important;
+  align-content: center !important;
+}
+.text-center-2-3-child tr:nth-child(3) td {
+  text-align: center !important;
+  align-content: center !important;
+}
+
+.no-border-first-child tr:first-child td {
+  border: transparent !important;
+  border-bottom: 1px solid black !important;
+}
+.no-border-first-child tr:first-child td:first-child {
+  border: 1px solid black !important;
+}
+.no-border-first-child tr:first-child td:nth-child(2) {
+  border-left: 1px solid black !important;
+}
+
+.no-border-first-child-2 tr:first-child td {
+  border: transparent !important;
+}
+.no-border-first-child-2 tr:nth-child(2) td {
+  border: transparent !important;
+  border-bottom: 1px solid black !important;
+}
+.no-border-first-child-2 tr:first-child td:first-child {
+  border: 1px solid black !important;
+}
+.no-border-first-child-2 tr:nth-child(2) td:first-child {
+  border: 1px solid black !important;
+}
+.no-border-first-child-2 tr:first-child td:nth-child(2) {
+  border-left: 1px solid black !important;
+}
+.no-border-first-child-2 tr:nth-child(2) td:nth-child(2) {
+  border-left: 1px solid black !important;
+}
