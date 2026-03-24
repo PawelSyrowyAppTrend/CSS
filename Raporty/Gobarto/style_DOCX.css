@@ -1,3 +1,82 @@
+/* ========================================
+   GLOBALNE
+======================================== */
+
+/* ========================================
+   GLOBALNE TEKSTY
+======================================== */
+
+h1 {
+  font-size: 16pt !important;
+}
+
+h2 {
+  font-size: 14pt !important;
+}
+
+h3 {
+  font-size: 12pt !important;
+}
+
+p {
+  color: black;
+  font-size: 9pt;
+  text-align: justify;
+}
+
+.elSection {
+  margin-top: 1rem;
+}
+
+/* ========================================
+   WŁASNE TEKSTY
+======================================== */
+
+/* ========================================
+   GLOBALNE LISTY
+======================================== */
+
+/* ========================================
+   WŁASNE LISTY
+======================================== */
+
+/* ========================================
+   STRONA TYTUŁOWA
+======================================== */
+
+/* ========================================
+   SPIS TREŚCI
+======================================== */
+
+.toc-h1 {
+  font-size: 10pt !important;
+  color: black !important;
+}
+
+.toc-h2 {
+  font-size: 10pt !important;
+  color: black !important;
+}
+
+.toc-h3 {
+  font-size: 10pt !important;
+  color: black !important;
+}
+
+.toc-h4 {
+  font-size: 10pt !important;
+  color: black !important;
+}
+
+.toc-title {
+  color: #365f91;
+  font-size: 12pt !important;
+}
+
+/* ========================================
+   NAGŁÓWEK
+======================================== */
+
 .top-bar {
   display: flex;
   flex-direction: column;
@@ -31,6 +110,10 @@
   flex-shrink: 0;
 }
 
+/* ========================================
+   STOPKA
+======================================== */
+
 .footer {
   display: flex;
   padding: 0;
@@ -47,61 +130,9 @@
   text-align: right;
 }
 
-.ble-editor p,
-.body-page-view p {
-  color: black;
-  font-size: 9pt;
-  text-align: justify;
-}
-
-.ble-editor .elToc .toc-h1,
-.body-page-view .xToc .toc-h1 {
-  font-size: 10pt !important;
-  color: black !important;
-}
-
-.ble-editor .elToc .toc-h2,
-.body-page-view .xToc .toc-h2 {
-  font-size: 10pt !important;
-  color: black !important;
-}
-
-.ble-editor .elToc .toc-h3,
-.body-page-view .xToc .toc-h3 {
-  font-size: 10pt !important;
-  color: black !important;
-}
-
-.ble-editor .elToc .toc-h4,
-.body-page-view .xToc .toc-h4 {
-  font-size: 10pt !important;
-  color: black !important;
-}
-
-.ble-editor .elToc .toc-title,
-.body-page-view .xToc .toc-title {
-  color: #365f91;
-  font-size: 12pt !important;
-}
-
-.ble-editor h1,
-.body-page-view h1 {
-  font-size: 16pt !important;
-}
-
-.ble-editor h2,
-.body-page-view h2 {
-  font-size: 14pt !important;
-}
-
-.ble-editor h3,
-.body-page-view h3 {
-  font-size: 12pt !important;
-}
-
-.ble-editor .elSection {
-  margin-top: 1rem;
-}
+/* ========================================
+   GLOBALNE TABELE
+======================================== */
 
 table {
   background-color: white !important;
@@ -632,3 +663,15 @@ table tbody tr td {
 .table-wrapper-9-411111111 td:nth-child(9) {
   width: 8%;
 }
+
+/* ========================================
+   WŁASNE TABELE - z nagłówkiem
+======================================== */
+
+/* ========================================
+   WŁASNE TABELE - bez nagłówka
+======================================== */
+
+/* ========================================
+   WŁASNE TABELE - pojedyńcze reguły
+======================================== */
