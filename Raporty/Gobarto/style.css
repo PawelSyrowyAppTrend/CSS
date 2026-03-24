@@ -8,24 +8,29 @@
 
 .ble-editor h1,
 .body-page-view h1 {
-  font-size: 16pt !important;
+  font-size: 14pt;
 }
 
 .ble-editor h2,
 .body-page-view h2 {
-  font-size: 14pt !important;
+  font-size: 13pt;
 }
 
 .ble-editor h3,
 .body-page-view h3 {
-  font-size: 12pt !important;
+  font-size: 11pt;
+}
+
+.ble-editor h4,
+.body-page-view h4 {
+  font-size: 11pt;
 }
 
 .ble-editor p,
 .body-page-view p {
-  color: black;
-  font-size: 9pt;
+  font-size: 10pt;
   text-align: justify;
+  color: black;
 }
 
 .ble-editor .elSection {
@@ -37,16 +42,29 @@
 ======================================== */
 
 .blue-header {
-  color: #2b3c67;
+  color: #2b3c67 !important;
 }
 
 .red-header {
-  color: #c20e1a;
+  color: #c20e1a !important;
 }
 
 /* ========================================
    GLOBALNE LISTY
 ======================================== */
+
+.ble-editor li,
+.body-page-view li {
+  font-size: 10pt;
+}
+.ble-editor ul,
+.body-page-view ul {
+  font-size: 10pt;
+}
+.ble-editor ol,
+.body-page-view ol {
+  font-size: 10pt;
+}
 
 /* ========================================
    WŁASNE LISTY
@@ -59,6 +77,12 @@
 /* ========================================
    SPIS TREŚCI
 ======================================== */
+
+.ble-editor .elToc .toc-title,
+.body-page-view .xToc .toc-title {
+  font-size: 12pt !important;
+  color: #365f91 !important;
+}
 
 .ble-editor .elToc .toc-h1,
 .body-page-view .xToc .toc-h1 {
@@ -82,12 +106,6 @@
 .body-page-view .xToc .toc-h4 {
   font-size: 10pt !important;
   color: black !important;
-}
-
-.ble-editor .elToc .toc-title,
-.body-page-view .xToc .toc-title {
-  color: #365f91;
-  font-size: 12pt !important;
 }
 
 /* ========================================
@@ -170,14 +188,14 @@ table thead tr {
 table thead tr td {
   background-color: #2b3c67 !important;
   color: white !important;
-  text-align: center;
+  text-align: center !important;
   border: 1px solid #2b3c67 !important;
 }
 
 table thead tr td:first-child {
   background-color: #2b3c67 !important;
   color: white !important;
-  text-align: center;
+  text-align: center !important;
 }
 
 table tbody tr td {
