@@ -44,7 +44,7 @@
   color: black;
   float: right;
   font-size: 9pt;
-  align-text: right;
+  text-align: right;
 }
 
 .ble-editor p,
