@@ -8,9 +8,9 @@
 
 .ble-editor p,
 .body-page-view p {
-  color: black;
   font-size: 9pt;
   text-align: justify;
+  color: black;
 }
 
 .ble-editor h1,
@@ -26,8 +26,8 @@
 .ble-editor h3,
 .ble-editor h4,
 .ble-editor h5 {
-  color: #808080;
   letter-spacing: 1px;
+  color: #808080;
 }
 
 .ble-editor h1 {
@@ -51,8 +51,8 @@
 }
 
 .ble-editor p {
-  justify-self: justify !important;
   font-size: 10.5pt;
+  justify-self: justify;
 }
 
 .ble-editor p.e-p > * {
@@ -690,7 +690,7 @@ table th {
 .table-line,
 .table-dotted {
   border-collapse: collapse !important;
-  width: 100%;
+  width: 100% !important;
   border-bottom: none !important;
 }
 
@@ -704,20 +704,20 @@ table th {
   border-bottom: 1px solid #c0c0c0 !important;
   border-left: 1px solid #c0c0c0 !important;
   border-collapse: collapse !important;
-  padding: 8px;
+  padding: 8px !important;
 }
 
 .table-dotted th,
 .table-dotted td {
   border: 2px dotted #c0c0c0 !important;
   border-collapse: collapse !important;
-  padding: 8px;
-  width: 50%;
-  margin: 20px auto;
+  padding: 8px !important;
+  width: 50% !important;
+  margin: 20px !important;
 }
 
 .mangata-table tr:first-child {
-  visibility: collapse;
+  visibility: collapse !important;
 }
 
 .new-crazy-row table:before {
