@@ -714,3 +714,21 @@ table tbody tr td {
 /* ========================================
    WŁASNE TABELE - pojedyńcze reguły
 ======================================== */
+
+.small-font-size thead td {
+  font-size: 8pt !important;
+  height: 2rem !important;
+}
+.small-font-size tbody td {
+  font-size: 8pt !important;
+  height: 1.5rem !important;
+}
+
+.more-small-font-size thead td {
+  font-size: 8pt !important;
+  height: 1rem !important;
+}
+.more-small-font-size tbody td {
+  font-size: 8pt !important;
+  height: 1rem !important;
+}
