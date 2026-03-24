@@ -718,3 +718,35 @@ table tbody tr td {
   font-size: 8pt !important;
   height: 1rem !important;
 }
+
+.fake-cell-kdiw thead tr:first-child td:nth-child(5) {
+  position: relative;
+  overflow: visible;
+  color: transparent !important;
+}
+.fake-cell-kdiw thead tr:first-child td:nth-child(5)::after {
+  content: "Kryteria dotyczące istotnego wkładu";
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  white-space: nowrap;
+  color: white;
+  z-index: 999;
+  font-size: 10pt;
+}
+
+.fake-cell-kdzd thead tr:first-child td:nth-child(11) {
+  position: relative;
+  overflow: visible;
+  color: transparent !important;
+}
+.fake-cell-kdzd thead tr:first-child td:nth-child(11)::after {
+  content: "Kryteria dotyczące zasady DNSH („nie czyń poważnych szkód”)";
+  position: absolute;
+  top: 43px;
+  left: 40px;
+  white-space: nowrap;
+  color: white;
+  z-index: 999;
+  font-size: 12pt;
+}
