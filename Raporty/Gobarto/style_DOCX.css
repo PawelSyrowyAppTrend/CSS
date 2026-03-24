@@ -743,10 +743,13 @@ table tbody tr td {
 .fake-cell-kdzd thead tr:first-child td:nth-child(11)::after {
   content: "Kryteria dotyczące zasady DNSH („nie czyń poważnych szkód”)";
   position: absolute;
-  top: 43px;
-  left: 40px;
-  white-space: nowrap;
+  top: 45px;
+  left: 30px;
+  white-space: pre-line;
   color: white;
   z-index: 999;
-  font-size: 12pt;
+  font-size: 10pt;
+  display: inline-block;
+  overflow: visible !important;
+  width: 200px;
 }
