@@ -36,30 +36,6 @@ h3 {
    WŁASNE TEKSTY
 ======================================== */
 
-h2.kuba-reczny-green-h2 {
-  font-family:
-    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
-  color: #4dae3e !important;
-  font-weight: 400 !important;
-  font-size: 18pt !important;
-}
-
-h2.kuba-reczny-red-h2 {
-  font-family:
-    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
-  color: red !important;
-  font-weight: 400 !important;
-  font-size: 18pt !important;
-}
-
-h2.kuba-reczny-blue-h2 {
-  font-family:
-    "Lucida Handwriting", "Patrick Hand", "Dancing Script", cursive !important;
-  color: #29265c !important;
-  font-weight: 400 !important;
-  font-size: 18pt !important;
-}
-
 /* ========================================
    STRONA TYTUŁOWA
 ======================================== */
@@ -193,4 +169,25 @@ h2.kuba-reczny-blue-h2 {
   font-style: normal;
   font-weight: normal;
   visibility: visible;
+}
+
+h2.kuba-reczny-green-h2 {
+  font-family: "KubaReczny", cursive;
+  color: #4dae3e !important;
+  font-weight: 400 !important;
+  font-size: 18pt !important;
+}
+
+h2.kuba-reczny-red-h2 {
+  font-family: "KubaReczny", cursive;
+  color: red !important;
+  font-weight: 400 !important;
+  font-size: 18pt !important;
+}
+
+h2.kuba-reczny-blue-h2 {
+  font-family: "KubaReczny", cursive;
+  color: #29265c !important;
+  font-weight: 400 !important;
+  font-size: 18pt !important;
 }
