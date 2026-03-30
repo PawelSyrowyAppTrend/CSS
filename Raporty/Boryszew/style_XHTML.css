@@ -13,11 +13,17 @@
 ======================================== */
 
 .ble-editor h1,
+.body-page-view h1 {
+  color: #000066;
+  font-size: 11pt;
+  text-align: justify;
+  font-family: "Lato";
+}
+
 .ble-editor h2,
 .ble-editor h3,
 .ble-editor h4,
 .ble-editor h5,
-.body-page-view h1,
 .body-page-view h2,
 .body-page-view h3,
 .body-page-view h4,
