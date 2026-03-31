@@ -89,6 +89,7 @@ h3 {
   display: flex;
   align-items: flex-end;
   margin: 0;
+  margin-bottom: 25px;
   width: 100%;
   box-sizing: border-box;
 }
