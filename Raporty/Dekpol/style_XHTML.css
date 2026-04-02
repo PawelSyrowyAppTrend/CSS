@@ -40,6 +40,10 @@ h6 {
   font-size: 32pt;
 }
 
+p {
+  font-family: "Switzer", sans-serif;
+}
+
 /* ========================================
    WŁASNE TEKSTY
 ======================================== */
@@ -223,79 +227,4 @@ h6.kuba-reczny-blue-h2 {
   color: #29265c !important;
   font-weight: 400 !important;
   font-size: 32pt !important;
-}
-
-/* ========================================
-   SWITZER - KLASY POMOCNICZE
-======================================== */
-
-.switzer {
-  font-family: "Switzer-Regular";
-}
-
-/* NORMAL */
-.switzer-thin {
-  font-family: "Switzer-Thin";
-}
-.switzer-extralight {
-  font-family: "Switzer-Extralight";
-}
-.switzer-light {
-  font-family: "Switzer-Light";
-}
-.switzer-regular {
-  font-family: "Switzer-Regular";
-}
-.switzer-medium {
-  font-family: "Switzer-Medium";
-}
-.switzer-semibold {
-  font-family: "Switzer-Semibold";
-}
-.switzer-bold {
-  font-family: "Switzer-Bold";
-}
-.switzer-extrabold {
-  font-family: "Switzer-Extrabold";
-}
-.switzer-black {
-  font-family: "Switzer-Black";
-}
-
-/* ITALIC */
-.switzer-thin-italic {
-  font-family: "Switzer-ThinItalic";
-}
-.switzer-extralight-italic {
-  font-family: "Switzer-ExtralightItalic";
-}
-.switzer-light-italic {
-  font-family: "Switzer-LightItalic";
-}
-.switzer-italic {
-  font-family: "Switzer-Italic";
-}
-.switzer-medium-italic {
-  font-family: "Switzer-MediumItalic";
-}
-.switzer-semibold-italic {
-  font-family: "Switzer-SemiboldItalic";
-}
-.switzer-bold-italic {
-  font-family: "Switzer-BoldItalic";
-}
-.switzer-extrabold-italic {
-  font-family: "Switzer-ExtraboldItalic";
-}
-.switzer-black-italic {
-  font-family: "Switzer-BlackItalic";
-}
-
-/* VARIABLE (jeśli chcesz używać) */
-.switzer-var {
-  font-family: "Switzer-Variable";
-}
-
-.switzer-var-italic {
-  font-family: "Switzer-VariableItalic";
 }
