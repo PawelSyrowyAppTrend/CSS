@@ -37,7 +37,7 @@ h6 {
   font-style: normal;
   font-weight: normal;
   visibility: visible;
-  font-size: 32pt;
+  font-size: 35pt;
 }
 
 p {
@@ -197,6 +197,27 @@ p {
     format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+h2.kuba-reczny-green-h2 {
+  font-family: "Kuba Reczny", cursive;
+  color: #4dae3e !important;
+  font-weight: 400 !important;
+  font-size: 32pt !important;
+}
+
+h2.kuba-reczny-red-h2 {
+  font-family: "Kuba Reczny", cursive;
+  color: red !important;
+  font-weight: 400 !important;
+  font-size: 32pt !important;
+}
+
+h2.kuba-reczny-blue-h2 {
+  font-family: "Kuba Reczny", cursive;
+  color: #29265c !important;
+  font-weight: 400 !important;
+  font-size: 32pt !important;
 }
 
 h6.kuba-reczny-green-h6 {
