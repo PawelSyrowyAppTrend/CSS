@@ -238,3 +238,11 @@ h6.kuba-reczny-blue-h6 {
   position: absolute;
   left: 200px;
 }
+
+/* ========================================
+   ----- SPIS TREŚCI -----
+======================================== */
+
+li.toc-h6 {
+  padding-left: 50px !important;
+}
