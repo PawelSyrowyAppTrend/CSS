@@ -228,3 +228,25 @@ h6.kuba-reczny-blue-h2 {
   font-weight: 400 !important;
   font-size: 32pt !important;
 }
+
+/* ========================================
+   ----- SEKCJE -----
+======================================== */
+
+.custom-section {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  gap: 50px;
+}
+
+.custom-inner-section {
+  width: 300px;
+  border-top: 1px solid #29245c;
+  position: relative;
+}
+
+.custom-image {
+  position: absolute;
+  left: 200px;
+}

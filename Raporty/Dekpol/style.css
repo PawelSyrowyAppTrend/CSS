@@ -208,20 +208,45 @@ p {
   font-size: 32pt;
 }
 
-h6.kuba-reczny-green-h2 {
+h2.kuba-reczny-green-h2 {
+  font-family: "KubaReczny", cursive;
   color: #4dae3e !important;
   font-weight: 400 !important;
   font-size: 32pt !important;
 }
 
-h6.kuba-reczny-red-h2 {
+h2.kuba-reczny-red-h2 {
+  font-family: "KubaReczny", cursive;
   color: red !important;
   font-weight: 400 !important;
   font-size: 32pt !important;
 }
 
-h6.kuba-reczny-blue-h2 {
+h2.kuba-reczny-blue-h2 {
+  font-family: "KubaReczny", cursive;
   color: #29265c !important;
   font-weight: 400 !important;
   font-size: 32pt !important;
+}
+
+/* ========================================
+   ----- SEKCJE -----
+======================================== */
+
+.custom-section {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  gap: 50px;
+}
+
+.custom-inner-section {
+  width: 300px;
+  border-top: 1px solid #29245c;
+  position: relative;
+}
+
+.custom-image {
+  position: absolute;
+  left: 200px;
 }
