@@ -2,35 +2,35 @@
    WŁASNE TABELE - z nagłówkiem
 ======================================== */
 
-.new-table {
+.table-with-head {
 }
-.new-table table {
+.table-with-head table {
 }
-.new-table thead {
+.table-with-head thead {
 }
-.new-table thead tr {
+.table-with-head thead tr {
 }
-.new-table thead th {
+.table-with-head thead td {
 }
-.new-table thead th:first-child {
+.table-with-head thead td:first-child {
 }
-.new-table thead th:last-child {
+.table-with-head thead td:last-child {
 }
-.new-table tbody {
+.table-with-head tbody {
 }
-.new-table tbody tr {
+.table-with-head tbody tr {
 }
-.new-table tbody tr:first-child {
+.table-with-head tbody tr:first-child {
 }
-.new-table tbody tr:last-child {
+.table-with-head tbody tr:last-child {
 }
-.new-table tbody td {
+.table-with-head tbody td {
 }
-.new-table tbody td:first-child {
+.table-with-head tbody td:first-child {
 }
-.new-table tbody td:last-child {
+.table-with-head tbody td:last-child {
 }
-.new-table th {
+.table-with-head td {
 }
-.new-table td {
+.table-with-head td {
 }

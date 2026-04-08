@@ -2,37 +2,37 @@
    WŁASNE TABELE - bez nagłówka
 ======================================== */
 
-.new-table {
+.table-with-no-head {
 }
-.new-table table {
+.table-with-no-head table {
 }
-.new-table tbody {
+.table-with-no-head tbody {
 }
-.new-table tbody tr {
+.table-with-no-head tbody tr {
 }
-.new-table tbody td {
+.table-with-no-head tbody td {
 }
-.new-table tbody td:first-child {
+.table-with-no-head tbody td:first-child {
 }
-.new-table tbody td:last-child {
+.table-with-no-head tbody td:last-child {
 }
-.new-table tbody tr:first-child {
+.table-with-no-head tbody tr:first-child {
 }
-.new-table tbody tr:first-child td {
+.table-with-no-head tbody tr:first-child td {
 }
-.new-table tbody tr:first-child td:first-child {
+.table-with-no-head tbody tr:first-child td:first-child {
 }
-.new-table tbody tr:first-child td:last-child {
+.table-with-no-head tbody tr:first-child td:last-child {
 }
-.new-table tbody tr:not(:first-child) {
+.table-with-no-head tbody tr:not(:first-child) {
 }
-.new-table tbody tr:nth-child(2) {
+.table-with-no-head tbody tr:nth-child(2) {
 }
-.new-table tbody tr:last-child {
+.table-with-no-head tbody tr:last-child {
 }
-.new-table tbody tr:not(:first-child) td {
+.table-with-no-head tbody tr:not(:first-child) td {
 }
-.new-table tbody tr:not(:first-child) td:first-child {
+.table-with-no-head tbody tr:not(:first-child) td:first-child {
 }
-.new-table tbody tr:not(:first-child) td:last-child {
+.table-with-no-head tbody tr:not(:first-child) td:last-child {
 }
