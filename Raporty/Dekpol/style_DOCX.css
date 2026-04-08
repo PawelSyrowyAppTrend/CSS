@@ -788,74 +788,76 @@ li.toc-h6 {
    WŁASNE TABELE - z nagłówkiem
 ======================================== */
 
-.new-table {
+.dekpol-table {
 }
-.new-table table {
+.dekpol-table table {
 }
-.new-table thead {
+.dekpol-table thead {
 }
-.new-table thead tr {
+.dekpol-table thead tr {
 }
-.new-table thead th {
+.dekpol-table thead td {
 }
-.new-table thead th:first-child {
+.dekpol-table thead td:first-child {
 }
-.new-table thead th:last-child {
+.dekpol-table thead td:last-child {
 }
-.new-table tbody {
+.dekpol-table tbody {
 }
-.new-table tbody tr {
+.dekpol-table tbody tr {
 }
-.new-table tbody tr:first-child {
+.dekpol-table tbody tr:first-child {
 }
-.new-table tbody tr:last-child {
+.dekpol-table tbody tr:last-child {
 }
-.new-table tbody td {
+.dekpol-table tbody td {
 }
-.new-table tbody td:first-child {
+.dekpol-table tbody td:first-child {
 }
-.new-table tbody td:last-child {
+.dekpol-table tbody td:last-child {
 }
-.new-table th {
-}
-.new-table td {
+.dekpol-table td {
+  border: 1px solid white !important;
+  background-color: white !important;
 }
 
 /* ========================================
    WŁASNE TABELE - bez nagłówka
 ======================================== */
 
-.new-table {
+.dekpol-table-no-head {
 }
-.new-table table {
+.dekpol-table-no-head table {
 }
-.new-table tbody {
+.dekpol-table-no-head tbody {
 }
-.new-table tbody tr {
+.dekpol-table-no-head tbody tr {
 }
-.new-table tbody td {
+.dekpol-table-no-head tbody td {
+  border: 1px solid white !important;
+  background-color: white !important;
 }
-.new-table tbody td:first-child {
+.dekpol-table-no-head tbody td:first-child {
 }
-.new-table tbody td:last-child {
+.dekpol-table-no-head tbody td:last-child {
 }
-.new-table tbody tr:first-child {
+.dekpol-table-no-head tbody tr:first-child {
 }
-.new-table tbody tr:first-child td {
+.dekpol-table-no-head tbody tr:first-child td {
 }
-.new-table tbody tr:first-child td:first-child {
+.dekpol-table-no-head tbody tr:first-child td:first-child {
 }
-.new-table tbody tr:first-child td:last-child {
+.dekpol-table-no-head tbody tr:first-child td:last-child {
 }
-.new-table tbody tr:not(:first-child) {
+.dekpol-table-no-head tbody tr:not(:first-child) {
 }
-.new-table tbody tr:nth-child(2) {
+.dekpol-table-no-head tbody tr:nth-child(2) {
 }
-.new-table tbody tr:last-child {
+.dekpol-table-no-head tbody tr:last-child {
 }
-.new-table tbody tr:not(:first-child) td {
+.dekpol-table-no-head tbody tr:not(:first-child) td {
 }
-.new-table tbody tr:not(:first-child) td:first-child {
+.dekpol-table-no-head tbody tr:not(:first-child) td:first-child {
 }
-.new-table tbody tr:not(:first-child) td:last-child {
+.dekpol-table-no-head tbody tr:not(:first-child) td:last-child {
 }
