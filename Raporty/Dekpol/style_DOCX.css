@@ -825,25 +825,38 @@ li.toc-h6 {
    WŁASNE TABELE - bez nagłówka
 ======================================== */
 
-.dekpol-table-no-head {
-}
 .dekpol-table-no-head table {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-top: 1px solid #4dae3e !important;
 }
 .dekpol-table-no-head tbody {
+  border: 1px solid white !important;
+  background-color: white !important;
 }
 .dekpol-table-no-head tbody tr {
+  border: 1px solid white !important;
+  background-color: white !important;
 }
 .dekpol-table-no-head tbody td {
   border: 1px solid white !important;
   background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+}
+.dekpol-table-no-head tbody tr:first-child td {
+  border-bottom: 1px solid black !important;
+}
+.dekpol-table-no-head tbody tr:not(:first-child) td {
+  border-bottom: 1px solid black !important;
+}
+.dekpol-table-no-head tbody td:last-child {
+  background-color: #f3f3f3 !important;
+}
+.dekpol-table-no-head {
 }
 .dekpol-table-no-head tbody td:first-child {
 }
-.dekpol-table-no-head tbody td:last-child {
-}
 .dekpol-table-no-head tbody tr:first-child {
-}
-.dekpol-table-no-head tbody tr:first-child td {
 }
 .dekpol-table-no-head tbody tr:first-child td:first-child {
 }
@@ -854,8 +867,6 @@ li.toc-h6 {
 .dekpol-table-no-head tbody tr:nth-child(2) {
 }
 .dekpol-table-no-head tbody tr:last-child {
-}
-.dekpol-table-no-head tbody tr:not(:first-child) td {
 }
 .dekpol-table-no-head tbody tr:not(:first-child) td:first-child {
 }
