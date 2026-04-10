@@ -318,6 +318,24 @@ li.toc-h6 {
   top: 0;
 }
 
+/* Podmiana ciemnozielonego (#1E8449) na zielony ESG (#4dae3e) */
+[style*="color: #1E8449"], 
+[style*="color: #1e8449"],
+[style*="color: rgb(30, 132, 73)"],
+font[color="#1E8449"],
+font[color="#1e8449"] {
+    color: #4dae3e !important;
+}
+
+/* Podmiana ciemnoniebieskiego (#00008B) na granatowy ESG (#29265c) */
+[style*="color: #00008B"], 
+[style*="color: #00008b"],
+[style*="color: rgb(0, 0, 139)"],
+font[color="#00008B"],
+font[color="#00008b"] {
+    color: #29265c !important;
+}
+
 /* ========================================
    TABELE SZEROKOŚĆ KOLUMN
 ======================================== */
