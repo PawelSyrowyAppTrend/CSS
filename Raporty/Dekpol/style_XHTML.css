@@ -200,6 +200,10 @@ p {
   background-image: url("https://esg-dekpol-uat.consolia.pl/dms/media/1920908aa70e4a3aa327080c151bd5b2/thumbnail.png");
 }
 
+.obraz-13::before {
+  background-image: url("https://esg-dekpol-uat.consolia.pl/dms/media/c8528b9cb5954a6dacd4f51792e44229/thumbnail.png");
+}
+
 /* ========================================
    ----- KUBA RĘCZNY -----
 ======================================== */
