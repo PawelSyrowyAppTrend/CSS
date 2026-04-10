@@ -31,6 +31,18 @@ h3 {
   font-size: 16pt;
 }
 
+h4 {
+  font-family: "Switzer", sans-serif;
+  color: #29265c;
+  font-size: 16pt;
+}
+
+h5 {
+  font-family: "Switzer", sans-serif;
+  color: #29265c;
+  font-size: 16pt;
+}
+
 h6 {
   font-family: "Kuba Reczny", cursive;
   line-height: 1.12;
@@ -47,6 +59,10 @@ p {
 /* ========================================
    WŁASNE TEKSTY
 ======================================== */
+
+.my-font font {
+  color: green !important;
+}
 
 /* ========================================
    STRONA TYTUŁOWA
@@ -119,6 +135,15 @@ p {
   text-align: left;
 }
 
+.logo {
+  margin-right: auto;
+  width: 120px;
+  height: 19px;
+  background-image: url("data:image/png;base64,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");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* ========================================
    STOPKA
 ======================================== */
@@ -189,6 +214,10 @@ p {
 
 .obraz-12::before {
   background-image: url("https://esg-dekpol-uat.consolia.pl/dms/media/1920908aa70e4a3aa327080c151bd5b2/thumbnail.png");
+}
+
+.obraz-13::before {
+  background-image: url("https://esg-dekpol-uat.consolia.pl/dms/media/c8528b9cb5954a6dacd4f51792e44229/thumbnail.png");
 }
 
 /* ========================================
@@ -294,196 +323,196 @@ li.toc-h6 {
 ======================================== */
 
 .table-wrapper-2-41 td {
-  width: 50%;
+  width: 50% !important;
 }
 .table-wrapper-2-41 td:first-child {
-  width: 80%;
+  width: 80% !important;
 }
 .table-wrapper-2-41 td:nth-child(2) {
-  width: 20%;
+  width: 20% !important;
 }
 
 .table-wrapper-2-31 td {
-  width: 50%;
+  width: 50% !important;
 }
 .table-wrapper-2-31 td:first-child {
-  width: 75%;
+  width: 75% !important;
 }
 .table-wrapper-2-31 td:last-child {
-  width: 25%;
+  width: 25% !important;
 }
 
 .table-wrapper-3-411 td {
-  width: 33%;
+  width: 33% !important;
 }
 .table-wrapper-3-411 td:first-child {
-  width: 66%;
+  width: 66% !important;
 }
 .table-wrapper-3-411 td:nth-child(2) {
-  width: 16%;
+  width: 16% !important;
 }
 .table-wrapper-3-411 td:nth-child(3) {
-  width: 16%;
+  width: 16% !important;
 }
 
 .table-wrapper-3-322 td {
-  width: 33%;
+  width: 33% !important;
 }
 .table-wrapper-3-322 td:first-child {
-  width: 42%;
+  width: 42% !important;
 }
 .table-wrapper-3-322 td:nth-child(2) {
-  width: 28%;
+  width: 28% !important;
 }
 .table-wrapper-3-322 td:nth-child(3) {
-  width: 28%;
+  width: 28% !important;
 }
 
 .table-wrapper-3-211-shrink-2 td {
-  width: 33%;
+  width: 33% !important;
 }
 .table-wrapper-3-211-shrink-2 td:first-child {
-  width: 50%;
+  width: 50% !important;
 }
 .table-wrapper-3-211-shrink-2 td:nth-child(2) {
-  width: 25%;
+  width: 25% !important;
 }
 .table-wrapper-3-211-shrink-2 td:nth-child(3) {
-  width: 25%;
+  width: 25% !important;
 }
 
 .table-wrapper-4-3111 td {
-  width: 25%;
+  width: 25% !important;
 }
 .table-wrapper-4-3111 td:first-child {
-  width: 50%;
+  width: 50% !important;
 }
 .table-wrapper-4-3111 td:nth-child(2) {
-  width: 16%;
+  width: 16% !important;
 }
 .table-wrapper-4-3111 td:nth-child(3) {
-  width: 16%;
+  width: 16% !important;
 }
 .table-wrapper-4-3111 td:nth-child(4) {
-  width: 16%;
+  width: 16% !important;
 }
 
 .table-wrapper-4-3222 td {
-  width: 25%;
+  width: 25% !important;
 }
 .table-wrapper-4-3222 td:first-child {
-  width: 33%;
+  width: 33% !important;
 }
 .table-wrapper-4-3222 td:nth-child(2) {
-  width: 22%;
+  width: 22% !important;
 }
 .table-wrapper-4-3222 td:nth-child(3) {
-  width: 22%;
+  width: 22% !important;
 }
 .table-wrapper-4-3222 td:nth-child(4) {
-  width: 22%;
+  width: 22% !important;
 }
 
 .table-wrapper-4-2111 td {
-  width: 25%;
+  width: 25% !important;
 }
 .table-wrapper-4-2111 td:first-child {
-  width: 40%;
+  width: 40% !important;
 }
 .table-wrapper-4-2111 td:nth-child(2) {
-  width: 20%;
+  width: 20% !important;
 }
 .table-wrapper-4-2111 td:nth-child(3) {
-  width: 20%;
+  width: 20% !important;
 }
 .table-wrapper-4-2111 td:nth-child(4) {
-  width: 20%;
+  width: 20% !important;
 }
 
 .table-wrapper-4-4122 td {
-  width: 25%;
+  width: 25% !important;
 }
 .table-wrapper-4-4122 td:first-child {
-  width: 44%;
+  width: 44% !important;
 }
 .table-wrapper-4-4122 td:nth-child(2) {
-  width: 11%;
+  width: 11% !important;
 }
 .table-wrapper-4-4122 td:nth-child(3) {
-  width: 22%;
+  width: 22% !important;
 }
 .table-wrapper-4-4122 td:nth-child(4) {
-  width: 22%;
+  width: 22% !important;
 }
 
 .table-wrapper-4-1333 td {
-  width: 25%;
+  width: 25% !important;
 }
 .table-wrapper-4-1333 td:first-child {
-  width: 10%;
+  width: 10% !important;
 }
 .table-wrapper-4-1333 td:nth-child(2) {
-  width: 30%;
+  width: 30% !important;
 }
 .table-wrapper-4-1333 td:nth-child(3) {
-  width: 30%;
+  width: 30% !important;
 }
 .table-wrapper-4-1333 td:nth-child(4) {
-  width: 30%;
+  width: 30% !important;
 }
 
 .table-wrapper-5-32222 td {
-  width: 20%;
+  width: 20% !important;
 }
 .table-wrapper-5-32222 td:first-child {
-  width: 28%;
+  width: 28% !important;
 }
 .table-wrapper-5-32222 td:nth-child(2) {
-  width: 18%;
+  width: 18% !important;
 }
 .table-wrapper-5-32222 td:nth-child(3) {
-  width: 18%;
+  width: 18% !important;
 }
 .table-wrapper-5-32222 td:nth-child(4) {
-  width: 18%;
+  width: 18% !important;
 }
 .table-wrapper-5-32222 td:nth-child(5) {
-  width: 18%;
+  width: 18% !important;
 }
 
 .table-wrapper-5-32222-break-line td {
-  width: 20%;
+  width: 20% !important;
 }
 .table-wrapper-5-32222-break-line td:first-child {
-  width: 48%;
+  width: 48% !important;
 }
 .table-wrapper-5-32222-break-line td:nth-child(2) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-5-32222-break-line td:nth-child(3) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-5-32222-break-line td:nth-child(4) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-5-32222-break-line td:nth-child(5) {
-  width: 13%;
+  width: 13% !important;
 }
 
 .table-wrapper-5-11111 td:first-child {
-  width: 20%;
+  width: 20% !important;
 }
 .table-wrapper-5-11111 td:nth-child(2) {
-  width: 20%;
+  width: 20% !important;
 }
 .table-wrapper-5-11111 td:nth-child(3) {
-  width: 20%;
+  width: 20% !important;
 }
 .table-wrapper-5-11111 td:nth-child(4) {
-  width: 20%;
+  width: 20% !important;
 }
 .table-wrapper-5-11111 td:nth-child(5) {
-  width: 20%;
+  width: 20% !important;
 }
 
 .table-wrapper-6-322222 td {
@@ -509,25 +538,25 @@ li.toc-h6 {
 }
 
 .table-wrapper-6-612222 td {
-  width: 16%;
+  width: 16% !important;
 }
 .table-wrapper-6-612222 td:first-child {
-  width: 40%;
+  width: 40% !important;
 }
 .table-wrapper-6-612222 td:nth-child(2) {
-  width: 7%;
+  width: 7% !important;
 }
 .table-wrapper-6-612222 td:nth-child(3) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-6-612222 td:nth-child(4) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-6-612222 td:nth-child(5) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-6-612222 td:nth-child(6) {
-  width: 13%;
+  width: 13% !important;
 }
 
 .table-wrapper-6-111111 td {
@@ -553,106 +582,106 @@ li.toc-h6 {
 }
 
 .table-wrapper-6-322211 td {
-  width: 16%;
+  width: 16% !important;
 }
 .table-wrapper-6-322211 td:first-child {
-  width: 27%;
+  width: 27% !important;
 }
 .table-wrapper-6-322211 td:nth-child(2) {
-  width: 18%;
+  width: 18% !important;
 }
 .table-wrapper-6-322211 td:nth-child(3) {
-  width: 18%;
+  width: 18% !important;
 }
 .table-wrapper-6-322211 td:nth-child(4) {
-  width: 18%;
+  width: 18% !important;
 }
 .table-wrapper-6-322211 td:nth-child(5) {
-  width: 9%;
+  width: 9% !important;
 }
 .table-wrapper-6-322211 td:nth-child(6) {
-  width: 9%;
+  width: 9% !important;
 }
 
 .table-wrapper-7-2111111 td {
-  width: 14%;
+  width: 14% !important;
 }
 .table-wrapper-7-2111111 td:first-child {
-  width: 28%;
+  width: 28% !important;
 }
 .table-wrapper-7-2111111 td:nth-child(2) {
-  width: 12%;
+  width: 12% !important;
 }
 .table-wrapper-7-2111111 td:nth-child(3) {
-  width: 12%;
+  width: 12% !important;
 }
 .table-wrapper-7-2111111 td:nth-child(4) {
-  width: 12%;
+  width: 12% !important;
 }
 .table-wrapper-7-2111111 td:nth-child(5) {
-  width: 12%;
+  width: 12% !important;
 }
 .table-wrapper-7-2111111 td:nth-child(6) {
-  width: 12%;
+  width: 12% !important;
 }
 .table-wrapper-7-2111111 td:nth-child(7) {
-  width: 12%;
+  width: 12% !important;
 }
 
 .table-wrapper-7-3222222 td {
-  width: 14%;
+  width: 14% !important;
 }
 .table-wrapper-7-3222222 td:first-child {
-  width: 22%;
+  width: 22% !important;
 }
 .table-wrapper-7-3222222 td:nth-child(2) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-7-3222222 td:nth-child(3) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-7-3222222 td:nth-child(4) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-7-3222222 td:nth-child(5) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-7-3222222 td:nth-child(6) {
-  width: 13%;
+  width: 13% !important;
 }
 .table-wrapper-7-3222222 td:nth-child(7) {
-  width: 13%;
+  width: 13% !important;
 }
 
 .table-wrapper-9-411111111 td {
-  width: 11%;
+  width: 11% !important;
 }
 .table-wrapper-9-411111111 td:first-child {
-  width: 34%;
+  width: 34% !important;
 }
 .table-wrapper-9-411111111 td:nth-child(2) {
-  width: 8%;
+  width: 8% !important;
 }
 .table-wrapper-9-411111111 td:nth-child(3) {
-  width: 8%;
+  width: 8% !important;
 }
 .table-wrapper-9-411111111 td:nth-child(4) {
-  width: 8%;
+  width: 8% !important;
 }
 .table-wrapper-9-411111111 td:nth-child(5) {
-  width: 8%;
+  width: 8% !important;
 }
 .table-wrapper-9-411111111 td:nth-child(6) {
-  width: 8%;
+  width: 8% !important;
 }
 .table-wrapper-9-411111111 td:nth-child(7) {
-  width: 8%;
+  width: 8% !important;
 }
 .table-wrapper-9-411111111 td:nth-child(8) {
-  width: 8%;
+  width: 8% !important;
 }
 .table-wrapper-9-411111111 td:nth-child(9) {
-  width: 8%;
+  width: 8% !important;
 }
 
 /* ========================================
@@ -787,48 +816,58 @@ li.toc-h6 {
    WŁASNE TABELE - z nagłówkiem
 ======================================== */
 
-.dekpol-table {
-}
-.dekpol-table table {
-}
-.dekpol-table thead {
-}
-.dekpol-table thead tr {
-}
-.dekpol-table thead td {
-}
-.dekpol-table thead td:first-child {
-}
-.dekpol-table thead td:last-child {
-}
-.dekpol-table tbody {
-}
-.dekpol-table tbody tr {
-}
-.dekpol-table tbody tr:first-child {
-}
-.dekpol-table tbody tr:last-child {
-}
-.dekpol-table tbody td {
-}
-.dekpol-table tbody td:first-child {
-}
-.dekpol-table tbody td:last-child {
-}
-.dekpol-table td {
+table {
   border: 1px solid white !important;
   background-color: white !important;
+  border-top: 2px solid #4dae3e !important;
+}
+thead {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+tbody {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+thead tr {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+tbody tr {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+thead td {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+  font-size: 10pt;
+}
+tbody td {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+  font-size: 10pt;
+}
+tbody tr:first-child td {
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
+}
+tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+tbody td:last-child {
+  background-color: #f3f3f3 !important;
 }
 
 /* ========================================
    WŁASNE TABELE - bez nagłówka
 ======================================== */
 
-.dekpol-table-no-head {
-}
 .dekpol-table-no-head table {
   border: 1px solid white !important;
   background-color: white !important;
+  border-top: 2px solid #4dae3e !important;
 }
 .dekpol-table-no-head tbody {
   border: 1px solid white !important;
@@ -841,28 +880,16 @@ li.toc-h6 {
 .dekpol-table-no-head tbody td {
   border: 1px solid white !important;
   background-color: white !important;
-}
-.dekpol-table-no-head tbody td:first-child {
-}
-.dekpol-table-no-head tbody td:last-child {
-}
-.dekpol-table-no-head tbody tr:first-child {
+  border-bottom: 1px solid #c6c6c6 !important;
+  font-size: 10pt;
 }
 .dekpol-table-no-head tbody tr:first-child td {
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
 }
-.dekpol-table-no-head tbody tr:first-child td:first-child {
+.dekpol-table-no-head tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
 }
-.dekpol-table-no-head tbody tr:first-child td:last-child {
-}
-.dekpol-table-no-head tbody tr:not(:first-child) {
-}
-.dekpol-table-no-head tbody tr:nth-child(2) {
-}
-.dekpol-table-no-head tbody tr:last-child {
-}
-.dekpol-table-no-head tbody tr:not(:first-child) td {
-}
-.dekpol-table-no-head tbody tr:not(:first-child) td:first-child {
-}
-.dekpol-table-no-head tbody tr:not(:first-child) td:last-child {
+.dekpol-table-no-head tbody td:last-child {
+  background-color: #f3f3f3 !important;
 }
