@@ -272,19 +272,18 @@ li.toc-h6 {
   display: none !important;
 }
 
-.rozdzial-w-raporcie .div-table-dr-th .col3-dr8 {
+.rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"] {
   color: transparent;
   position: relative;
 }
-
-.rozdzial-w-raporcie .div-table-dr-th .col3-dr8::before {
+.rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"]::before {
   content: "Rozdział i strona w raporcie";
-  color: #333333;
+  color: #333;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   width: 100%;
   height: 100%;
-  padding: 0.5rem;
+  padding: .5rem;
   position: absolute;
   left: 0;
   top: 0;
