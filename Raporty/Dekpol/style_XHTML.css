@@ -31,6 +31,18 @@ h3 {
   font-size: 16pt;
 }
 
+h4 {
+  font-family: "Switzer", sans-serif;
+  color: #29265c;
+  font-size: 16pt;
+}
+
+h5 {
+  font-family: "Switzer", sans-serif;
+  color: #29265c;
+  font-size: 16pt;
+}
+
 h6 {
   font-family: "Kuba Reczny", cursive;
   line-height: 1.12;
