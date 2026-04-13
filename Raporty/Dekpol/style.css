@@ -2,6 +2,8 @@
    GLOBALNE
 ======================================== */
 
+@import url("https://fonts.cdnfonts.com/css/switzer");
+
 /* ========================================
    GLOBALNE TEKSTY
 ======================================== */
@@ -59,10 +61,6 @@ p {
 /* ========================================
    WŁASNE TEKSTY
 ======================================== */
-
-.my-font font {
-  color: green !important;
-}
 
 /* ========================================
    STRONA TYTUŁOWA
@@ -312,28 +310,28 @@ li.toc-h6 {
   text-align: left;
   width: 100%;
   height: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   position: absolute;
   left: 0;
   top: 0;
 }
 
 /* Podmiana ciemnozielonego (#1E8449) na zielony ESG (#4dae3e) */
-[style*="color: #1E8449"], 
+[style*="color: #1E8449"],
 [style*="color: #1e8449"],
 [style*="color: rgb(30, 132, 73)"],
 font[color="#1E8449"],
 font[color="#1e8449"] {
-    color: #4dae3e !important;
+  color: #4dae3e !important;
 }
 
 /* Podmiana ciemnoniebieskiego (#00008B) na granatowy ESG (#29265c) */
-[style*="color: #00008B"], 
+[style*="color: #00008B"],
 [style*="color: #00008b"],
 [style*="color: rgb(0, 0, 139)"],
 font[color="#00008B"],
 font[color="#00008b"] {
-    color: #29265c !important;
+  color: #29265c !important;
 }
 
 /* ========================================
@@ -341,196 +339,196 @@ font[color="#00008b"] {
 ======================================== */
 
 .table-wrapper-2-41 td {
-  width: 50% !important;
+  width: 50%;
 }
 .table-wrapper-2-41 td:first-child {
-  width: 80% !important;
+  width: 80%;
 }
 .table-wrapper-2-41 td:nth-child(2) {
-  width: 20% !important;
+  width: 20%;
 }
 
 .table-wrapper-2-31 td {
-  width: 50% !important;
+  width: 50%;
 }
 .table-wrapper-2-31 td:first-child {
-  width: 75% !important;
+  width: 75%;
 }
 .table-wrapper-2-31 td:last-child {
-  width: 25% !important;
+  width: 25%;
 }
 
 .table-wrapper-3-411 td {
-  width: 33% !important;
+  width: 33%;
 }
 .table-wrapper-3-411 td:first-child {
-  width: 66% !important;
+  width: 66%;
 }
 .table-wrapper-3-411 td:nth-child(2) {
-  width: 16% !important;
+  width: 16%;
 }
 .table-wrapper-3-411 td:nth-child(3) {
-  width: 16% !important;
+  width: 16%;
 }
 
 .table-wrapper-3-322 td {
-  width: 33% !important;
+  width: 33%;
 }
 .table-wrapper-3-322 td:first-child {
-  width: 42% !important;
+  width: 42%;
 }
 .table-wrapper-3-322 td:nth-child(2) {
-  width: 28% !important;
+  width: 28%;
 }
 .table-wrapper-3-322 td:nth-child(3) {
-  width: 28% !important;
+  width: 28%;
 }
 
 .table-wrapper-3-211-shrink-2 td {
-  width: 33% !important;
+  width: 33%;
 }
 .table-wrapper-3-211-shrink-2 td:first-child {
-  width: 50% !important;
+  width: 50%;
 }
 .table-wrapper-3-211-shrink-2 td:nth-child(2) {
-  width: 25% !important;
+  width: 25%;
 }
 .table-wrapper-3-211-shrink-2 td:nth-child(3) {
-  width: 25% !important;
+  width: 25%;
 }
 
 .table-wrapper-4-3111 td {
-  width: 25% !important;
+  width: 25%;
 }
 .table-wrapper-4-3111 td:first-child {
-  width: 50% !important;
+  width: 50%;
 }
 .table-wrapper-4-3111 td:nth-child(2) {
-  width: 16% !important;
+  width: 16%;
 }
 .table-wrapper-4-3111 td:nth-child(3) {
-  width: 16% !important;
+  width: 16%;
 }
 .table-wrapper-4-3111 td:nth-child(4) {
-  width: 16% !important;
+  width: 16%;
 }
 
 .table-wrapper-4-3222 td {
-  width: 25% !important;
+  width: 25%;
 }
 .table-wrapper-4-3222 td:first-child {
-  width: 33% !important;
+  width: 33%;
 }
 .table-wrapper-4-3222 td:nth-child(2) {
-  width: 22% !important;
+  width: 22%;
 }
 .table-wrapper-4-3222 td:nth-child(3) {
-  width: 22% !important;
+  width: 22%;
 }
 .table-wrapper-4-3222 td:nth-child(4) {
-  width: 22% !important;
+  width: 22%;
 }
 
 .table-wrapper-4-2111 td {
-  width: 25% !important;
+  width: 25%;
 }
 .table-wrapper-4-2111 td:first-child {
-  width: 40% !important;
+  width: 40%;
 }
 .table-wrapper-4-2111 td:nth-child(2) {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-4-2111 td:nth-child(3) {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-4-2111 td:nth-child(4) {
-  width: 20% !important;
+  width: 20%;
 }
 
 .table-wrapper-4-4122 td {
-  width: 25% !important;
+  width: 25%;
 }
 .table-wrapper-4-4122 td:first-child {
-  width: 44% !important;
+  width: 44%;
 }
 .table-wrapper-4-4122 td:nth-child(2) {
-  width: 11% !important;
+  width: 11%;
 }
 .table-wrapper-4-4122 td:nth-child(3) {
-  width: 22% !important;
+  width: 22%;
 }
 .table-wrapper-4-4122 td:nth-child(4) {
-  width: 22% !important;
+  width: 22%;
 }
 
 .table-wrapper-4-1333 td {
-  width: 25% !important;
+  width: 25%;
 }
 .table-wrapper-4-1333 td:first-child {
-  width: 10% !important;
+  width: 10%;
 }
 .table-wrapper-4-1333 td:nth-child(2) {
-  width: 30% !important;
+  width: 30%;
 }
 .table-wrapper-4-1333 td:nth-child(3) {
-  width: 30% !important;
+  width: 30%;
 }
 .table-wrapper-4-1333 td:nth-child(4) {
-  width: 30% !important;
+  width: 30%;
 }
 
 .table-wrapper-5-32222 td {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-32222 td:first-child {
-  width: 28% !important;
+  width: 28%;
 }
 .table-wrapper-5-32222 td:nth-child(2) {
-  width: 18% !important;
+  width: 18%;
 }
 .table-wrapper-5-32222 td:nth-child(3) {
-  width: 18% !important;
+  width: 18%;
 }
 .table-wrapper-5-32222 td:nth-child(4) {
-  width: 18% !important;
+  width: 18%;
 }
 .table-wrapper-5-32222 td:nth-child(5) {
-  width: 18% !important;
+  width: 18%;
 }
 
 .table-wrapper-5-32222-break-line td {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-32222-break-line td:first-child {
-  width: 48% !important;
+  width: 48%;
 }
 .table-wrapper-5-32222-break-line td:nth-child(2) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-5-32222-break-line td:nth-child(3) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-5-32222-break-line td:nth-child(4) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-5-32222-break-line td:nth-child(5) {
-  width: 13% !important;
+  width: 13%;
 }
 
 .table-wrapper-5-11111 td:first-child {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-11111 td:nth-child(2) {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-11111 td:nth-child(3) {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-11111 td:nth-child(4) {
-  width: 20% !important;
+  width: 20%;
 }
 .table-wrapper-5-11111 td:nth-child(5) {
-  width: 20% !important;
+  width: 20%;
 }
 
 .table-wrapper-6-322222 td {
@@ -556,25 +554,25 @@ font[color="#00008b"] {
 }
 
 .table-wrapper-6-612222 td {
-  width: 16% !important;
+  width: 16%;
 }
 .table-wrapper-6-612222 td:first-child {
-  width: 40% !important;
+  width: 40%;
 }
 .table-wrapper-6-612222 td:nth-child(2) {
-  width: 7% !important;
+  width: 7%;
 }
 .table-wrapper-6-612222 td:nth-child(3) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-6-612222 td:nth-child(4) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-6-612222 td:nth-child(5) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-6-612222 td:nth-child(6) {
-  width: 13% !important;
+  width: 13%;
 }
 
 .table-wrapper-6-111111 td {
@@ -600,106 +598,106 @@ font[color="#00008b"] {
 }
 
 .table-wrapper-6-322211 td {
-  width: 16% !important;
+  width: 16%;
 }
 .table-wrapper-6-322211 td:first-child {
-  width: 27% !important;
+  width: 27%;
 }
 .table-wrapper-6-322211 td:nth-child(2) {
-  width: 18% !important;
+  width: 18%;
 }
 .table-wrapper-6-322211 td:nth-child(3) {
-  width: 18% !important;
+  width: 18%;
 }
 .table-wrapper-6-322211 td:nth-child(4) {
-  width: 18% !important;
+  width: 18%;
 }
 .table-wrapper-6-322211 td:nth-child(5) {
-  width: 9% !important;
+  width: 9%;
 }
 .table-wrapper-6-322211 td:nth-child(6) {
-  width: 9% !important;
+  width: 9%;
 }
 
 .table-wrapper-7-2111111 td {
-  width: 14% !important;
+  width: 14%;
 }
 .table-wrapper-7-2111111 td:first-child {
-  width: 28% !important;
+  width: 28%;
 }
 .table-wrapper-7-2111111 td:nth-child(2) {
-  width: 12% !important;
+  width: 12%;
 }
 .table-wrapper-7-2111111 td:nth-child(3) {
-  width: 12% !important;
+  width: 12%;
 }
 .table-wrapper-7-2111111 td:nth-child(4) {
-  width: 12% !important;
+  width: 12%;
 }
 .table-wrapper-7-2111111 td:nth-child(5) {
-  width: 12% !important;
+  width: 12%;
 }
 .table-wrapper-7-2111111 td:nth-child(6) {
-  width: 12% !important;
+  width: 12%;
 }
 .table-wrapper-7-2111111 td:nth-child(7) {
-  width: 12% !important;
+  width: 12%;
 }
 
 .table-wrapper-7-3222222 td {
-  width: 14% !important;
+  width: 14%;
 }
 .table-wrapper-7-3222222 td:first-child {
-  width: 22% !important;
+  width: 22%;
 }
 .table-wrapper-7-3222222 td:nth-child(2) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-7-3222222 td:nth-child(3) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-7-3222222 td:nth-child(4) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-7-3222222 td:nth-child(5) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-7-3222222 td:nth-child(6) {
-  width: 13% !important;
+  width: 13%;
 }
 .table-wrapper-7-3222222 td:nth-child(7) {
-  width: 13% !important;
+  width: 13%;
 }
 
 .table-wrapper-9-411111111 td {
-  width: 11% !important;
+  width: 11%;
 }
 .table-wrapper-9-411111111 td:first-child {
-  width: 34% !important;
+  width: 34%;
 }
 .table-wrapper-9-411111111 td:nth-child(2) {
-  width: 8% !important;
+  width: 8%;
 }
 .table-wrapper-9-411111111 td:nth-child(3) {
-  width: 8% !important;
+  width: 8%;
 }
 .table-wrapper-9-411111111 td:nth-child(4) {
-  width: 8% !important;
+  width: 8%;
 }
 .table-wrapper-9-411111111 td:nth-child(5) {
-  width: 8% !important;
+  width: 8%;
 }
 .table-wrapper-9-411111111 td:nth-child(6) {
-  width: 8% !important;
+  width: 8%;
 }
 .table-wrapper-9-411111111 td:nth-child(7) {
-  width: 8% !important;
+  width: 8%;
 }
 .table-wrapper-9-411111111 td:nth-child(8) {
-  width: 8% !important;
+  width: 8%;
 }
 .table-wrapper-9-411111111 td:nth-child(9) {
-  width: 8% !important;
+  width: 8%;
 }
 
 /* ========================================
@@ -879,7 +877,7 @@ tbody td:last-child {
 }
 
 /* ========================================
-   WŁASNE TABELE - bez nagłówka
+   WŁASNE TABELE - bez nagłówka 
 ======================================== */
 
 .dekpol-table-no-head table {
@@ -909,5 +907,139 @@ tbody td:last-child {
   border-bottom: 1px solid black !important;
 }
 .dekpol-table-no-head tbody td:last-child {
+  background-color: #f3f3f3 !important;
+}
+
+/* ========================================
+   WSZYSTKIE TABELE 
+======================================== */
+
+table.t-e {
+  border-left: 0px solid !important;
+  border-right: 0px solid !important;
+  border-top: 2px solid #4dae3e !important;
+  background-color: white !important;
+  vertical-align: bottom;
+}
+.t-e head tbody {
+  border: 0px solid !important;
+  background-color: white !important;
+}
+.t-e tbody tr {
+  border: 0px solid !important;
+  background-color: white !important;
+}
+.t-e tbody td {
+  border: 0px solid !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+  padding: 4px !important;
+  font-size: 10pt !important;
+  font-family: "Switzer", sans-serif;
+  text-align: left !important;
+  vertical-align: bottom !important;
+}
+
+.zebra tbody tr:nth-child(2n + 1) td {
+  background-color: #f3f3f3 !important;
+}
+.t-e tbody tr:first-child td {
+  font-weight: bold !important;
+  background-color: white !important;
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
+  vertical-align: bottom !important;
+}
+.t-e tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+/* ========================================
+   TABELE DANYCH div.xDynamic-data - z nagłówkiem
+======================================== */
+/* ========================================
+   WŁASNE TABELE div.elSpreadsheetContent - bez nagłówka 
+======================================== */
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    szerokości
+======================================== */
+.table-powiazania-4 td:first-child {
+  width: 24% !important;
+}
+.table-powiazania-4 td:nth-child(2) {
+  width: 10% !important;
+}
+.table-powiazania-4 td:nth-child(3) {
+  width: 33% !important;
+}
+.table-powiazania-4 td:nth-child(4) {
+  width: 33% !important;
+}
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    szerokości
+======================================== */
+.table-zleceniodawcy3 td:first-child {
+  width: 25% !important;
+}
+.table-zleceniodawcy3 td:nth-child(2) {
+  width: 50% !important;
+}
+.table-zleceniodawcy3 td:nth-child(3) {
+  width: 25% !important;
+}
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    szerokości 6:2:2
+    tła - kolumna bieżąca - szare
+    wyrównanie tekstu - dla liczb 
+======================================== */
+.table-rok-do-roku3 td:first-child {
+  width: 60% !important;
+}
+.table-rok-do-roku3 td:nth-child(2) {
+  width: 20% !important;
+  background-color: #f3f3f3 !important;
+  text-align: left !important;
+}
+.table-rok-do-roku3 td:nth-child(3) {
+  width: 20% !important;
+  text-align: right !important;
+}
+.table-rok-do-roku3 tbody tr:first-child td:nth-child(2) {
+  background-color: #f3f3f3 !important;
+}
+
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    szerokości,
+    tła - kolumna razem na szarym, 
+    wyrównanie tekstu - dla liczb
+======================================== */
+.table-segmenty6 td:first-child {
+  width: 25% !important;
+}
+.table-segmenty6 td:nth-child(2) {
+  width: 15% !important;
+  text-align: right !important;
+}
+.table-segmenty6 td:nth-child(3) {
+  width: 15% !important;
+  text-align: right !important;
+}
+.table-segmenty6 td:nth-child(4) {
+  width: 15% !important;
+  text-align: right !important;
+}
+.table-segmenty6 td:nth-child(5) {
+  width: 15% !important;
+  text-align: right !important;
+}
+.table-segmenty6 td:nth-child(6) {
+  width: 15% !important;
+  text-align: right !important;
+  background-color: #f3f3f3 !important;
+}
+.table-segmenty6 tbody tr:first-child td:nth-child(6) {
   background-color: #f3f3f3 !important;
 }
