@@ -776,90 +776,90 @@ font[color="#00008b"] {
    WŁASNE TABELE - z nagłówkiem
 ======================================== */
 
-table {
+.dekpol-table-head table {
   border: 1px solid white !important;
   background-color: white !important;
   border-top: 2px solid #4dae3e !important;
 }
-thead {
+.dekpol-table-head thead {
   border: 1px solid white !important;
   background-color: white !important;
 }
-tbody {
+.dekpol-table-head tbody {
   border: 1px solid white !important;
   background-color: white !important;
 }
-thead tr {
+.dekpol-table-head thead tr {
   border: 1px solid white !important;
   background-color: white !important;
 }
-tbody tr {
+.dekpol-table-head tbody tr {
   border: 1px solid white !important;
   background-color: white !important;
 }
-thead td {
+.dekpol-table-head thead td {
   border: 1px solid white !important;
   background-color: white !important;
   font-size: 10pt;
 }
-tbody td {
+.dekpol-table-head tbody td {
   border: 1px solid white !important;
   background-color: white !important;
   border-bottom: 1px solid #c6c6c6 !important;
   font-size: 10pt;
 }
-tbody tr:first-child td {
+.dekpol-table-head tbody tr:first-child td {
   border-bottom: 1px solid black !important;
   align-content: end !important;
 }
-tbody tr:last-child td {
+.dekpol-table-head tbody tr:last-child td {
   border-bottom: 1px solid black !important;
 }
-tbody td:last-child {
+.dekpol-table-head tbody td:last-child {
   background-color: #f3f3f3 !important;
 }
 
-.dekpol-table-head-1 table {
+.dekpol-table-head-2 table {
   border: 1px solid white !important;
   background-color: white !important;
   border-top: 2px solid #4dae3e !important;
 }
-.dekpol-table-head-1 thead {
+.dekpol-table-head-2 thead {
   border: 1px solid white !important;
   background-color: white !important;
 }
-.dekpol-table-head-1 tbody {
+.dekpol-table-head-2 tbody {
   border: 1px solid white !important;
   background-color: white !important;
 }
-.dekpol-table-head-1 thead tr {
+.dekpol-table-head-2 thead tr {
   border: 1px solid white !important;
   background-color: white !important;
 }
-.dekpol-table-head-1 tbody tr {
+.dekpol-table-head-2 tbody tr {
   border: 1px solid white !important;
   background-color: white !important;
 }
-.dekpol-table-head-1 thead td {
-  border: 1px solid white !important;
-  background-color: white !important;
-  border-bottom: 1px solid #c6c6c6 !important;
-  font-size: 10pt;
-}
-.dekpol-table-head-1 tbody td {
+.dekpol-table-head-2 thead td {
   border: 1px solid white !important;
   background-color: white !important;
   border-bottom: 1px solid #c6c6c6 !important;
   font-size: 10pt;
 }
-.dekpol-table-head-1 tbody tr:first-child td {
+.dekpol-table-head-2 tbody td {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+  font-size: 10pt;
+}
+.dekpol-table-head-2 tbody tr:first-child td {
   border-bottom: 1px solid black !important;
   align-content: end !important;
 }
-.dekpol-table-head-1 tbody tr:last-child td {
+.dekpol-table-head-2 tbody tr:last-child td {
   border-bottom: 1px solid black !important;
 }
-.dekpol-table-head-1 tbody td:last-child {
+.dekpol-table-head-2 tbody td:last-child {
   background-color: #f3f3f3 !important;
 }
 
