@@ -557,18 +557,53 @@ table.t-e {
   font-size: 10pt;
 }
 .dekpol-table-no-head-2 tbody tr:first-child td {
-  align-content: end !important;
   border-bottom: 1px solid #c6c6c6 !important;
 }
 .dekpol-table-no-head-2 tbody tr:nth-child(2) td {
   border-bottom: 1px solid black !important;
-  align-content: end !important;
 }
 .dekpol-table-no-head-2 tbody tr:last-child td {
   border-bottom: 1px solid black !important;
 }
 .dekpol-table-no-head-2 tbody td:last-child {
   background-color: #f3f3f3 !important;
+}
+
+.wybrane_dane_finansowe tbody tr td {
+  width: 20% !important;
+}
+.wybrane_dane_finansowe tbody tr td:first-child {
+  width: 40% !important;
+}
+.wybrane_dane_finansowe tbody tr td:not(:first-child) {
+  width: 15% !important;
+}
+.wybrane_dane_finansowe tbody tr td:not(:first-child) {
+  align-content: end !important;
+  text-align: right !important;
+}
+.wybrane_dane_finansowe tbody tr:first-child td {
+  align-content: end !important;
+  text-align: center !important;
+  font-weight: bold !important;
+}
+.wybrane_dane_finansowe tbody tr:first-child td:first-child {
+  align-content: end !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  border-bottom: 1px solid white !important;
+}
+.wybrane_dane_finansowe tbody tr:nth-child(2) td {
+  align-content: end !important;
+  text-align: right !important;
+  font-weight: bold !important;
+}
+
+.wybrane_dane_finansowe-extensions tbody tr:nth-child(13) td {
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
+  text-align: right !important;
+  font-weight: bold !important;
 }
 
 /* ========================================
