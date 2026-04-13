@@ -561,6 +561,7 @@ table.t-e {
   border-bottom: 1px solid #c6c6c6 !important;
 }
 .dekpol-table-no-head-2 tbody tr:nth-child(2) td {
+  border-bottom: 1px solid black !important;
   align-content: end !important;
 }
 .dekpol-table-no-head-2 tbody tr:last-child td {
