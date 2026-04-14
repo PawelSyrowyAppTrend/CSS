@@ -409,6 +409,30 @@ table.t-e {
   background-color: #f3f3f3 !important;
 }
 
+.table-segmenty2 td {
+  width: 50% !important;
+}
+
+.table-segmenty3-first td {
+  width: 33% !important;
+}
+.table-segmenty3-first td:not(:first-child) {
+  width: 25% !important;
+}
+.table-segmenty3-first td:first-child {
+  width: 50% !important;
+}
+
+.table-segmenty3-last td {
+  width: 33% !important;
+}
+.table-segmenty3-last td:not(:last-child) {
+  width: 25% !important;
+}
+.table-segmenty3-last td:last-child {
+  width: 50% !important;
+}
+
 /* ========================================
    WŁASNE TABELE - z nagłówkiem
 ======================================== */
