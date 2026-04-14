@@ -409,30 +409,6 @@ table.t-e {
   background-color: #f3f3f3 !important;
 }
 
-.table-segmenty2 td {
-  width: 50% !important;
-}
-
-.table-segmenty3-first td {
-  width: 33% !important;
-}
-.table-segmenty3-first td:not(:first-child) {
-  width: 25% !important;
-}
-.table-segmenty3-first td:first-child {
-  width: 50% !important;
-}
-
-.table-segmenty3-last td {
-  width: 33% !important;
-}
-.table-segmenty3-last td:not(:last-child) {
-  width: 25% !important;
-}
-.table-segmenty3-last td:last-child {
-  width: 50% !important;
-}
-
 /* ========================================
    WŁASNE TABELE - z nagłówkiem
 ======================================== */
@@ -651,6 +627,50 @@ table.t-e {
 }
 .wybrane_pozycje_bilansu tbody tr:not(:first-child) td:nth-child(2) {
   background-color: #f3f3f3 !important;
+}
+
+.table-50-na-50 td {
+  width: 50% !important;
+}
+
+.table-struktura-akcjonariatu td {
+  width: 33% !important;
+}
+.table-struktura-akcjonariatu td:not(:first-child) {
+  width: 25% !important;
+  text-align: right !important;
+}
+.table-struktura-akcjonariatu td:first-child {
+  width: 50% !important;
+}
+
+.stan-posiadania-akcji td {
+  width: 33% !important;
+}
+.stan-posiadania-akcji td:not(:first-child) {
+  text-align: right !important;
+}
+.stan-posiadania-akcji td:not(:last-child) {
+  width: 25% !important;
+}
+.stan-posiadania-akcji td:last-child {
+  width: 50% !important;
+}
+
+.powiazania-organizacyjne td {
+  width: 25% !important;
+}
+.powiazania-organizacyjne td:nth-child(1) {
+  width: 20% !important;
+}
+.powiazania-organizacyjne td:nth-child(2) {
+  width: 10% !important;
+}
+.powiazania-organizacyjne td:nth-child(3) {
+  width: 35% !important;
+}
+.powiazania-organizacyjne td:nth-child(4) {
+  width: 35% !important;
 }
 
 /* ========================================
