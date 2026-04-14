@@ -579,17 +579,17 @@ table.t-e {
   text-align: right !important;
 }
 .wybrane_dane_finansowe tbody tr:first-child td {
-  align-content: end !important;
+  align-content: center !important;
   text-align: center !important;
   font-weight: bold !important;
 }
 .wybrane_dane_finansowe tbody tr:first-child td:first-child {
-  align-content: end !important;
+  align-content: center !important;
   text-align: center !important;
   font-weight: bold !important;
 }
 .wybrane_dane_finansowe tbody tr:nth-child(2) td {
-  align-content: end !important;
+  align-content: center !important;
   text-align: right !important;
   font-weight: bold !important;
 }
@@ -601,10 +601,41 @@ table.t-e {
 }
 
 .wybrane_dane_finansowe-extensions tbody tr:nth-child(13) td {
-  border-bottom: 1px solid black !important;
+  border-top: 1px solid black !important;
   align-content: end !important;
   text-align: right !important;
   font-weight: bold !important;
+  padding-top: 1rem;
+}
+
+.wybrane_pozycje_bilansu tbody tr td {
+  width: 33% !important;
+}
+.wybrane_pozycje_bilansu tbody tr td:first-child {
+  width: 40% !important;
+}
+.wybrane_pozycje_bilansu tbody tr td:not(:first-child) {
+  width: 30% !important;
+}
+.wybrane_pozycje_bilansu tbody tr td:not(:first-child) {
+  align-content: center !important;
+  text-align: left !important;
+}
+.wybrane_pozycje_bilansu tbody tr:first-child td {
+  align-content: center !important;
+  text-align: justify !important;
+  font-weight: normal !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  border-top: 1px solid #c6c6c6 !important;
+}
+.wybrane_pozycje_bilansu tbody tr:nth-child(2) td {
+  align-content: center !important;
+  text-align: left !important;
+  font-weight: bold !important;
+}
+.wybrane_pozycje_bilansu tbody tr:not(:first-child) td:nth-child(2) {
+  background-color: #f3f3f3 !important;
 }
 
 /* ========================================
