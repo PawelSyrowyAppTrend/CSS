@@ -312,7 +312,7 @@ table.t-e {
   font-weight: bold !important;
   background-color: white !important;
   border-bottom: 1px solid black !important;
-  align-content: end !important;
+  align-content: center !important;
   vertical-align: bottom !important;
 }
 .t-e tbody tr:last-child td {
@@ -560,10 +560,10 @@ table.t-e {
   width: 20% !important;
 }
 .wybrane_dane_finansowe tbody tr td:first-child {
-  width: 40% !important;
+  width: 60% !important;
 }
 .wybrane_dane_finansowe tbody tr td:not(:first-child) {
-  width: 15% !important;
+  width: 10% !important;
 }
 .wybrane_dane_finansowe tbody tr td:not(:first-child) {
   align-content: end !important;
@@ -576,9 +576,7 @@ table.t-e {
   border-top: 2px solid #4dae3e !important;
 }
 .wybrane_dane_finansowe tbody tr:first-child td:first-child {
-  align-content: center !important;
-  text-align: center !important;
-  font-weight: bold !important;
+  border-bottom: 1px solid white !important;
 }
 .wybrane_dane_finansowe tbody tr:nth-child(2) td {
   align-content: center !important;
@@ -604,10 +602,10 @@ table.t-e {
   width: 33% !important;
 }
 .wybrane_pozycje_bilansu tbody tr td:first-child {
-  width: 40% !important;
+  width: 60% !important;
 }
 .wybrane_pozycje_bilansu tbody tr td:not(:first-child) {
-  width: 30% !important;
+  width: 20% !important;
 }
 .wybrane_pozycje_bilansu tbody tr td:not(:first-child) {
   align-content: center !important;
@@ -620,6 +618,7 @@ table.t-e {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
   border-top: 1px solid #c6c6c6 !important;
+  font-size: 9pt !important;
 }
 .wybrane_pozycje_bilansu tbody tr:nth-child(2) td {
   align-content: center !important;
