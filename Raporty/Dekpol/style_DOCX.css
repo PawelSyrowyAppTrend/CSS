@@ -277,6 +277,140 @@ font[color="#00008b"] {
 }
 
 /* ========================================
+   WSZYSTKIE TABELE 
+======================================== */
+
+table.t-e {
+  border-left: 0px solid !important;
+  border-right: 0px solid !important;
+  border-top: 2px solid #4dae3e !important;
+  background-color: white !important;
+  vertical-align: bottom;
+}
+.t-e head tbody {
+  border: 0px solid !important;
+  background-color: white !important;
+}
+.t-e tbody tr {
+  border: 0px solid !important;
+  background-color: white !important;
+}
+.t-e tbody td {
+  border: 0px solid !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+  padding: 4px !important;
+  font-size: 10pt !important;
+  font-family: "Switzer", sans-serif;
+  text-align: left !important;
+  vertical-align: bottom !important;
+}
+
+.zebra tbody tr:nth-child(2n + 1) td {
+  background-color: #f3f3f3 !important;
+}
+.t-e tbody tr:first-child td {
+  font-weight: bold !important;
+  background-color: white !important;
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
+  vertical-align: bottom !important;
+}
+.t-e tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+/* ========================================
+   TABELE DANYCH div.xDynamic-data - z nagłówkiem
+======================================== */
+/* ========================================
+   WŁASNE TABELE div.elSpreadsheetContent - bez nagłówka 
+======================================== */
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    szerokości
+======================================== */
+.table-powiazania-4 td:first-child {
+  width: 24% !important;
+}
+.table-powiazania-4 td:nth-child(2) {
+  width: 10% !important;
+}
+.table-powiazania-4 td:nth-child(3) {
+  width: 33% !important;
+}
+.table-powiazania-4 td:nth-child(4) {
+  width: 33% !important;
+}
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    szerokości
+======================================== */
+.table-zleceniodawcy3 td:first-child {
+  width: 25% !important;
+}
+.table-zleceniodawcy3 td:nth-child(2) {
+  width: 50% !important;
+}
+.table-zleceniodawcy3 td:nth-child(3) {
+  width: 25% !important;
+}
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    szerokości 6:2:2
+    tła - kolumna bieżąca - szare
+    wyrównanie tekstu - dla liczb 
+======================================== */
+.table-rok-do-roku3 td:first-child {
+  width: 60% !important;
+}
+.table-rok-do-roku3 td:nth-child(2) {
+  width: 20% !important;
+  background-color: #f3f3f3 !important;
+  text-align: left !important;
+}
+.table-rok-do-roku3 td:nth-child(3) {
+  width: 20% !important;
+  text-align: right !important;
+}
+.table-rok-do-roku3 tbody tr:first-child td:nth-child(2) {
+  background-color: #f3f3f3 !important;
+}
+
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    szerokości,
+    tła - kolumna razem na szarym, 
+    wyrównanie tekstu - dla liczb
+======================================== */
+.table-segmenty6 td:first-child {
+  width: 25% !important;
+}
+.table-segmenty6 td:nth-child(2) {
+  width: 15% !important;
+  text-align: right !important;
+}
+.table-segmenty6 td:nth-child(3) {
+  width: 15% !important;
+  text-align: right !important;
+}
+.table-segmenty6 td:nth-child(4) {
+  width: 15% !important;
+  text-align: right !important;
+}
+.table-segmenty6 td:nth-child(5) {
+  width: 15% !important;
+  text-align: right !important;
+}
+.table-segmenty6 td:nth-child(6) {
+  width: 15% !important;
+  text-align: right !important;
+  background-color: #f3f3f3 !important;
+}
+.table-segmenty6 tbody tr:first-child td:nth-child(6) {
+  background-color: #f3f3f3 !important;
+}
+
+/* ========================================
    WŁASNE TABELE - z nagłówkiem
 ======================================== */
 
