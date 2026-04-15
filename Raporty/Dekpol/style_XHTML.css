@@ -8,13 +8,13 @@
    GLOBALNE TEKSTY
 ======================================== */
 
-h1 {
+.body-page-view h1 {
   font-family: "Switzer", sans-serif;
   color: #29265c;
   font-size: 30pt;
 }
 
-h2 {
+.body-page-view h2 {
   font-family: "Switzer", sans-serif;
   font-size: 28pt !important;
   font-weight: 400 !important;
@@ -27,25 +27,25 @@ h2 {
   word-spacing: 4px !important;
 }
 
-h3 {
+.body-page-view h3 {
   font-family: "Switzer", sans-serif;
   color: #29265c;
   font-size: 16pt;
 }
 
-h4 {
+.body-page-view h4 {
   font-family: "Switzer", sans-serif;
   color: #29265c;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
-h5 {
+.body-page-view h5 {
   font-family: "Switzer", sans-serif;
   color: #29265c;
-  font-size: 16pt;
+  font-size: 12pt;
 }
 
-h6 {
+.body-page-view h6 {
   font-family: "Kuba Reczny", cursive;
   line-height: 1.12;
   font-style: normal;
@@ -54,7 +54,7 @@ h6 {
   font-size: 35pt;
 }
 
-p {
+.body-page-view p {
   font-family: "Switzer", sans-serif;
 }
 
@@ -225,11 +225,70 @@ h6.kuba-reczny-blue-h6 {
 }
 
 /* ========================================
-   ----- SPIS TREŚCI -----
+   SPIS TREŚCI
 ======================================== */
 
-li.toc-h6 {
+.body-page-view .elToc {
+  width: 75% !important;
+  justify-self: end !important;
+}
+.body-page-view .elToc .toc-title {
+  font-size: 28pt !important;
+  font-family: "Switzer", sans-serif !important;
+  color: #29265c !important;
+  font-weight: bold !important;
+}
+.body-page-view .elToc ul {
+  background-color: #5c5c5c !important;
+  padding: 1rem !important;
+  border-radius: 10px !important;
+}
+.body-page-view .elToc ul li {
+  margin: 0 !important;
+}
+.body-page-view .elToc .toc-h1 {
+  font-family: "Switzer Semibold", sans-serif !important;
+  color: white !important;
+  font-size: 9pt !important;
+}
+.body-page-view .elToc .toc-h2 {
+  font-family: "Switzer Light", sans-serif !important;
+  color: white !important;
+  font-size: 9pt !important;
+}
+.body-page-view .elToc .toc-h3 {
+  font-family: "Switzer Light", sans-serif !important;
+  color: white !important;
+  font-size: 9pt !important;
+}
+.body-page-view .elToc .toc-h4 {
+  font-family: "Switzer Light", sans-serif !important;
+  color: white !important;
+  font-size: 9pt !important;
+}
+.body-page-view .elToc .toc-h5 {
+  font-family: "Switzer Light", sans-serif !important;
+  color: white !important;
+  font-size: 9pt !important;
+}
+.body-page-view .elToc .toc-h6 {
+  font-family: "Switzer Semibold", sans-serif !important;
+  color: white !important;
+  font-size: 9pt !important;
   padding-left: 50px !important;
+}
+.body-page-view .elToc .toc-link {
+  border-top: 1px solid white !important;
+}
+.body-page-view .elToc .toc-line {
+  align-items: center !important;
+  padding: 0.25rem !important;
+}
+.body-page-view .elToc ul .toc-line .title-dots::after {
+  position: absolute;
+  padding-left: 0 !important;
+  content: "" !important;
+  text-align: right;
 }
 
 /* ========================================
@@ -630,30 +689,6 @@ table.t-e {
 }
 .table-segmenty6 tbody tr:first-child td:nth-child(6) {
   background-color: #f3f3f3 !important;
-}
-
-.table-segmenty2 td {
-  width: 50% !important;
-}
-
-.table-segmenty3-first td {
-  width: 33% !important;
-}
-.table-segmenty3-first td:not(:first-child) {
-  width: 25% !important;
-}
-.table-segmenty3-first td:first-child {
-  width: 50% !important;
-}
-
-.table-segmenty3-last td {
-  width: 33% !important;
-}
-.table-segmenty3-last td:not(:last-child) {
-  width: 25% !important;
-}
-.table-segmenty3-last td:last-child {
-  width: 50% !important;
 }
 
 /* ========================================
