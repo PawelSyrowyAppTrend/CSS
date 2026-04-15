@@ -2,6 +2,8 @@
    GLOBALNE
 ======================================== */
 
+@import url("https://fonts.cdnfonts.com/css/switzer");
+
 /* ========================================
    GLOBALNE TEKSTY
 ======================================== */
@@ -301,6 +303,7 @@ table.t-e {
   font-family: "Switzer", sans-serif;
   text-align: left !important;
   vertical-align: bottom !important;
+  white-space: normal !important;
 }
 
 .zebra tbody tr:nth-child(2n + 1) td {
@@ -312,6 +315,9 @@ table.t-e {
   border-bottom: 1px solid black !important;
   align-content: center !important;
   vertical-align: bottom !important;
+}
+.zebra tbody tr:first-child td {
+  background-color: #f3f3f3 !important;
 }
 .t-e tbody tr:last-child td {
   border-bottom: 1px solid black !important;
@@ -363,7 +369,7 @@ table.t-e {
 .table-rok-do-roku3 td:nth-child(2) {
   width: 20% !important;
   background-color: #f3f3f3 !important;
-  text-align: left !important;
+  text-align: right !important;
 }
 .table-rok-do-roku3 td:nth-child(3) {
   width: 20% !important;
@@ -372,13 +378,232 @@ table.t-e {
 .table-rok-do-roku3 tbody tr:first-child td:nth-child(2) {
   background-color: #f3f3f3 !important;
 }
-
+.table-wariant-kalk3 tr:nth-child(4),
+.table-wariant-kalk3 tr:nth-child(10),
+.table-wariant-kalk3 tr:nth-child(14),
+.table-wariant-kalk3 tr:nth-child(17),
+.table-wariant-kalk3 tr:last-child {
+  font-weight: bold !important;
+}
+.table-aktywa3 tr:nth-child(2),
+.table-aktywa3 tr:nth-child(11),
+.table-aktywa3 tr:last-child {
+  font-weight: bold !important;
+}
+.table-pasywa3 tr:nth-child(2),
+.table-pasywa3 tr:nth-child(10),
+.table-pasywa3 tr:nth-child(11),
+.table-pasywa3 tr:nth-child(20),
+.table-pasywa3 tr:last-child {
+  font-weight: bold !important;
+}
+.table-cashflow3 tr:nth-child(2), /***  nie używane */
+.table-cashflow3 tr:nth-child(3),
+.table-cashflow3 tr:nth-child(21),
+.table-cashflow3 tr:nth-child(37),
+.table-cashflow3 tr:nth-last-child(7),
+.table-cashflow3 tr:nth-last-child(6),
+.table-cashflow3 tr:nth-last-child(5),
+.table-cashflow3 tr:nth-last-child(4) {
+  font-weight: bold !important;
+}
+/* ========================================*/
+.table-rok-do-roku4 td:first-child {
+  width: 55% !important;
+}
+.table-rok-do-roku4 td:nth-child(2) {
+  width: 5% !important;
+  text-align: center !important;
+}
+.table-rok-do-roku4 td:nth-child(3) {
+  width: 20% !important;
+  background-color: #f3f3f3 !important;
+  text-align: right !important;
+}
+.table-rok-do-roku4 td:nth-child(4) {
+  width: 20% !important;
+  text-align: right !important;
+}
+.table-rok-do-roku4 tbody tr:first-child td:nth-child(3) {
+  background-color: #f3f3f3 !important;
+}
+.table-wariant-kalk4 tr:nth-child(4),
+.table-wariant-kalk4 tr:nth-child(10),
+.table-wariant-kalk4 tr:nth-child(14),
+.table-wariant-kalk4 tr:nth-child(16),
+.table-wariant-kalk4 tr:nth-child(18) {
+  font-weight: bold !important;
+}
+/* ========================================*/
+.table-pozwolenia5 td {
+  width: 50% !important;
+}
+.table-pozwolenia5 td:first-child {
+  width: 60% !important;
+}
+.table-pozwolenia5 td:nth-child(2),
+.table-pozwolenia5 td:nth-child(3),
+.table-pozwolenia5 td:nth-child(4),
+.table-pozwolenia5 td:nth-child(5) {
+  width: 10% !important;
+  padding-right: 20px !important;
+  text-align: right !important;
+}
+/* ========================================*/
+.table-kredyty9 td {
+  width: 10% !important;
+}
+.table-kredyty9 td:first-child,
+.table-kredyty9 td:nth-child(2) {
+  width: 15% !important;
+}
+.table-kredyty9 td:nth-child(3) {
+  width: 15% !important;
+}
+.table-kredyty9 td:nth-child(4),
+.table-kredyty9 td:nth-child(7) {
+  width: 10% !important;
+  padding-right: 10px !important;
+  text-align: right !important;
+}
+.table-kredyty9 td:nth-child(5),
+.table-kredyty9 td:nth-child(8) {
+  width: 5% !important;
+  text-align: center !important;
+}
+.table-kredyty9 td:nth-child(6) {
+  width: 10% !important;
+}
+.table-kredyty9 td:nth-child(9) {
+  width: 10% !important;
+  text-align: center !important;
+}
+/* ========================================*/
+.table-kredyty8 td {
+  width: 10% !important;
+}
+.table-kredyty8 td:first-child {
+  width: 20% !important;
+}
+.table-kredyty8 td:nth-child(2) {
+  width: 20% !important;
+}
+.table-kredyty8 td:nth-child(3) {
+  width: 15% !important;
+}
+.table-kredyty8 td:nth-child(4) {
+  width: 10% !important;
+  padding-right: 10px !important;
+  text-align: right !important;
+}
+.table-kredyty8 td:nth-child(5) {
+  width: 5% !important;
+  text-align: center !important;
+}
+.table-kredyty8 td:nth-child(6) {
+  width: 10% !important;
+}
+.table-kredyty8 td:nth-child(7),
+.table-kredyty8 td:nth-child(8) {
+  width: 10% !important;
+  text-align: center !important;
+}
+/* ========================================*/
+.table-pozyczki9 td {
+  width: 10% !important;
+}
+.table-pozyczki9 td:first-child {
+  width: 20% !important;
+}
+.table-pozyczki9 td:nth-child(2) {
+  width: 15% !important;
+}
+.table-pozyczki9 td:nth-child(3) {
+  width: 10% !important;
+}
+.table-pozyczki9 td:nth-child(4),
+.table-pozyczki9 td:nth-child(7) {
+  width: 12% !important;
+  padding-right: 10px !important;
+  text-align: right !important;
+}
+.table-pozyczki9 td:nth-child(5) {
+  width: 8% !important;
+  padding-right: 20px !important;
+}
+.table-pozyczki9 td:nth-child(6) {
+  width: 5% !important;
+  text-align: center !important;
+}
+.table-pozyczki9 td:nth-child(8) {
+  width: 8% !important;
+  text-align: center !important;
+}
+.table-pozyczki9 td:nth-child(9) {
+  width: 10% !important;
+  text-align: center !important;
+}
+/* ========================================*/
+.table-gwarancje3 td:first-child {
+  width: 50% !important;
+}
+.table-gwarancje3 td:nth-child(2) {
+  width: 25% !important;
+  text-align: right !important;
+}
+.table-gwarancje3 td:nth-child(3) {
+  width: 25% !important;
+  background-color: #f3f3f3 !important;
+  text-align: right !important;
+}
+.table-gwarancje3 tbody tr:first-child td:nth-child(3) {
+  background-color: #f3f3f3 !important;
+}
+/* ========================================*/
+.table-akcjonariusze3 td:first-child {
+  width: 40% !important;
+}
+.table-akcjonariusze3 td:nth-child(2) {
+  width: 30% !important;
+  text-align: right !important;
+}
+.table-akcjonariusze3 td:nth-child(3) {
+  width: 30% !important;
+  text-align: right !important;
+}
+.table-akcjonariusze3 tbody tr:last-child {
+  font-weight: bold !important;
+}
+/* ========================================*/
+.table-wskazniki5 td {
+  width: 20% !important;
+}
+.table-wskazniki5 td:first-child {
+  width: 60% !important;
+}
+.table-wskazniki5 td:nth-child(2),
+.table-wskazniki5 td:nth-child(3),
+.table-wskazniki5 td:nth-child(4),
+.table-wskazniki5 td:nth-child(5) {
+  width: 10% !important;
+  padding-right: 10px !important;
+  text-align: right !important;
+}
+.table-wskazniki5 td:nth-child(3) {
+  background-color: #f3f3f3 !important;
+}
+.table-wskazniki5 tbody tr:first-child td:nth-child(3) {
+  background-color: #f3f3f3 !important;
+}
 /* ========================================
    WŁASNE TABELE dedykowane 
     szerokości,
     tła - kolumna razem na szarym, 
     wyrównanie tekstu - dla liczb
 ======================================== */
+.table-segmenty6 td {
+  width: 15% !important;
+}
 .table-segmenty6 td:first-child {
   width: 25% !important;
 }
@@ -405,6 +630,30 @@ table.t-e {
 }
 .table-segmenty6 tbody tr:first-child td:nth-child(6) {
   background-color: #f3f3f3 !important;
+}
+
+.table-segmenty2 td {
+  width: 50% !important;
+}
+
+.table-segmenty3-first td {
+  width: 33% !important;
+}
+.table-segmenty3-first td:not(:first-child) {
+  width: 25% !important;
+}
+.table-segmenty3-first td:first-child {
+  width: 50% !important;
+}
+
+.table-segmenty3-last td {
+  width: 33% !important;
+}
+.table-segmenty3-last td:not(:last-child) {
+  width: 25% !important;
+}
+.table-segmenty3-last td:last-child {
+  width: 50% !important;
 }
 
 /* ========================================
