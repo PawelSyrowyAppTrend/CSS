@@ -870,6 +870,9 @@ table.t-e {
   background-color: #f3f3f3 !important;
 }
 
+.wybrane_dane_finansowe-extensions tbody tr:nth-child(12) td {
+  border-bottom: 1px solid black !important;
+}
 .wybrane_dane_finansowe-extensions tbody tr:nth-child(13) td {
   align-content: end !important;
   text-align: right !important;
