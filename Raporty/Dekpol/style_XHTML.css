@@ -1451,3 +1451,71 @@ table.t-e {
 .col-align-10j tbody td:nth-child(10) {
   text-align: justify !important;
 }
+
+@media print {
+  .body-page-view .xToc {
+    width: 75% !important;
+    justify-self: end !important;
+  }
+  .body-page-view .xToc .toc-title {
+    font-size: 28pt !important;
+    font-family: "Switzer", sans-serif !important;
+    color: #29265c !important;
+    font-weight: bold !important;
+  }
+  .body-page-view .xToc ul {
+    background-color: #5c5c5c !important;
+    padding: 1rem !important;
+    border-radius: 10px !important;
+  }
+  .body-page-view .xToc ul li {
+    margin: 0 !important;
+  }
+  .body-page-view .xToc .toc-h1 {
+    font-family: "Switzer Semibold", sans-serif !important;
+    color: white !important;
+    font-size: 9pt !important;
+  }
+  .body-page-view .xToc .toc-h2 {
+    font-family: "Switzer Light", sans-serif !important;
+    color: white !important;
+    font-size: 9pt !important;
+  }
+  .body-page-view .xToc .toc-h3 {
+    font-family: "Switzer Light", sans-serif !important;
+    color: white !important;
+    font-size: 9pt !important;
+  }
+  .body-page-view .xToc .toc-h4 {
+    font-family: "Switzer Light", sans-serif !important;
+    color: white !important;
+    font-size: 9pt !important;
+  }
+  .body-page-view .xToc .toc-h5 {
+    font-family: "Switzer Light", sans-serif !important;
+    color: white !important;
+    font-size: 9pt !important;
+  }
+  .body-page-view .xToc .toc-h6 {
+    font-family: "Switzer Semibold", sans-serif !important;
+    color: white !important;
+    font-size: 9pt !important;
+    padding-left: 50px !important;
+  }
+  .body-page-view .xToc .toc-link {
+    border-top: 1px solid white !important;
+  }
+  .body-page-view .xToc .toc-link a {
+    color: white !important;
+  }
+  .body-page-view .xToc .toc-line {
+    align-items: center !important;
+    padding: 0.25rem !important;
+  }
+  .body-page-view .xToc ul .toc-line .title-dots::after {
+    position: absolute;
+    padding-left: 0 !important;
+    content: "" !important;
+    text-align: right;
+  }
+}
