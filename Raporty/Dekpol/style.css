@@ -1450,63 +1450,63 @@ table.t-e {
 }
 
 @media print {
-  .ble-editor .elToc {
+  .elToc {
     width: 75% !important;
     justify-self: end !important;
   }
-  .ble-editor .elToc .toc-title {
+  .elToc .toc-title {
     font-size: 28pt !important;
     font-family: "Switzer", sans-serif !important;
     color: #29265c !important;
     font-weight: bold !important;
   }
-  .ble-editor .elToc ul {
+  .elToc ul {
     background-color: #5c5c5c !important;
     padding: 1rem !important;
     border-radius: 10px !important;
   }
-  .ble-editor .elToc ul li {
+  .elToc ul li {
     margin: 0 !important;
   }
-  .ble-editor .elToc .toc-h1 {
+  .elToc .toc-h1 {
     font-family: "Switzer Semibold", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .ble-editor .elToc .toc-h2 {
+  .elToc .toc-h2 {
     font-family: "Switzer Light", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .ble-editor .elToc .toc-h3 {
+  .elToc .toc-h3 {
     font-family: "Switzer Light", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .ble-editor .elToc .toc-h4 {
+  .elToc .toc-h4 {
     font-family: "Switzer Light", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .ble-editor .elToc .toc-h5 {
+  .elToc .toc-h5 {
     font-family: "Switzer Light", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .ble-editor .elToc .toc-h6 {
+  .elToc .toc-h6 {
     font-family: "Switzer Semibold", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
     padding-left: 50px !important;
   }
-  .ble-editor .elToc .toc-link {
+  .elToc .toc-link {
     border-top: 1px solid white !important;
   }
-  .ble-editor .elToc .toc-line {
+  .elToc .toc-line {
     align-items: center !important;
     padding: 0.25rem !important;
   }
-  .ble-editor .elToc ul .toc-line .title-dots::after {
+  .elToc ul .toc-line .title-dots::after {
     position: absolute;
     padding-left: 0 !important;
     content: "" !important;
