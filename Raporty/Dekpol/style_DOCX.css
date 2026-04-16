@@ -338,6 +338,9 @@ font[color="#00008b"] {
    WSZYSTKIE TABELE 
 ======================================== */
 
+.t-e {
+  border-top: 2px solid #4dae3e !important;
+}
 table.t-e {
   border-left: 0px solid !important;
   border-right: 0px solid !important;
@@ -837,6 +840,9 @@ table.t-e {
   border-bottom: 1px solid black !important;
 }
 
+.wybrane_dane_finansowe {
+  border-top: 2px solid #4dae3e !important;
+}
 .wybrane_dane_finansowe tbody tr td {
   width: 20% !important;
 }
@@ -880,6 +886,9 @@ table.t-e {
   padding-top: 1rem;
 }
 
+.wybrane_pozycje_bilansu {
+  border-top: 1px solid #c6c6c6 !important;
+}
 .wybrane_pozycje_bilansu tbody tr td {
   width: 33% !important;
 }
