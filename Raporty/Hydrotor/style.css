@@ -6,6 +6,12 @@
    GLOBALNE
 ======================================== */
 
+.ble-editor,
+.body-page-view {
+  font-family: "Calibri", sans-serif;
+  font-weight: normal;
+}
+
 /* ========================================
    GLOBALNE TEKSTY
 ======================================== */
@@ -26,6 +32,12 @@
    STRONA TYTUŁOWA
 ======================================== */
 
+.title-page-background-image {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
 /* ========================================
    SPIS TREŚCI
 ======================================== */
@@ -34,76 +46,6 @@
    NAGŁÓWEK
 ======================================== */
 
-/* ========================================
-   STOPKA
-======================================== */
-
-/* ========================================
-   GLOBALNE TABELE
-======================================== */
-
-/* ========================================
-   TABELE WYRÓWNANIE TEKSTU
-======================================== */
-
-/* ========================================
-   TABELE SZEROKOŚĆ KOLUMN
-======================================== */
-
-/* ========================================
-   WŁASNE TABELE - z nagłówkiem
-======================================== */
-
-/* ========================================
-   WŁASNE TABELE - bez nagłówka
-======================================== */
-
-/* ========================================
-   WŁASNE TABELE - pojedyńcze reguły
-======================================== */
-
-.ble-editor,
-.body-page-view {
-  font-family: "Calibri", sans-serif;
-  font-weight: normal;
-}
-
-.ble-editor h1,
-.body-page-view h1,
-.ble-editor h2,
-.body-page-view h2,
-.ble-editor h3,
-.body-page-view h3,
-.ble-editor h4,
-.body-page-view h4,
-.ble-editor h5,
-.body-page-view h5,
-.ble-editor h6,
-.body-page-view h6 {
-}
-
-.ble-editor p,
-.body-page-view p {
-}
-
-.title-page-background-image {
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-}
-
-.footer {
-  display: flex;
-  padding: 0;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
-  justify-content: right;
-}
-.footer-text {
-  color: black;
-  font-size: 12pt;
-}
 .top-bar {
   display: flex;
   flex-direction: row;
@@ -145,6 +87,47 @@
   width: 75%;
   flex-shrink: 0;
 }
+
+/* ========================================
+   STOPKA
+======================================== */
+
+.footer {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: right;
+}
+.footer-text {
+  color: black;
+  font-size: 12pt;
+}
+
+/* ========================================
+   GLOBALNE TABELE
+======================================== */
+
+/* ========================================
+   TABELE WYRÓWNANIE TEKSTU
+======================================== */
+
+/* ========================================
+   TABELE SZEROKOŚĆ KOLUMN
+======================================== */
+
+/* ========================================
+   WŁASNE TABELE - z nagłówkiem
+======================================== */
+
+/* ========================================
+   WŁASNE TABELE - bez nagłówka
+======================================== */
+
+/* ========================================
+   WŁASNE TABELE - pojedyńcze reguły
+======================================== */
 
 .rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"] {
   color: transparent;
