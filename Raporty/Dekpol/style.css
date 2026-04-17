@@ -292,6 +292,20 @@ h6.kuba-reczny-blue-h6 {
 }
 
 /* ========================================
+   GLOBALNE LISTY
+======================================== */
+
+li {
+  text-align: justify !important;
+}
+ul {
+  text-align: justify !important;
+}
+ol {
+  text-align: justify !important;
+}
+
+/* ========================================
    ----- SPECJALNE -----
 ======================================== */
 
