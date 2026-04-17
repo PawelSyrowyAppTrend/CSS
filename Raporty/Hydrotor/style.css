@@ -129,6 +129,10 @@
    WŁASNE TABELE - pojedyńcze reguły
 ======================================== */
 
+.hide-e14 .div-table-th-bd .tr-dr:nth-child(4) {
+  display: none !important;
+}
+
 .rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"] {
   color: transparent;
   position: relative;
