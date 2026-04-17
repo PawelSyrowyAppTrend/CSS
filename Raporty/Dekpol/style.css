@@ -295,13 +295,13 @@ h6.kuba-reczny-blue-h6 {
    GLOBALNE LISTY
 ======================================== */
 
-li {
+.ble-editor li {
   text-align: justify !important;
 }
-ul {
+.ble-editor ul {
   text-align: justify !important;
 }
-ol {
+.ble-editor ol {
   text-align: justify !important;
 }
 
