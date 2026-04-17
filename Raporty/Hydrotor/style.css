@@ -62,6 +62,103 @@
    WŁASNE TABELE - pojedyńcze reguły
 ======================================== */
 
-/* ========================================
-   OBRAZY
-======================================== */
+.ble-editor,
+.body-page-view {
+  font-family: "Calibri", sans-serif;
+  font-weight: normal;
+}
+
+.ble-editor h1,
+.body-page-view h1,
+.ble-editor h2,
+.body-page-view h2,
+.ble-editor h3,
+.body-page-view h3,
+.ble-editor h4,
+.body-page-view h4,
+.ble-editor h5,
+.body-page-view h5,
+.ble-editor h6,
+.body-page-view h6 {
+}
+
+.ble-editor p,
+.body-page-view p {
+}
+
+.title-page-background-image {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.footer {
+  display: flex;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: right;
+}
+.footer-text {
+  color: black;
+  font-size: 12pt;
+}
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: bottom;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.top-bar img {
+  max-height: 65px;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+}
+
+.topbar-text-and-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: bottom;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.topbar-text {
+  color: black;
+  font-size: 8pt;
+  align-self: center;
+  text-align: center;
+  width: 50%;
+  margin: center;
+}
+
+.topbar-line {
+  border: none;
+  background-color: black;
+  height: 1px;
+  width: 75%;
+  flex-shrink: 0;
+}
+
+.rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"] {
+  color: transparent;
+  position: relative;
+}
+.rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"]::before {
+  content: "Rozdział i strona w raporcie";
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

@@ -62,9 +62,22 @@
    WŁASNE TABELE - pojedyńcze reguły
 ======================================== */
 
-/* ========================================
-   OBRAZY
-======================================== */
+.rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"] {
+  color: transparent;
+  position: relative;
+}
+.rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"]::before {
+  content: "Rozdział i strona w raporcie";
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
 /* ========================================
    SPECJALNE XHTML
