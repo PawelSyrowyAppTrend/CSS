@@ -1581,16 +1581,15 @@ table.t-e {
    OBRAZY
 ======================================== */
 
-.page-no-padding {
-  padding: 0 !important;
+.page-overflow .xPage-content {
+  overflow-x: visible;
+  overflow-y: visible;
 }
 
 .title-section {
   position: relative;
   width: inherit;
   height: 800px;
-  top: 350px;
-  overflow: hidden;
 }
 
 .image-base {
