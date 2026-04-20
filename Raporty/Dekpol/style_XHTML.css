@@ -1582,8 +1582,8 @@ table.t-e {
 ======================================== */
 
 .page-overflow .xPage-content {
-  overflow-x: visible;
-  overflow-y: visible;
+  overflow-x: visible !important;
+  overflow-y: visible !important;
 }
 
 .title-section {
