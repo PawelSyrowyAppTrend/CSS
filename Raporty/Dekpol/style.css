@@ -1570,3 +1570,39 @@ table.t-e {
     text-align: right;
   }
 }
+
+/* ========================================
+   OBRAZY
+======================================== */
+
+.page-no-padding {
+  padding: 0 !important;
+}
+
+.title-section {
+  position: relative;
+  width: inherit;
+  height: 800px;
+  background-color: beige;
+  top: 350px;
+  overflow: hidden;
+}
+
+.image-base {
+  z-index: 3;
+  position: absolute;
+  width: 135%;
+  top: 400px;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.image-overlay {
+  z-index: 2;
+  position: absolute;
+  scale: 1.2;
+  width: 100%;
+  top: 500px;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
