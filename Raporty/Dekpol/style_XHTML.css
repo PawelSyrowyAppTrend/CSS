@@ -795,6 +795,49 @@ table.t-e {
   background-color: #f3f3f3 !important;
 }
 
+.dekpol-table-head-3 table {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-top: 2px solid #4dae3e !important;
+}
+.dekpol-table-head-3 thead {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-head-3 tbody {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-head-3 thead tr {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-head-3 tbody tr {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-head-3 thead td {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+}
+.dekpol-table-head-3 tbody td {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+}
+.dekpol-table-head-3 tbody tr:first-child td {
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
+  font-weight: normal !important;
+}
+.dekpol-table-head-3 tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+.dekpol-table-head-3 tbody td:last-child {
+  background-color: #f3f3f3 !important;
+}
+
 /* ========================================
    WŁASNE TABELE - bez nagłówka 
 ======================================== */
