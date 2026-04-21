@@ -111,8 +111,7 @@
 
 .top-bar {
   display: flex;
-  flex-direction: row;
-  justify-content: bottom;
+  align-items: flex-end;
   margin: 0;
   margin-bottom: 25px;
   width: 100%;
@@ -120,36 +119,22 @@
 }
 
 .top-bar img {
-  max-height: 65px;
-  height: auto;
-  width: auto;
-  margin-left: auto;
+  margin-right: auto;
 }
 
-.topbar-text-and-image {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-content: bottom;
-  margin: 0;
-  width: 100%;
-  box-sizing: border-box;
-}
 .topbar-text {
   color: black;
-  font-size: 8pt;
-  align-self: center;
-  text-align: center;
-  width: 50%;
-  margin: center;
+  font-size: 6pt;
+  text-align: left;
 }
 
-.topbar-line {
-  border: none;
-  background-color: black;
-  height: 1px;
-  width: 75%;
-  flex-shrink: 0;
+.logo {
+  margin-right: auto;
+  width: 120px;
+  height: 19px;
+  background-image: url("data:image/png;base64,iVBORw0Kks8GKALeRnMlr0965Be6DRPHZsSzes/kPRKhnqSmPknC9l8f/i8+Wc3gyQe7OYBwcm8X8pjGEstpU/emTUR61uta93DW+T3P8CdVPHmfjrJUEAAAAASUVORK5CYII=");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* ========================================
