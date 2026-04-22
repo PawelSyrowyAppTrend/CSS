@@ -6,13 +6,13 @@
    GLOBALNE TEKSTY
 ======================================== */
 
-.body-page-view h1 {
+.ble-editor h1 {
   font-family: "Switzer", sans-serif;
   color: #29265c;
   font-size: 30pt;
 }
 
-.body-page-view h2 {
+.ble-editor h2 {
   font-family: "Switzer", sans-serif;
   font-size: 28pt !important;
   font-weight: 400 !important;
@@ -25,25 +25,25 @@
   word-spacing: 4px !important;
 }
 
-.body-page-view h3 {
+.ble-editor h3 {
   font-family: "Switzer", sans-serif;
   color: #29265c;
   font-size: 16pt;
 }
 
-.body-page-view h4 {
+.ble-editor h4 {
   font-family: "Switzer", sans-serif;
   color: #29265c;
   font-size: 14pt;
 }
 
-.body-page-view h5 {
+.ble-editor h5 {
   font-family: "Switzer", sans-serif;
   color: #29265c;
   font-size: 12pt;
 }
 
-.body-page-view h6 {
+.ble-editor h6 {
   font-family: "Kuba Reczny", cursive;
   line-height: 1.12;
   font-style: normal;
@@ -52,7 +52,7 @@
   font-size: 35pt;
 }
 
-.body-page-view p {
+.ble-editor p {
   font-family: "Switzer", sans-serif;
 }
 
@@ -68,6 +68,44 @@
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+}
+
+.title-page-background-image-with-trick {
+  position: relative;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.title-page-background-image-with-trick::before {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 90%;
+}
+
+.title-page-background-image-with-trick__less {
+  position: relative;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.title-page-background-image-with-trick__less::before {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 80%;
 }
 
 /* ========================================
@@ -188,63 +226,63 @@ h6.kuba-reczny-blue-h6 {
    SPIS TREŚCI
 ======================================== */
 
-.body-page-view .xToc {
+.ble-editor .elToc {
   width: 75% !important;
   justify-self: end !important;
 }
-.body-page-view .xToc .toc-title {
+.ble-editor .elToc .toc-title {
   font-size: 28pt !important;
   font-family: "Switzer", sans-serif !important;
   color: #29265c !important;
   font-weight: bold !important;
 }
-.body-page-view .xToc ul {
+.ble-editor .elToc ul {
   background-color: #5c5c5c !important;
   padding: 1rem !important;
   border-radius: 10px !important;
 }
-.body-page-view .xToc ul li {
+.ble-editor .elToc ul li {
   margin: 0 !important;
 }
-.body-page-view .xToc .toc-h1 {
+.ble-editor .elToc .toc-h1 {
   font-family: "Switzer Semibold", sans-serif !important;
   color: white !important;
   font-size: 9pt !important;
 }
-.body-page-view .xToc .toc-h2 {
+.ble-editor .elToc .toc-h2 {
   font-family: "Switzer Light", sans-serif !important;
   color: white !important;
   font-size: 9pt !important;
 }
-.body-page-view .xToc .toc-h3 {
+.ble-editor .elToc .toc-h3 {
   font-family: "Switzer Light", sans-serif !important;
   color: white !important;
   font-size: 9pt !important;
 }
-.body-page-view .xToc .toc-h4 {
+.ble-editor .elToc .toc-h4 {
   font-family: "Switzer Light", sans-serif !important;
   color: white !important;
   font-size: 9pt !important;
 }
-.body-page-view .xToc .toc-h5 {
+.ble-editor .elToc .toc-h5 {
   font-family: "Switzer Light", sans-serif !important;
   color: white !important;
   font-size: 9pt !important;
 }
-.body-page-view .xToc .toc-h6 {
+.ble-editor .elToc .toc-h6 {
   font-family: "Switzer Semibold", sans-serif !important;
   color: white !important;
   font-size: 9pt !important;
   padding-left: 50px !important;
 }
-.body-page-view .xToc .toc-link {
+.ble-editor .elToc .toc-link {
   border-top: 1px solid white !important;
 }
-.body-page-view .xToc .toc-line {
+.ble-editor .elToc .toc-line {
   align-items: center !important;
   padding: 0.25rem !important;
 }
-.body-page-view .xToc ul .toc-line .title-dots::after {
+.ble-editor .elToc ul .toc-line .title-dots::after {
   position: absolute;
   padding-left: 0 !important;
   content: "" !important;
@@ -255,13 +293,13 @@ h6.kuba-reczny-blue-h6 {
    GLOBALNE LISTY
 ======================================== */
 
-.body-page-view li {
+.ble-editor li {
   text-align: justify !important;
 }
-.body-page-view ul {
+.ble-editor ul {
   text-align: justify !important;
 }
-.body-page-view ol {
+.ble-editor ol {
   text-align: justify !important;
 }
 
@@ -352,9 +390,9 @@ table.t-e {
 /* ========================================
    TABELE DANYCH div.xDynamic-data - z nagłówkiem ooops teraz to jest "div.elDynamicData"
 ======================================== */
-.body-page-view .xDynamic-data table thead tr td,
+.ble-editor .xDynamic-data table thead tr td,
 .xDynamic-data table thead tr td,
-.body-page-view .elDynamicData table thead tr td,
+.ble-editor .elDynamicData table thead tr td,
 .elDynamicData table thead tr td {
   font-weight: bold !important;
   align-content: center !important;
@@ -363,9 +401,9 @@ table.t-e {
   border: 1px solid white !important; /* check*/
 }
 
-.body-page-view .xDynamic-data table thead tr:first-child td,
+.ble-editor .xDynamic-data table thead tr:first-child td,
 .xDynamic-data table thead tr:first-child td,
-.body-page-view .elDynamicData table thead tr:first-child td,
+.ble-editor .elDynamicData table thead tr:first-child td,
 .elDynamicData table thead tr:first-child td {
   background-color: white !important;
   border-bottom: 1px solid black !important;
@@ -375,43 +413,43 @@ table.t-e {
   border-bottom: 1px solid black !important;
   align-content: end !important;
 }
-.body-page-view .elDynamicData .t-e thead tr:first-child td,
-.body-page-view .elDynamicData.header-2level .t-e thead tr:nth-child(2) td {
+.ble-editor .elDynamicData .t-e thead tr:first-child td,
+.ble-editor .elDynamicData.header-2level .t-e thead tr:nth-child(2) td {
   border-bottom: 1px solid black !important;
 }
-.body-page-view .elDynamicData.header-2level .t-e thead tr:first-child td {
+.ble-editor .elDynamicData.header-2level .t-e thead tr:first-child td {
   border-bottom: 1px solid #c6c6c6 !important;
 }
-.body-page-view .elDynamicData.header-2level .t-e thead tr:first-child td {
+.ble-editor .elDynamicData.header-2level .t-e thead tr:first-child td {
   border-bottom: 1px solid #c6c6c6 !important;
 }
-.body-page-view .elDynamicData.header-2level .t-e tbody tr:first-child td {
+.ble-editor .elDynamicData.header-2level .t-e tbody tr:first-child td {
   border-bottom: 1px solid black !important;
   align-content: end !important;
 }
 
-.body-page-view .xDynamic-data.zebra table tbody tr:nth-child(2n + 1) td,
+.ble-editor .xDynamic-data.zebra table tbody tr:nth-child(2n + 1) td,
 .xDynamic-data.zebra table tbody tr:nth-child(2n + 1) td,
-.body-page-view .elDynamicData.zebra table tbody tr:nth-child(2n + 1) td,
+.ble-editor .elDynamicData.zebra table tbody tr:nth-child(2n + 1) td,
 .elDynamicData.zebra table tbody tr:nth-child(2n + 1) td {
   background-color: #f3f3f3 !important;
 }
-.body-page-view .xDynamic-data table tbody tr td:first-child,
+.ble-editor .xDynamic-data table tbody tr td:first-child,
 .xDynamic-data table tbody tr td:first-child,
-.body-page-view .elDynamicData table tbody tr td:first-child,
+.ble-editor .elDynamicData table tbody tr td:first-child,
 .elDynamicData table tbody tr td:first-child {
   text-align: left !important;
 }
-.body-page-view .xDynamic-data.liczbowa table tbody tr td:not(:first-child),
+.ble-editor .xDynamic-data.liczbowa table tbody tr td:not(:first-child),
 .xDynamic-data.liczbowa table tbody tr td:not(:first-child),
-.body-page-view .elDynamicData.liczbowa table tbody tr td:not(:first-child),
+.ble-editor .elDynamicData.liczbowa table tbody tr td:not(:first-child),
 .elDynamicData.liczbowa table tbody tr td:not(:first-child) {
   text-align: right !important;
   padding-right: 40px !important;
 }
-.body-page-view .xDynamic-data.tekstowa table tbody tr td:first-child,
+.ble-editor .xDynamic-data.tekstowa table tbody tr td:first-child,
 .xDynamic-data.tekstowa table tbody tr td:first-child,
-.body-page-view .elDynamicData.tekstowa table tbody tr td:first-child,
+.ble-editor .elDynamicData.tekstowa table tbody tr td:first-child,
 .elDynamicData.tekstowa table tbody tr td:first-child {
   text-align: justify !important;
 }
@@ -1580,100 +1618,66 @@ table.t-e {
 }
 
 @media print {
-  .xToc {
+  .elToc {
     width: 75% !important;
     justify-self: end !important;
   }
-  .xToc .toc-title {
+  .elToc .toc-title {
     font-size: 28pt !important;
     font-family: "Switzer", sans-serif !important;
     color: #29265c !important;
     font-weight: bold !important;
   }
-  .xToc ul {
+  .elToc ul {
     background-color: #5c5c5c !important;
     padding: 1rem !important;
     border-radius: 10px !important;
   }
-  .xToc ul li {
+  .elToc ul li {
     margin: 0 !important;
   }
-  .xToc .toc-h1 {
+  .elToc .toc-h1 {
     font-family: "Switzer Semibold", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .xToc .toc-h2 {
+  .elToc .toc-h2 {
     font-family: "Switzer Light", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .xToc .toc-h3 {
+  .elToc .toc-h3 {
     font-family: "Switzer Light", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .xToc .toc-h4 {
+  .elToc .toc-h4 {
     font-family: "Switzer Light", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .xToc .toc-h5 {
+  .elToc .toc-h5 {
     font-family: "Switzer Light", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
   }
-  .xToc .toc-h6 {
+  .elToc .toc-h6 {
     font-family: "Switzer Semibold", sans-serif !important;
     color: white !important;
     font-size: 9pt !important;
     padding-left: 50px !important;
   }
-  .xToc .toc-link {
+  .elToc .toc-link {
     border-top: 1px solid white !important;
   }
-  .xToc .toc-line {
+  .elToc .toc-line {
     align-items: center !important;
     padding: 0.25rem !important;
   }
-  .xToc ul .toc-line .title-dots::after {
+  .elToc ul .toc-line .title-dots::after {
     position: absolute;
     padding-left: 0 !important;
     content: "" !important;
     text-align: right;
   }
-}
-
-/* ========================================
-   OBRAZY
-======================================== */
-
-.page-overflow .xPage-content {
-  overflow-x: visible !important;
-  overflow-y: visible !important;
-}
-
-.title-section {
-  position: relative;
-  width: inherit;
-  height: 800px;
-}
-
-.image-base {
-  z-index: 3;
-  position: absolute;
-  width: 135%;
-  top: 400px;
-  left: 45%;
-  transform: translate(-50%, -50%);
-}
-
-.image-overlay {
-  z-index: 2;
-  position: absolute;
-  scale: 1.2;
-  width: 100%;
-  top: 500px;
-  left: 85%;
-  transform: translate(-50%, -50%);
 }
