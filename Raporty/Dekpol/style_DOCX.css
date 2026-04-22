@@ -70,44 +70,6 @@ p {
   background-repeat: no-repeat !important;
 }
 
-.title-page-background-image-with-trick {
-  position: relative;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-}
-
-.title-page-background-image-with-trick::before {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  content: "";
-  position: absolute;
-  top: 10%;
-  left: 0;
-  width: 100%;
-  height: 90%;
-}
-
-.title-page-background-image-with-trick__less {
-  position: relative;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-}
-
-.title-page-background-image-with-trick__less::before {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  content: "";
-  position: absolute;
-  top: 10%;
-  left: 0;
-  width: 100%;
-  height: 80%;
-}
-
 /* ========================================
    NAGŁÓWEK
 ======================================== */
