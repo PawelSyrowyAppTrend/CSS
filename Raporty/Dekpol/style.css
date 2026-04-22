@@ -323,6 +323,13 @@ table.t-e {
   border: 0px solid !important;
   background-color: white !important;
 }
+.t-e thead td {
+  background-color: white !important;
+  padding: 4px !important;
+  font-size: 8pt !important;
+  font-family: "Switzer", sans-serif;
+  vertical-align: bottom !important;
+}
 .t-e tbody tr {
   border: 0px solid !important;
   background-color: white !important;
@@ -334,33 +341,193 @@ table.t-e {
   padding: 4px !important;
   font-size: 8pt !important;
   font-family: "Switzer", sans-serif;
-  text-align: left !important;
+  text-align: justify;
   vertical-align: bottom !important;
   white-space: normal !important;
 }
+.t-e tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
 
-.zebra tbody tr:nth-child(2n + 1) td {
+/* ========================================
+   TABELE DANYCH div.xDynamic-data - z nagłówkiem ooops teraz to jest "div.elDynamicData"
+======================================== */
+.ble-editor .xDynamic-data table thead tr td,
+.xDynamic-data table thead tr td,
+.ble-editor .elDynamicData table thead tr td,
+.elDynamicData table thead tr td {
+  font-weight: bold !important;
+  align-content: center !important;
+  vertical-align: bottom !important;
+  background-color: #cfecf3 !important;
+  border: 1px solid white !important; /* check*/
+}
+
+.ble-editor .xDynamic-data table thead tr:first-child td,
+.xDynamic-data table thead tr:first-child td,
+.ble-editor .elDynamicData table thead tr:first-child td,
+.elDynamicData table thead tr:first-child td {
+  background-color: white !important;
+  border-bottom: 1px solid black !important;
+}
+.elDynamicData .t-e thead tr:first-child td,
+.header-2level .elDynamicData .t-e thead tr:nth-child(2) td {
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
+}
+.ble-editor .elDynamicData .t-e thead tr:first-child td,
+.ble-editor .elDynamicData.header-2level .t-e thead tr:nth-child(2) td {
+  border-bottom: 1px solid black !important;
+}
+.ble-editor .elDynamicData.header-2level .t-e thead tr:first-child td {
+  border-bottom: 1px solid #c6c6c6 !important;
+}
+.ble-editor .elDynamicData.header-2level .t-e thead tr:first-child td {
+  border-bottom: 1px solid #c6c6c6 !important;
+}
+.ble-editor .elDynamicData.header-2level .t-e tbody tr:first-child td {
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
+}
+
+.ble-editor .xDynamic-data.zebra table tbody tr:nth-child(2n + 1) td,
+.xDynamic-data.zebra table tbody tr:nth-child(2n + 1) td,
+.ble-editor .elDynamicData.zebra table tbody tr:nth-child(2n + 1) td,
+.elDynamicData.zebra table tbody tr:nth-child(2n + 1) td {
   background-color: #f3f3f3 !important;
 }
-.t-e tbody tr:first-child td {
+.ble-editor .xDynamic-data table tbody tr td:first-child,
+.xDynamic-data table tbody tr td:first-child,
+.ble-editor .elDynamicData table tbody tr td:first-child,
+.elDynamicData table tbody tr td:first-child {
+  text-align: left !important;
+}
+.ble-editor .xDynamic-data.liczbowa table tbody tr td:not(:first-child),
+.xDynamic-data.liczbowa table tbody tr td:not(:first-child),
+.ble-editor .elDynamicData.liczbowa table tbody tr td:not(:first-child),
+.elDynamicData.liczbowa table tbody tr td:not(:first-child) {
+  text-align: right !important;
+  padding-right: 40px !important;
+}
+.ble-editor .xDynamic-data.tekstowa table tbody tr td:first-child,
+.xDynamic-data.tekstowa table tbody tr td:first-child,
+.ble-editor .elDynamicData.tekstowa table tbody tr td:first-child,
+.elDynamicData.tekstowa table tbody tr td:first-child {
+  text-align: justify !important;
+}
+
+/* ========================================
+   WŁASNE TABELE div.elSpreadsheetContent - bez nagłówka 
+======================================== */
+.elSpreadsheetContent .t-e {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-top: 2px solid #4dae3e !important;
+}
+
+.elSpreadsheetContent .t-e tbody tr:first-child td,
+.header-2level .elSpreadsheetContent .t-e tbody tr:nth-child(2) td {
+  font-weight: bold !important;
+  align-content: center !important;
+  vertical-align: bottom !important;
+  background-color: white !important;
+  /*  border-top: 2px solid #4dae3e !important; */
+}
+
+.elSpreadsheetContent .t-e tbody tr:first-child td,
+.header-2level .elSpreadsheetContent .t-e tbody tr:nth-child(2) td {
+  border-bottom: 1px solid black !important;
+}
+.header-2level .elSpreadsheetContent .t-e tbody tr:first-child td {
+  border-bottom: 1px solid c6c6c6 !important;
+}
+.dekpol-table-no-head tbody {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-no-head tbody tr {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-no-head tbody td {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+  /*border-top: 2px solid #4dae3e !important; */
+}
+.dekpol-table-no-head tbody tr:first-child td {
+  border-bottom: 1px solid black !important;
+  align-content: end !important;
+}
+.dekpol-table-no-head tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+.dekpol-table-no-head tbody td:last-child {
+  background-color: #f3f3f3 !important;
+}
+
+.dekpol-table-no-head-2 table {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-no-head-2 tbody {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-no-head-2 tbody tr {
+  border: 1px solid white !important;
+  background-color: white !important;
+}
+.dekpol-table-no-head-2 .t-e td {
+  border: 1px solid white !important;
+  background-color: white !important;
+  border-bottom: 1px solid #c6c6c6 !important;
+}
+.dekpol-table-no-head-2 .elSpreadsheetContent tbody tr:first-child td {
+  border-bottom: 1px solid #c6c6c6 !important;
+}
+.dekpol-table-no-head-2 tbody tr:nth-child(2) td {
+  border-bottom: 1px solid black !important;
+}
+.dekpol-table-no-head-2 tbody tr:last-child td {
+  border-bottom: 1px solid black !important;
+}
+
+.column1-tlo td:nth-child(1),
+.column2-tlo td:nth-child(2),
+.column3-tlo td:nth-child(3),
+.column4-tlo td:nth-child(4),
+.column5-tlo td:nth-child(5),
+.column6-tlo td:nth-child(6),
+.column7-tlo td:nth-child(7),
+.column8-tlo td:nth-child(8),
+.column11-tlo td:nth-child(11),
+.column16-tlo td:nth-child(16) {
+  background-color: #f3f3f3 !important;
+}
+
+.ostatni-wiersz-tlo .elSpreadsheetContent tr:last-child {
+  background-color: #f3f3f3 !important;
+}
+
+.elSpreadsheetContent .t-e tbody td:first-child {
+  text-align: left;
+}
+
+.zebra .elSpreadsheetContent tbody tr:nth-child(2n + 1) td {
+  background-color: #f3f3f3 !important;
+}
+.t-e .elSpreadsheetContent tbody tr:first-child td {
   font-weight: bold !important;
   background-color: white !important;
   border-bottom: 1px solid black !important;
   align-content: center !important;
   vertical-align: bottom !important;
 }
-.zebra tbody tr:first-child td {
+.zebra .elSpreadsheetContent tbody tr:first-child td {
   background-color: #f3f3f3 !important;
 }
-.t-e tbody tr:last-child td {
-  border-bottom: 1px solid black !important;
-}
-/* ========================================
-   TABELE DANYCH div.xDynamic-data - z nagłówkiem
-======================================== */
-/* ========================================
-   WŁASNE TABELE div.elSpreadsheetContent - bez nagłówka 
-======================================== */
+
 /* ========================================
    WŁASNE TABELE dedykowane 
     szerokości
@@ -672,7 +839,7 @@ table.t-e {
 .dekpol-table-head table {
   border: 1px solid white !important;
   background-color: white !important;
-  border-top: 2px solid #4dae3e !important;
+  /*border-top: 2px solid #4dae3e !important;*/
 }
 .dekpol-table-head thead {
   border: 1px solid white !important;
@@ -713,7 +880,7 @@ table.t-e {
 .dekpol-table-head-2 table {
   border: 1px solid white !important;
   background-color: white !important;
-  border-top: 2px solid #4dae3e !important;
+  /* border-top: 2px solid #4dae3e !important; */
 }
 .dekpol-table-head-2 thead {
   border: 1px solid white !important;
@@ -755,7 +922,7 @@ table.t-e {
 .dekpol-table-head-3 table {
   border: 1px solid white !important;
   background-color: white !important;
-  border-top: 2px solid #4dae3e !important;
+  /* border-top: 2px solid #4dae3e !important; */
 }
 .dekpol-table-head-3 thead {
   border: 1px solid white !important;
@@ -799,62 +966,6 @@ table.t-e {
    WŁASNE TABELE - bez nagłówka 
 ======================================== */
 
-.dekpol-table-no-head table {
-  border: 1px solid white !important;
-  background-color: white !important;
-  border-top: 2px solid #4dae3e !important;
-}
-.dekpol-table-no-head tbody {
-  border: 1px solid white !important;
-  background-color: white !important;
-}
-.dekpol-table-no-head tbody tr {
-  border: 1px solid white !important;
-  background-color: white !important;
-}
-.dekpol-table-no-head tbody td {
-  border: 1px solid white !important;
-  background-color: white !important;
-  border-bottom: 1px solid #c6c6c6 !important;
-}
-.dekpol-table-no-head tbody tr:first-child td {
-  border-bottom: 1px solid black !important;
-  align-content: end !important;
-}
-.dekpol-table-no-head tbody tr:last-child td {
-  border-bottom: 1px solid black !important;
-}
-.dekpol-table-no-head tbody td:last-child {
-  background-color: #f3f3f3 !important;
-}
-
-.dekpol-table-no-head-2 table {
-  border: 1px solid white !important;
-  background-color: white !important;
-}
-.dekpol-table-no-head-2 tbody {
-  border: 1px solid white !important;
-  background-color: white !important;
-}
-.dekpol-table-no-head-2 tbody tr {
-  border: 1px solid white !important;
-  background-color: white !important;
-}
-.dekpol-table-no-head-2.t-e td {
-  border: 1px solid white !important;
-  background-color: white !important;
-  border-bottom: 1px solid #c6c6c6 !important;
-}
-.dekpol-table-no-head-2 tbody tr:first-child td {
-  border-bottom: 1px solid #c6c6c6 !important;
-}
-.dekpol-table-no-head-2 tbody tr:nth-child(2) td {
-  border-bottom: 1px solid black !important;
-}
-.dekpol-table-no-head-2 tbody tr:last-child td {
-  border-bottom: 1px solid black !important;
-}
-
 .wybrane_dane_finansowe tbody tr td {
   width: 20% !important;
 }
@@ -872,7 +983,9 @@ table.t-e {
   align-content: center !important;
   text-align: center !important;
   font-weight: bold !important;
-  border-top: 2px solid #4dae3e !important;
+  /* ========================================
+  border-top: 0px solid #4dae3e !important;
+  ======================================== */
 }
 .wybrane_dane_finansowe tbody tr:first-child td:first-child {
   border-bottom: 1px solid white !important;
