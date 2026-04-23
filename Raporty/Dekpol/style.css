@@ -1165,6 +1165,23 @@ table.t-e {
   width: 25% !important;
 }
 
+.table-wrapper-3-181 td {
+  width: 10% !important;
+}
+.table-wrapper-3-181 td:first-child {
+  width: 5% !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+.table-wrapper-3-181 td:nth-child(2) {
+  width: 88% !important;
+}
+.table-wrapper-3-181 td:nth-child(3) {
+  width: 7% !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
 .table-wrapper-4-3111 td {
   width: 25% !important;
 }
