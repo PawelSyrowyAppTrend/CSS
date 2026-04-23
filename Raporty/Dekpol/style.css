@@ -578,6 +578,10 @@ table.t-e {
 .table-rok-do-roku3 tbody tr:first-child td:nth-child(2) {
   background-color: #f3f3f3 !important;
 }
+
+.ostatni-wiersz-bold tbody tr:last-child {
+  font-weight: bold !important;
+}
 .table-wariant-kalk3 tr:nth-child(4),
 .table-wariant-kalk3 tr:nth-child(10),
 .table-wariant-kalk3 tr:nth-child(14),
@@ -597,14 +601,24 @@ table.t-e {
 .table-pasywa3 tr:last-child {
   font-weight: bold !important;
 }
-.table-cashflow3 tr:nth-child(2), /***  nie używane */
+.table-cashflow3 tr:nth-child(2),
 .table-cashflow3 tr:nth-child(3),
-.table-cashflow3 tr:nth-child(21),
-.table-cashflow3 tr:nth-child(37),
+.table-cashflow3 tr:nth-child(22),
+.table-cashflow3 tr:nth-child(39),
 .table-cashflow3 tr:nth-last-child(7),
 .table-cashflow3 tr:nth-last-child(6),
 .table-cashflow3 tr:nth-last-child(5),
 .table-cashflow3 tr:nth-last-child(4) {
+  font-weight: bold !important;
+}
+.table-cashflow3gk tr:nth-child(2),
+.table-cashflow3gk tr:nth-child(3),
+.table-cashflow3gk tr:nth-child(20),
+.table-cashflow3gk tr:nth-child(35),
+.table-cashflow3gk tr:nth-last-child(7),
+.table-cashflow3gk tr:nth-last-child(6),
+.table-cashflow3gk tr:nth-last-child(5),
+.table-cashflow3gk tr:nth-last-child(4) {
   font-weight: bold !important;
 }
 /* ========================================*/
@@ -760,6 +774,9 @@ table.t-e {
   background-color: #f3f3f3 !important;
 }
 /* ========================================*/
+.table-akcjonariusze3 td {
+  width: 30% !important;
+}
 .table-akcjonariusze3 td:first-child {
   width: 40% !important;
 }
