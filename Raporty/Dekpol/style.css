@@ -69,6 +69,14 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
+.title-page-background-image .logo {
+  display: none !important;
+}
+.title-page-background-image .topbar-text {
+  position: absolute !important;
+  right: 60px !important;
+  top: 35px !important;
+}
 
 /* ========================================
    NAGŁÓWEK
