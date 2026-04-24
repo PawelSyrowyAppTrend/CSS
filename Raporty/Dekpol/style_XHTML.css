@@ -307,19 +307,11 @@ h6.kuba-reczny-blue-h6 {
   top: 0;
 }
 
-.rozdzial-w-raporcie
-  .div-table-th-bd
-  .tr-dr:nth-child(16)
-  .td-dr
-  [class*="col1-dr"] {
+.rozdzial-w-raporcie .div-table-th-bd .tr-dr:nth-child(16) .col1-dr {
   color: transparent;
   position: relative;
 }
-.rozdzial-w-raporcie
-  .div-table-th-bd
-  .tr-dr:nth-child(16)
-  .td-dr
-  [class*="col1-dr"]::before {
+.rozdzial-w-raporcie .div-table-th-bd .tr-dr:nth-child(16) .col1-dr::before {
   content: "-"; /*********** tak! 16-ty. W tabeli doliczysz, że 15-ty, ale ukryliśmy 11 używając hide-DR11 */
   color: #333;
   font-weight: normal;
@@ -332,19 +324,11 @@ h6.kuba-reczny-blue-h6 {
   top: 0;
 }
 
-.rozdzial-w-raporcie
-  .div-table-th-bd
-  .tr-dr:nth-child(16)
-  .td-dr
-  [class*="col2-dr"] {
+.rozdzial-w-raporcie .div-table-th-bd .tr-dr:nth-child(16) .col2-dr {
   color: transparent;
   position: relative;
 }
-.rozdzial-w-raporcie
-  .div-table-th-bd
-  .tr-dr:nth-child(16)
-  .td-dr
-  [class*="col2-dr"]::before {
+.rozdzial-w-raporcie .div-table-th-bd .tr-dr:nth-child(16) .col2-dr::before {
   content: "Ujawnianie informacji zgodnie z art. 8 rozporządzenia (UE) 2020/852 (rozporządzenie w sprawie systematyki)";
   color: #333;
   font-weight: normal;
