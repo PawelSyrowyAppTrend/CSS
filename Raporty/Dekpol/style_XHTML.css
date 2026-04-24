@@ -284,6 +284,12 @@ h6.kuba-reczny-blue-h6 {
   display: none !important;
 }
 
+/* 11 to S4-1 */
+/* 16 to dla art. 8 /*/
+.hide-DR11 .div-table-th-bd .tr-dr:nth-child(11) {
+  display: none !important;
+}
+
 .rozdzial-w-raporcie .div-table-dr-th [class*="col3-dr"] {
   color: transparent;
   position: relative;
@@ -292,6 +298,56 @@ h6.kuba-reczny-blue-h6 {
   content: "Rozdział i strona w raporcie";
   color: #333;
   font-weight: bold;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rozdzial-w-raporcie
+  .div-table-th-bd
+  .tr-dr:nth-child(16)
+  .td-dr
+  [class*="col1-dr"] {
+  color: transparent;
+  position: relative;
+}
+.rozdzial-w-raporcie
+  .div-table-th-bd
+  .tr-dr:nth-child(16)
+  .td-dr
+  [class*="col1-dr"]::before {
+  content: "-"; /*********** tak! 16-ty. W tabeli doliczysz, że 15-ty, ale ukryliśmy 11 używając hide-DR11 */
+  color: #333;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.rozdzial-w-raporcie
+  .div-table-th-bd
+  .tr-dr:nth-child(16)
+  .td-dr
+  [class*="col2-dr"] {
+  color: transparent;
+  position: relative;
+}
+.rozdzial-w-raporcie
+  .div-table-th-bd
+  .tr-dr:nth-child(16)
+  .td-dr
+  [class*="col2-dr"]::before {
+  content: "Ujawnianie informacji zgodnie z art. 8 rozporządzenia (UE) 2020/852 (rozporządzenie w sprawie systematyki)";
+  color: #333;
+  font-weight: normal;
   text-align: left;
   width: 100%;
   height: 100%;
@@ -538,7 +594,85 @@ table.t-e {
 .zebra .elSpreadsheetContent tbody tr:first-child td {
   background-color: #f3f3f3 !important;
 }
+/* ========================================
+   WŁASNE TABELE Taksonomiczne 
+======================================== */
+.taxonomy-table tr td {
+  font-size: 7pt !important;
+  line-height: 0.7rem !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+.taxonomy-table tr td:first-child {
+  white-space: nowrap !important;
+  text-align: left !important;
+  /*line-height: 1em !important; */
+  /*height: 1.6rem !important;*/
+  height: 20px !important;
+}
+.taxonomy-table tr:nth-child(4) td:first-child {
+  text-align: center !important;
+}
+/*
+.taxonomy-table tr:nth-child(2) {
+  height: 100px !important;
+}
+  */
+.taxonomy-table tr:nth-child(2) td {
+  height: 200px !important;
+  width: 4% !important;
+  writing-mode: sideways-lr !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+}
+/* border: 1px solid #ddd;*/
+/* border-top: none; */
+.taxonomy-table tr:nth-child(2) td:first-child {
+  writing-mode: horizontal-tb !important;
+  transform: none !important;
+  line-height: 1em !important;
+  height: 1.7em !important;
+  width: 20% !important;
+  /* 20 + 8 + 72=18 x 4  */
+}
+.taxonomy-table tr:nth-child(2) td:nth-child(2) {
+  width: 8% !important;
+}
 
+/* ========================================
+   WŁASNE TABELE dedykowane 
+    tekstowa z wieloma kolumnami
+======================================== */
+.table-istotne-wplywy tr td,
+.table-istotne-ryzyka tr td {
+  font-size: 6pt !important;
+  table-layout: auto !important;
+  word-wrap: break-word !important;
+}
+.table-istotne-wplywy thead tr td,
+.table-istotne-ryzyka thead tr td {
+  text-align: right !important;
+  align-content: end !important;
+}
+.table-istotne-wplywy tbody tr td,
+.table-istotne-ryzyka tbody tr td {
+  text-align: justify !important;
+  padding-top: 8px !important;
+}
+.table-istotne-wplywy tbody tr td:first-child,
+.table-istotne-wplywy tbody tr td:nth-child(2),
+.table-istotne-wplywy tbody tr td:nth-child(3),
+.table-istotne-ryzyka tbody tr td:first-child,
+.table-istotne-ryzyka tbody tr td:nth-child(2),
+.table-istotne-ryzyka tbody tr td:nth-child(3) {
+  text-align: left !important;
+}
+.table-istotne-wplywy tbody tr td:nth-child(10),
+.table-istotne-wplywy tbody tr td:nth-child(11),
+.table-istotne-ryzyka tbody tr td:nth-child(7),
+.table-istotne-ryzyka tbody tr td:nth-child(8) {
+  text-align: center !important;
+}
 /* ========================================
    WŁASNE TABELE dedykowane 
     szerokości
