@@ -148,6 +148,45 @@
    WŁASNE TABELE - bez nagłówka
 ======================================== */
 
+.word-table-1 {
+}
+.word-table-1 table {
+  border-collapse: collapse !important;
+  border: 1px solid white !important;
+}
+.word-table-1 tbody {
+}
+.word-table-1 tbody tr {
+}
+.word-table-1 tbody td {
+  border: 1px solid white !important;
+}
+.word-table-1 tbody td:first-child {
+}
+.word-table-1 tbody td:last-child {
+}
+.word-table-1 tbody tr:first-child {
+}
+.word-table-1 tbody tr:first-child td {
+  color: white;
+}
+.word-table-1 tbody tr:first-child td:first-child {
+}
+.word-table-1 tbody tr:first-child td:last-child {
+}
+.word-table-1 tbody tr:not(:first-child) {
+}
+.word-table-1 tbody tr:nth-child(2) {
+}
+.word-table-1 tbody tr:last-child {
+}
+.word-table-1 tbody tr:not(:first-child) td {
+}
+.word-table-1 tbody tr:not(:first-child) td:first-child {
+}
+.word-table-1 tbody tr:not(:first-child) td:last-child {
+}
+
 /* ========================================
    WŁASNE TABELE - pojedyńcze reguły
 ======================================== */
