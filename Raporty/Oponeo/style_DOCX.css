@@ -52,7 +52,7 @@ h4 {
 
   margin-top: 10pt;
   margin-bottom: 4pt;
-  color: var(--blue-1);
+  color: var(--blue-3);
   font-size: 12pt;
   font-weight: bold;
 }
@@ -62,7 +62,7 @@ h5 {
 
   margin-top: 8pt;
   margin-bottom: 4pt;
-  color: var(--blue-2);
+  color: var(--blue-3);
   font-size: 11pt;
   font-weight: bold;
 }
@@ -72,7 +72,7 @@ h6 {
 
   margin-top: 8pt;
   margin-bottom: 4pt;
-  color: var(--blue-2);
+  color: var(--blue-3);
   font-size: 11pt;
   font-weight: bold;
 }
