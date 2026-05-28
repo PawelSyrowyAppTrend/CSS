@@ -6,9 +6,6 @@
   --blue-1: rgb(0, 83, 141);
   --blue-2: rgb(61, 144, 202);
   --blue-3: rgb(42, 168, 202);
-
-  --font-family-base: Calibri, Arial, sans-serif;
-  --font-size-base: 11pt;
 }
 
 /* ========================================
@@ -20,7 +17,7 @@
 ======================================== */
 
 .ble-editor h1 {
-  font-family: var(--font-family-base);
+  font-family: Carlito, Arial, sans-serif;
   line-height: 1.4;
 
   margin-top: 18pt;
@@ -30,7 +27,7 @@
   font-weight: bold;
 }
 .ble-editor h2 {
-  font-family: var(--font-family-base);
+  font-family: Carlito, Arial, sans-serif;
   line-height: 1.4;
 
   margin-top: 12pt;
@@ -40,7 +37,7 @@
   font-weight: bold;
 }
 .ble-editor h3 {
-  font-family: var(--font-family-base);
+  font-family: Carlito, Arial, sans-serif;
   line-height: 1.4;
 
   margin-top: 12pt;
@@ -50,7 +47,7 @@
   font-weight: bold;
 }
 .ble-editor h4 {
-  font-family: var(--font-family-base);
+  font-family: Carlito, Arial, sans-serif;
   line-height: 1.4;
 
   margin-top: 10pt;
@@ -60,7 +57,7 @@
   font-weight: bold;
 }
 .ble-editor h5 {
-  font-family: var(--font-family-base);
+  font-family: Carlito, Arial, sans-serif;
   line-height: 1.4;
 
   margin-top: 8pt;
@@ -70,7 +67,7 @@
   font-weight: bold;
 }
 .ble-editor h6 {
-  font-family: var(--font-family-base);
+  font-family: Carlito, Arial, sans-serif;
   line-height: 1.4;
 
   margin-top: 8pt;
@@ -81,8 +78,12 @@
 }
 
 .ble-editor p {
-  font-family: var(--font-family-base);
-  font-size: var(--font-size-base);
+  font-family: Carlito, Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.4;
+
+  margin-top: 6pt;
+  margin-bottom: 0pt;
 }
 .ble-editor p.e-p > * {
 }
@@ -94,6 +95,18 @@
 /* ========================================
    GLOBALNE LISTY
 ======================================== */
+
+.ble-editor li {
+  margin-top: 2pt;
+  margin-bottom: 2pt;
+}
+.ble-editor ul {
+}
+.ble-editor ol {
+  margin-top: 2pt;
+  margin-bottom: 2pt;
+  padding-left: 1.5rem;
+}
 
 /* ========================================
    WŁASNE LISTY
